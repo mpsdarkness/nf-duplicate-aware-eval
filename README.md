@@ -1,5 +1,7 @@
 # Duplicate-aware evaluation of NetFlow intrusion detection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24125935.svg)](https://doi.org/10.5281/zenodo.24125935)
+
 Code for the paper *Duplicate-Aware Evaluation of NetFlow Intrusion Detection: A Hash-Group-Disjoint Protocol for the NF-v2 Datasets* (N. Q. Nguyen and V. H. Le).
 
 The repository has two parts:
@@ -94,7 +96,7 @@ The tests need no dataset. They extract the split functions from `notebooks/01_s
 
 ## Citation
 
-See `CITATION.cff`.
+See `CITATION.cff`. Archived at Zenodo: concept DOI [10.5281/zenodo.24125935](https://doi.org/10.5281/zenodo.24125935) (all versions); v1.0.0 is [10.5281/zenodo.24125936](https://doi.org/10.5281/zenodo.24125936).
 
 ## License
 
