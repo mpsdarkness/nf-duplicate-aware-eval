@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "dataset": "CIC_V2",
+  "baseline": "egraphsage_public",
+  "seed": 123,
+  "completed_at_unix": 1784707783.7469895,
+  "config_fingerprint": "dacda860ab79cb61ba6b"
+}

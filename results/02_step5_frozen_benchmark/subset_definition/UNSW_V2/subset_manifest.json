@@ -1,0 +1,21 @@
+{
+  "dataset": "UNSW_V2",
+  "subset_version": "exact_group_literature_subset_v1",
+  "subset_fingerprint": "1d05648b18c170aec332",
+  "selection_seed": 2027,
+  "target_rows": 240000,
+  "target_benign_rows": 168000,
+  "target_attack_rows": 72000,
+  "target_attack_fraction": 0.3,
+  "achieved_rows": 245994,
+  "achieved_benign_rows": 174611,
+  "achieved_attack_rows": 71383,
+  "achieved_attack_fraction": 0.29018187435465903,
+  "selected_exact_feature_groups": 41640,
+  "mixed_attack_groups_available": 1555,
+  "source_rows": 2390275,
+  "source_groups": 236999,
+  "minimum_attack_rows_per_family": 200,
+  "allocation_file": "/content/drive/MyDrive/THAT_IDS_RERUN/conference_step5_literature_subset_v1/subset_definition/UNSW_V2/subset_attack_family_allocation.csv",
+  "important_note": "Rows are selected only through complete exact-feature groups. Counts are approximate because groups are indivisible."
+}

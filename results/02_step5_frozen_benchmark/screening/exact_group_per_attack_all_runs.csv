@@ -1,0 +1,61 @@
+dataset,protocol,model,seed,attack,count,detected,recall
+CIC_V2,exact_feature_group,mlp,42,SSH-Bruteforce,224,224,1.0
+CIC_V2,exact_feature_group,mlp,42,DDOS attack-HOIC,12102,12102,1.0
+CIC_V2,exact_feature_group,mlp,42,DoS attacks-Hulk,5655,5645,0.9982316534040672
+CIC_V2,exact_feature_group,mlp,42,DDoS attacks-LOIC-HTTP,2122,2114,0.9962299717247879
+CIC_V2,exact_feature_group,mlp,42,Infilteration,1536,23,0.014973958333333334
+CIC_V2,exact_feature_group,mlp,42,Bot,601,513,0.8535773710482529
+CIC_V2,exact_feature_group,mlp,42,DoS attacks-GoldenEye,372,371,0.9973118279569892
+CIC_V2,exact_feature_group,mlp,42,Brute Force -Web,62,60,0.967741935483871
+CIC_V2,exact_feature_group,mlp,42,DDOS attack-LOIC-UDP,59,59,1.0
+CIC_V2,exact_feature_group,mlp,42,Brute Force -XSS,30,29,0.9666666666666667
+CIC_V2,exact_feature_group,mlp,42,SQL Injection,15,4,0.26666666666666666
+CIC_V2,exact_feature_group,no_graph,42,SSH-Bruteforce,224,224,1.0
+CIC_V2,exact_feature_group,no_graph,42,DDOS attack-HOIC,12102,12102,1.0
+CIC_V2,exact_feature_group,no_graph,42,DoS attacks-Hulk,5655,5645,0.9982316534040672
+CIC_V2,exact_feature_group,no_graph,42,DDoS attacks-LOIC-HTTP,2122,2115,0.9967012252591895
+CIC_V2,exact_feature_group,no_graph,42,Infilteration,1536,26,0.016927083333333332
+CIC_V2,exact_feature_group,no_graph,42,Bot,601,590,0.9816971713810316
+CIC_V2,exact_feature_group,no_graph,42,DoS attacks-GoldenEye,372,371,0.9973118279569892
+CIC_V2,exact_feature_group,no_graph,42,Brute Force -Web,62,60,0.967741935483871
+CIC_V2,exact_feature_group,no_graph,42,DDOS attack-LOIC-UDP,59,59,1.0
+CIC_V2,exact_feature_group,no_graph,42,Brute Force -XSS,30,29,0.9666666666666667
+CIC_V2,exact_feature_group,no_graph,42,SQL Injection,15,4,0.26666666666666666
+CIC_V2,exact_feature_group,full,42,SSH-Bruteforce,224,224,1.0
+CIC_V2,exact_feature_group,full,42,DDOS attack-HOIC,12102,12102,1.0
+CIC_V2,exact_feature_group,full,42,DoS attacks-Hulk,5655,5655,1.0
+CIC_V2,exact_feature_group,full,42,DDoS attacks-LOIC-HTTP,2122,2122,1.0
+CIC_V2,exact_feature_group,full,42,Infilteration,1536,6,0.00390625
+CIC_V2,exact_feature_group,full,42,Bot,601,286,0.47587354409317806
+CIC_V2,exact_feature_group,full,42,DoS attacks-GoldenEye,372,372,1.0
+CIC_V2,exact_feature_group,full,42,Brute Force -Web,62,60,0.967741935483871
+CIC_V2,exact_feature_group,full,42,DDOS attack-LOIC-UDP,59,59,1.0
+CIC_V2,exact_feature_group,full,42,Brute Force -XSS,30,30,1.0
+CIC_V2,exact_feature_group,full,42,SQL Injection,15,15,1.0
+UNSW_V2,exact_feature_group,mlp,42,Exploits,4708,4696,0.9974511469838573
+UNSW_V2,exact_feature_group,mlp,42,Generic,2625,2619,0.9977142857142857
+UNSW_V2,exact_feature_group,mlp,42,Fuzzers,4794,4789,0.9989570296203588
+UNSW_V2,exact_feature_group,mlp,42,DoS,955,948,0.9926701570680628
+UNSW_V2,exact_feature_group,mlp,42,Reconnaissance,697,692,0.9928263988522238
+UNSW_V2,exact_feature_group,mlp,42,Backdoor,402,396,0.9850746268656716
+UNSW_V2,exact_feature_group,mlp,42,Shellcode,177,177,1.0
+UNSW_V2,exact_feature_group,mlp,42,Worms,15,15,1.0
+UNSW_V2,exact_feature_group,mlp,42,Analysis,441,440,0.9977324263038548
+UNSW_V2,exact_feature_group,no_graph,42,Exploits,4708,4693,0.9968139337298216
+UNSW_V2,exact_feature_group,no_graph,42,Generic,2625,2619,0.9977142857142857
+UNSW_V2,exact_feature_group,no_graph,42,Fuzzers,4794,4789,0.9989570296203588
+UNSW_V2,exact_feature_group,no_graph,42,DoS,955,947,0.9916230366492147
+UNSW_V2,exact_feature_group,no_graph,42,Reconnaissance,697,692,0.9928263988522238
+UNSW_V2,exact_feature_group,no_graph,42,Backdoor,402,396,0.9850746268656716
+UNSW_V2,exact_feature_group,no_graph,42,Shellcode,177,177,1.0
+UNSW_V2,exact_feature_group,no_graph,42,Worms,15,15,1.0
+UNSW_V2,exact_feature_group,no_graph,42,Analysis,441,440,0.9977324263038548
+UNSW_V2,exact_feature_group,full,42,Exploits,4708,4708,1.0
+UNSW_V2,exact_feature_group,full,42,Generic,2625,2625,1.0
+UNSW_V2,exact_feature_group,full,42,Fuzzers,4794,4794,1.0
+UNSW_V2,exact_feature_group,full,42,DoS,955,955,1.0
+UNSW_V2,exact_feature_group,full,42,Reconnaissance,697,697,1.0
+UNSW_V2,exact_feature_group,full,42,Backdoor,402,402,1.0
+UNSW_V2,exact_feature_group,full,42,Shellcode,177,177,1.0
+UNSW_V2,exact_feature_group,full,42,Worms,15,15,1.0
+UNSW_V2,exact_feature_group,full,42,Analysis,441,441,1.0

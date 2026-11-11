@@ -1,0 +1,361 @@
+dataset,model,seed,attack,support,recall,source_stage
+UNSW_V2,mlp,42,Exploits,4708,0.9974511469838573,step5_confirmation
+UNSW_V2,mlp,42,Generic,2625,0.9977142857142857,step5_confirmation
+UNSW_V2,mlp,42,Fuzzers,4794,0.9989570296203588,step5_confirmation
+UNSW_V2,mlp,42,DoS,955,0.9926701570680628,step5_confirmation
+UNSW_V2,mlp,42,Reconnaissance,697,0.9928263988522238,step5_confirmation
+UNSW_V2,mlp,42,Backdoor,402,0.9850746268656716,step5_confirmation
+UNSW_V2,mlp,42,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,mlp,42,Worms,15,1.0,step5_confirmation
+UNSW_V2,mlp,42,Analysis,441,0.9977324263038548,step5_confirmation
+UNSW_V2,mlp,123,Exploits,4708,0.9976635514018691,step5_confirmation
+UNSW_V2,mlp,123,Generic,2625,1.0,step5_confirmation
+UNSW_V2,mlp,123,Fuzzers,4794,1.0,step5_confirmation
+UNSW_V2,mlp,123,DoS,955,0.9958115183246073,step5_confirmation
+UNSW_V2,mlp,123,Reconnaissance,697,1.0,step5_confirmation
+UNSW_V2,mlp,123,Backdoor,402,1.0,step5_confirmation
+UNSW_V2,mlp,123,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,mlp,123,Worms,15,1.0,step5_confirmation
+UNSW_V2,mlp,123,Analysis,441,1.0,step5_confirmation
+UNSW_V2,mlp,456,Exploits,4708,0.9963891248937978,step5_confirmation
+UNSW_V2,mlp,456,Generic,2625,0.9977142857142857,step5_confirmation
+UNSW_V2,mlp,456,Fuzzers,4794,0.9989570296203588,step5_confirmation
+UNSW_V2,mlp,456,DoS,955,0.9884816753926702,step5_confirmation
+UNSW_V2,mlp,456,Reconnaissance,697,0.9928263988522238,step5_confirmation
+UNSW_V2,mlp,456,Backdoor,402,0.9850746268656716,step5_confirmation
+UNSW_V2,mlp,456,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,mlp,456,Worms,15,1.0,step5_confirmation
+UNSW_V2,mlp,456,Analysis,441,0.9977324263038548,step5_confirmation
+UNSW_V2,no_graph,42,Exploits,4708,0.9957519116397621,step5_confirmation
+UNSW_V2,no_graph,42,Generic,2625,0.9977142857142857,step5_confirmation
+UNSW_V2,no_graph,42,Fuzzers,4794,0.9989570296203588,step5_confirmation
+UNSW_V2,no_graph,42,DoS,955,0.9863874345549738,step5_confirmation
+UNSW_V2,no_graph,42,Reconnaissance,697,0.9928263988522238,step5_confirmation
+UNSW_V2,no_graph,42,Backdoor,402,0.9850746268656716,step5_confirmation
+UNSW_V2,no_graph,42,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,no_graph,42,Worms,15,1.0,step5_confirmation
+UNSW_V2,no_graph,42,Analysis,441,0.9977324263038548,step5_confirmation
+UNSW_V2,no_graph,123,Exploits,4708,0.9963891248937978,step5_confirmation
+UNSW_V2,no_graph,123,Generic,2625,0.9977142857142857,step5_confirmation
+UNSW_V2,no_graph,123,Fuzzers,4794,0.9989570296203588,step5_confirmation
+UNSW_V2,no_graph,123,DoS,955,0.9895287958115183,step5_confirmation
+UNSW_V2,no_graph,123,Reconnaissance,697,0.9928263988522238,step5_confirmation
+UNSW_V2,no_graph,123,Backdoor,402,0.9850746268656716,step5_confirmation
+UNSW_V2,no_graph,123,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,no_graph,123,Worms,15,1.0,step5_confirmation
+UNSW_V2,no_graph,123,Analysis,441,0.9977324263038548,step5_confirmation
+UNSW_V2,no_graph,456,Exploits,4708,0.9991503823279524,step5_confirmation
+UNSW_V2,no_graph,456,Generic,2625,1.0,step5_confirmation
+UNSW_V2,no_graph,456,Fuzzers,4794,1.0,step5_confirmation
+UNSW_V2,no_graph,456,DoS,955,0.9989528795811519,step5_confirmation
+UNSW_V2,no_graph,456,Reconnaissance,697,1.0,step5_confirmation
+UNSW_V2,no_graph,456,Backdoor,402,1.0,step5_confirmation
+UNSW_V2,no_graph,456,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,no_graph,456,Worms,15,1.0,step5_confirmation
+UNSW_V2,no_graph,456,Analysis,441,1.0,step5_confirmation
+UNSW_V2,full,42,Exploits,4708,0.9997875955819882,step5_confirmation
+UNSW_V2,full,42,Generic,2625,1.0,step5_confirmation
+UNSW_V2,full,42,Fuzzers,4794,0.9997914059240718,step5_confirmation
+UNSW_V2,full,42,DoS,955,1.0,step5_confirmation
+UNSW_V2,full,42,Reconnaissance,697,1.0,step5_confirmation
+UNSW_V2,full,42,Backdoor,402,1.0,step5_confirmation
+UNSW_V2,full,42,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,full,42,Worms,15,1.0,step5_confirmation
+UNSW_V2,full,42,Analysis,441,1.0,step5_confirmation
+UNSW_V2,full,123,Exploits,4708,0.9991503823279524,step5_confirmation
+UNSW_V2,full,123,Generic,2625,0.9984761904761905,step5_confirmation
+UNSW_V2,full,123,Fuzzers,4794,0.9995828118481435,step5_confirmation
+UNSW_V2,full,123,DoS,955,0.9958115183246073,step5_confirmation
+UNSW_V2,full,123,Reconnaissance,697,0.9971305595408895,step5_confirmation
+UNSW_V2,full,123,Backdoor,402,0.9900497512437811,step5_confirmation
+UNSW_V2,full,123,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,full,123,Worms,15,1.0,step5_confirmation
+UNSW_V2,full,123,Analysis,441,0.9977324263038548,step5_confirmation
+UNSW_V2,full,456,Exploits,4708,0.9993627867459643,step5_confirmation
+UNSW_V2,full,456,Generic,2625,0.9988571428571429,step5_confirmation
+UNSW_V2,full,456,Fuzzers,4794,0.9993742177722152,step5_confirmation
+UNSW_V2,full,456,DoS,955,0.9979057591623036,step5_confirmation
+UNSW_V2,full,456,Reconnaissance,697,0.9971305595408895,step5_confirmation
+UNSW_V2,full,456,Backdoor,402,0.9950248756218906,step5_confirmation
+UNSW_V2,full,456,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,full,456,Worms,15,1.0,step5_confirmation
+UNSW_V2,full,456,Analysis,441,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,42,Exploits,4708,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,42,Generic,2625,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,42,Fuzzers,4794,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,42,DoS,955,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,42,Reconnaissance,697,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,42,Backdoor,402,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,42,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,42,Worms,15,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,42,Analysis,441,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,123,Exploits,4708,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,123,Generic,2625,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,123,Fuzzers,4794,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,123,DoS,955,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,123,Reconnaissance,697,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,123,Backdoor,402,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,123,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,123,Worms,15,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,123,Analysis,441,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,456,Exploits,4708,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,456,Generic,2625,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,456,Fuzzers,4794,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,456,DoS,955,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,456,Reconnaissance,697,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,456,Backdoor,402,0.9975124378109452,step5_confirmation
+UNSW_V2,full_shuffled_edges,456,Shellcode,177,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,456,Worms,15,1.0,step5_confirmation
+UNSW_V2,full_shuffled_edges,456,Analysis,441,1.0,step5_confirmation
+UNSW_V2,egraphsage_public,42,Exploits,4708,0.9993627867459643,step6_public
+UNSW_V2,egraphsage_public,42,Generic,2625,1.0,step6_public
+UNSW_V2,egraphsage_public,42,Fuzzers,4794,0.9997914059240718,step6_public
+UNSW_V2,egraphsage_public,42,DoS,955,0.9989528795811519,step6_public
+UNSW_V2,egraphsage_public,42,Reconnaissance,697,1.0,step6_public
+UNSW_V2,egraphsage_public,42,Backdoor,402,0.9975124378109452,step6_public
+UNSW_V2,egraphsage_public,42,Shellcode,177,1.0,step6_public
+UNSW_V2,egraphsage_public,42,Worms,15,1.0,step6_public
+UNSW_V2,egraphsage_public,42,Analysis,441,0.9977324263038548,step6_public
+UNSW_V2,egraphsage_public,123,Exploits,4708,0.9993627867459643,step6_public
+UNSW_V2,egraphsage_public,123,Generic,2625,1.0,step6_public
+UNSW_V2,egraphsage_public,123,Fuzzers,4794,1.0,step6_public
+UNSW_V2,egraphsage_public,123,DoS,955,0.9989528795811519,step6_public
+UNSW_V2,egraphsage_public,123,Reconnaissance,697,1.0,step6_public
+UNSW_V2,egraphsage_public,123,Backdoor,402,1.0,step6_public
+UNSW_V2,egraphsage_public,123,Shellcode,177,1.0,step6_public
+UNSW_V2,egraphsage_public,123,Worms,15,1.0,step6_public
+UNSW_V2,egraphsage_public,123,Analysis,441,1.0,step6_public
+UNSW_V2,egraphsage_public,456,Exploits,4708,0.9995751911639762,step6_public
+UNSW_V2,egraphsage_public,456,Generic,2625,1.0,step6_public
+UNSW_V2,egraphsage_public,456,Fuzzers,4794,1.0,step6_public
+UNSW_V2,egraphsage_public,456,DoS,955,0.9989528795811519,step6_public
+UNSW_V2,egraphsage_public,456,Reconnaissance,697,1.0,step6_public
+UNSW_V2,egraphsage_public,456,Backdoor,402,1.0,step6_public
+UNSW_V2,egraphsage_public,456,Shellcode,177,1.0,step6_public
+UNSW_V2,egraphsage_public,456,Worms,15,1.0,step6_public
+UNSW_V2,egraphsage_public,456,Analysis,441,1.0,step6_public
+UNSW_V2,graphids_public,42,Exploits,4708,0.3821155480033985,step6_public
+UNSW_V2,graphids_public,42,Generic,2625,0.5299047619047619,step6_public
+UNSW_V2,graphids_public,42,Fuzzers,4794,0.4046725073007927,step6_public
+UNSW_V2,graphids_public,42,DoS,955,0.512041884816754,step6_public
+UNSW_V2,graphids_public,42,Reconnaissance,697,0.5265423242467718,step6_public
+UNSW_V2,graphids_public,42,Backdoor,402,0.6865671641791045,step6_public
+UNSW_V2,graphids_public,42,Shellcode,177,0.384180790960452,step6_public
+UNSW_V2,graphids_public,42,Worms,15,0.5333333333333333,step6_public
+UNSW_V2,graphids_public,42,Analysis,441,0.6077097505668935,step6_public
+UNSW_V2,graphids_public,123,Exploits,4708,0.9135514018691588,step6_public
+UNSW_V2,graphids_public,123,Generic,2625,0.9260952380952381,step6_public
+UNSW_V2,graphids_public,123,Fuzzers,4794,0.924697538589904,step6_public
+UNSW_V2,graphids_public,123,DoS,955,0.9507853403141361,step6_public
+UNSW_V2,graphids_public,123,Reconnaissance,697,0.93974175035868,step6_public
+UNSW_V2,graphids_public,123,Backdoor,402,0.9552238805970149,step6_public
+UNSW_V2,graphids_public,123,Shellcode,177,0.9209039548022598,step6_public
+UNSW_V2,graphids_public,123,Worms,15,1.0,step6_public
+UNSW_V2,graphids_public,123,Analysis,441,0.9795918367346939,step6_public
+UNSW_V2,graphids_public,456,Exploits,4708,0.8523789294817332,step6_public
+UNSW_V2,graphids_public,456,Generic,2625,0.9363809523809524,step6_public
+UNSW_V2,graphids_public,456,Fuzzers,4794,0.8696287025448477,step6_public
+UNSW_V2,graphids_public,456,DoS,955,0.9099476439790576,step6_public
+UNSW_V2,graphids_public,456,Reconnaissance,697,0.9167862266857962,step6_public
+UNSW_V2,graphids_public,456,Backdoor,402,0.9626865671641791,step6_public
+UNSW_V2,graphids_public,456,Shellcode,177,0.8983050847457628,step6_public
+UNSW_V2,graphids_public,456,Worms,15,0.8666666666666667,step6_public
+UNSW_V2,graphids_public,456,Analysis,441,0.963718820861678,step6_public
+CIC_V2,mlp,42,SSH-Bruteforce,224,0.9866071428571429,step5_confirmation
+CIC_V2,mlp,42,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,mlp,42,DoS attacks-Hulk,5655,0.9982316534040672,step5_confirmation
+CIC_V2,mlp,42,DDoS attacks-LOIC-HTTP,2122,0.9971724787935909,step5_confirmation
+CIC_V2,mlp,42,Infilteration,1536,0.021484375,step5_confirmation
+CIC_V2,mlp,42,Bot,601,0.9534109816971714,step5_confirmation
+CIC_V2,mlp,42,DoS attacks-GoldenEye,372,0.9973118279569892,step5_confirmation
+CIC_V2,mlp,42,Brute Force -Web,62,0.967741935483871,step5_confirmation
+CIC_V2,mlp,42,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,mlp,42,Brute Force -XSS,30,0.9666666666666667,step5_confirmation
+CIC_V2,mlp,42,SQL Injection,15,0.26666666666666666,step5_confirmation
+CIC_V2,mlp,123,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,mlp,123,DDOS attack-HOIC,12102,0.9992563212692117,step5_confirmation
+CIC_V2,mlp,123,DoS attacks-Hulk,5655,0.9982316534040672,step5_confirmation
+CIC_V2,mlp,123,DDoS attacks-LOIC-HTTP,2122,0.9976437323279924,step5_confirmation
+CIC_V2,mlp,123,Infilteration,1536,0.017578125,step5_confirmation
+CIC_V2,mlp,123,Bot,601,0.9833610648918469,step5_confirmation
+CIC_V2,mlp,123,DoS attacks-GoldenEye,372,0.9973118279569892,step5_confirmation
+CIC_V2,mlp,123,Brute Force -Web,62,0.967741935483871,step5_confirmation
+CIC_V2,mlp,123,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,mlp,123,Brute Force -XSS,30,0.9666666666666667,step5_confirmation
+CIC_V2,mlp,123,SQL Injection,15,0.26666666666666666,step5_confirmation
+CIC_V2,mlp,456,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,mlp,456,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,mlp,456,DoS attacks-Hulk,5655,0.9991158267020336,step5_confirmation
+CIC_V2,mlp,456,DDoS attacks-LOIC-HTTP,2122,1.0,step5_confirmation
+CIC_V2,mlp,456,Infilteration,1536,0.06705729166666667,step5_confirmation
+CIC_V2,mlp,456,Bot,601,0.9833610648918469,step5_confirmation
+CIC_V2,mlp,456,DoS attacks-GoldenEye,372,1.0,step5_confirmation
+CIC_V2,mlp,456,Brute Force -Web,62,0.9838709677419355,step5_confirmation
+CIC_V2,mlp,456,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,mlp,456,Brute Force -XSS,30,1.0,step5_confirmation
+CIC_V2,mlp,456,SQL Injection,15,0.26666666666666666,step5_confirmation
+CIC_V2,no_graph,42,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,no_graph,42,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,no_graph,42,DoS attacks-Hulk,5655,0.9980548187444739,step5_confirmation
+CIC_V2,no_graph,42,DDoS attacks-LOIC-HTTP,2122,0.9976437323279924,step5_confirmation
+CIC_V2,no_graph,42,Infilteration,1536,0.007161458333333333,step5_confirmation
+CIC_V2,no_graph,42,Bot,601,0.9534109816971714,step5_confirmation
+CIC_V2,no_graph,42,DoS attacks-GoldenEye,372,0.9973118279569892,step5_confirmation
+CIC_V2,no_graph,42,Brute Force -Web,62,0.967741935483871,step5_confirmation
+CIC_V2,no_graph,42,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,no_graph,42,Brute Force -XSS,30,0.9666666666666667,step5_confirmation
+CIC_V2,no_graph,42,SQL Injection,15,0.26666666666666666,step5_confirmation
+CIC_V2,no_graph,123,SSH-Bruteforce,224,0.9866071428571429,step5_confirmation
+CIC_V2,no_graph,123,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,no_graph,123,DoS attacks-Hulk,5655,0.9980548187444739,step5_confirmation
+CIC_V2,no_graph,123,DDoS attacks-LOIC-HTTP,2122,0.9967012252591895,step5_confirmation
+CIC_V2,no_graph,123,Infilteration,1536,0.017578125,step5_confirmation
+CIC_V2,no_graph,123,Bot,601,0.9833610648918469,step5_confirmation
+CIC_V2,no_graph,123,DoS attacks-GoldenEye,372,0.9973118279569892,step5_confirmation
+CIC_V2,no_graph,123,Brute Force -Web,62,0.967741935483871,step5_confirmation
+CIC_V2,no_graph,123,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,no_graph,123,Brute Force -XSS,30,0.9666666666666667,step5_confirmation
+CIC_V2,no_graph,123,SQL Injection,15,0.26666666666666666,step5_confirmation
+CIC_V2,no_graph,456,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,no_graph,456,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,no_graph,456,DoS attacks-Hulk,5655,0.9982316534040672,step5_confirmation
+CIC_V2,no_graph,456,DDoS attacks-LOIC-HTTP,2122,0.9976437323279924,step5_confirmation
+CIC_V2,no_graph,456,Infilteration,1536,0.016927083333333332,step5_confirmation
+CIC_V2,no_graph,456,Bot,601,0.9833610648918469,step5_confirmation
+CIC_V2,no_graph,456,DoS attacks-GoldenEye,372,0.9973118279569892,step5_confirmation
+CIC_V2,no_graph,456,Brute Force -Web,62,0.967741935483871,step5_confirmation
+CIC_V2,no_graph,456,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,no_graph,456,Brute Force -XSS,30,0.9666666666666667,step5_confirmation
+CIC_V2,no_graph,456,SQL Injection,15,0.26666666666666666,step5_confirmation
+CIC_V2,full,42,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,full,42,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,full,42,DoS attacks-Hulk,5655,1.0,step5_confirmation
+CIC_V2,full,42,DDoS attacks-LOIC-HTTP,2122,1.0,step5_confirmation
+CIC_V2,full,42,Infilteration,1536,0.00390625,step5_confirmation
+CIC_V2,full,42,Bot,601,0.47587354409317806,step5_confirmation
+CIC_V2,full,42,DoS attacks-GoldenEye,372,1.0,step5_confirmation
+CIC_V2,full,42,Brute Force -Web,62,0.967741935483871,step5_confirmation
+CIC_V2,full,42,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,full,42,Brute Force -XSS,30,1.0,step5_confirmation
+CIC_V2,full,42,SQL Injection,15,1.0,step5_confirmation
+CIC_V2,full,123,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,full,123,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,full,123,DoS attacks-Hulk,5655,1.0,step5_confirmation
+CIC_V2,full,123,DDoS attacks-LOIC-HTTP,2122,1.0,step5_confirmation
+CIC_V2,full,123,Infilteration,1536,0.00390625,step5_confirmation
+CIC_V2,full,123,Bot,601,0.7204658901830283,step5_confirmation
+CIC_V2,full,123,DoS attacks-GoldenEye,372,1.0,step5_confirmation
+CIC_V2,full,123,Brute Force -Web,62,0.967741935483871,step5_confirmation
+CIC_V2,full,123,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,full,123,Brute Force -XSS,30,1.0,step5_confirmation
+CIC_V2,full,123,SQL Injection,15,1.0,step5_confirmation
+CIC_V2,full,456,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,full,456,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,full,456,DoS attacks-Hulk,5655,1.0,step5_confirmation
+CIC_V2,full,456,DDoS attacks-LOIC-HTTP,2122,1.0,step5_confirmation
+CIC_V2,full,456,Infilteration,1536,0.001953125,step5_confirmation
+CIC_V2,full,456,Bot,601,0.653910149750416,step5_confirmation
+CIC_V2,full,456,DoS attacks-GoldenEye,372,1.0,step5_confirmation
+CIC_V2,full,456,Brute Force -Web,62,0.967741935483871,step5_confirmation
+CIC_V2,full,456,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,full,456,Brute Force -XSS,30,1.0,step5_confirmation
+CIC_V2,full,456,SQL Injection,15,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,42,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,42,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,42,DoS attacks-Hulk,5655,0.9961096374889479,step5_confirmation
+CIC_V2,full_shuffled_edges,42,DDoS attacks-LOIC-HTTP,2122,0.9962299717247879,step5_confirmation
+CIC_V2,full_shuffled_edges,42,Infilteration,1536,0.011067708333333334,step5_confirmation
+CIC_V2,full_shuffled_edges,42,Bot,601,0.8519134775374376,step5_confirmation
+CIC_V2,full_shuffled_edges,42,DoS attacks-GoldenEye,372,0.7096774193548387,step5_confirmation
+CIC_V2,full_shuffled_edges,42,Brute Force -Web,62,0.9516129032258065,step5_confirmation
+CIC_V2,full_shuffled_edges,42,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,42,Brute Force -XSS,30,0.8666666666666667,step5_confirmation
+CIC_V2,full_shuffled_edges,42,SQL Injection,15,0.26666666666666666,step5_confirmation
+CIC_V2,full_shuffled_edges,123,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,123,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,123,DoS attacks-Hulk,5655,0.9985853227232537,step5_confirmation
+CIC_V2,full_shuffled_edges,123,DDoS attacks-LOIC-HTTP,2122,0.9971724787935909,step5_confirmation
+CIC_V2,full_shuffled_edges,123,Infilteration,1536,0.008463541666666666,step5_confirmation
+CIC_V2,full_shuffled_edges,123,Bot,601,0.8336106489184693,step5_confirmation
+CIC_V2,full_shuffled_edges,123,DoS attacks-GoldenEye,372,0.8064516129032258,step5_confirmation
+CIC_V2,full_shuffled_edges,123,Brute Force -Web,62,0.9516129032258065,step5_confirmation
+CIC_V2,full_shuffled_edges,123,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,123,Brute Force -XSS,30,0.9333333333333333,step5_confirmation
+CIC_V2,full_shuffled_edges,123,SQL Injection,15,0.3333333333333333,step5_confirmation
+CIC_V2,full_shuffled_edges,456,SSH-Bruteforce,224,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,456,DDOS attack-HOIC,12102,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,456,DoS attacks-Hulk,5655,0.9989389920424403,step5_confirmation
+CIC_V2,full_shuffled_edges,456,DDoS attacks-LOIC-HTTP,2122,0.9985862393967955,step5_confirmation
+CIC_V2,full_shuffled_edges,456,Infilteration,1536,0.016927083333333332,step5_confirmation
+CIC_V2,full_shuffled_edges,456,Bot,601,0.9051580698835274,step5_confirmation
+CIC_V2,full_shuffled_edges,456,DoS attacks-GoldenEye,372,0.9032258064516129,step5_confirmation
+CIC_V2,full_shuffled_edges,456,Brute Force -Web,62,0.967741935483871,step5_confirmation
+CIC_V2,full_shuffled_edges,456,DDOS attack-LOIC-UDP,59,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,456,Brute Force -XSS,30,1.0,step5_confirmation
+CIC_V2,full_shuffled_edges,456,SQL Injection,15,0.7333333333333333,step5_confirmation
+CIC_V2,egraphsage_public,42,SSH-Bruteforce,224,0.0,step6_public
+CIC_V2,egraphsage_public,42,DDOS attack-HOIC,12102,1.0,step6_public
+CIC_V2,egraphsage_public,42,DoS attacks-Hulk,5655,1.0,step6_public
+CIC_V2,egraphsage_public,42,DDoS attacks-LOIC-HTTP,2122,1.0,step6_public
+CIC_V2,egraphsage_public,42,Infilteration,1536,0.06640625,step6_public
+CIC_V2,egraphsage_public,42,Bot,601,0.9717138103161398,step6_public
+CIC_V2,egraphsage_public,42,DoS attacks-GoldenEye,372,1.0,step6_public
+CIC_V2,egraphsage_public,42,Brute Force -Web,62,1.0,step6_public
+CIC_V2,egraphsage_public,42,DDOS attack-LOIC-UDP,59,1.0,step6_public
+CIC_V2,egraphsage_public,42,Brute Force -XSS,30,1.0,step6_public
+CIC_V2,egraphsage_public,42,SQL Injection,15,1.0,step6_public
+CIC_V2,egraphsage_public,123,SSH-Bruteforce,224,0.0,step6_public
+CIC_V2,egraphsage_public,123,DDOS attack-HOIC,12102,1.0,step6_public
+CIC_V2,egraphsage_public,123,DoS attacks-Hulk,5655,1.0,step6_public
+CIC_V2,egraphsage_public,123,DDoS attacks-LOIC-HTTP,2122,1.0,step6_public
+CIC_V2,egraphsage_public,123,Infilteration,1536,0.06315104166666667,step6_public
+CIC_V2,egraphsage_public,123,Bot,601,1.0,step6_public
+CIC_V2,egraphsage_public,123,DoS attacks-GoldenEye,372,1.0,step6_public
+CIC_V2,egraphsage_public,123,Brute Force -Web,62,0.9838709677419355,step6_public
+CIC_V2,egraphsage_public,123,DDOS attack-LOIC-UDP,59,1.0,step6_public
+CIC_V2,egraphsage_public,123,Brute Force -XSS,30,1.0,step6_public
+CIC_V2,egraphsage_public,123,SQL Injection,15,1.0,step6_public
+CIC_V2,egraphsage_public,456,SSH-Bruteforce,224,0.0,step6_public
+CIC_V2,egraphsage_public,456,DDOS attack-HOIC,12102,1.0,step6_public
+CIC_V2,egraphsage_public,456,DoS attacks-Hulk,5655,1.0,step6_public
+CIC_V2,egraphsage_public,456,DDoS attacks-LOIC-HTTP,2122,1.0,step6_public
+CIC_V2,egraphsage_public,456,Infilteration,1536,0.035807291666666664,step6_public
+CIC_V2,egraphsage_public,456,Bot,601,1.0,step6_public
+CIC_V2,egraphsage_public,456,DoS attacks-GoldenEye,372,1.0,step6_public
+CIC_V2,egraphsage_public,456,Brute Force -Web,62,0.9838709677419355,step6_public
+CIC_V2,egraphsage_public,456,DDOS attack-LOIC-UDP,59,1.0,step6_public
+CIC_V2,egraphsage_public,456,Brute Force -XSS,30,1.0,step6_public
+CIC_V2,egraphsage_public,456,SQL Injection,15,1.0,step6_public
+CIC_V2,graphids_public,42,SSH-Bruteforce,224,1.0,step6_public
+CIC_V2,graphids_public,42,DDOS attack-HOIC,12102,0.6674929763675426,step6_public
+CIC_V2,graphids_public,42,DoS attacks-Hulk,5655,1.0,step6_public
+CIC_V2,graphids_public,42,DDoS attacks-LOIC-HTTP,2122,1.0,step6_public
+CIC_V2,graphids_public,42,Infilteration,1536,0.0026041666666666665,step6_public
+CIC_V2,graphids_public,42,Bot,601,0.0,step6_public
+CIC_V2,graphids_public,42,DoS attacks-GoldenEye,372,0.989247311827957,step6_public
+CIC_V2,graphids_public,42,Brute Force -Web,62,0.6935483870967742,step6_public
+CIC_V2,graphids_public,42,DDOS attack-LOIC-UDP,59,0.6610169491525424,step6_public
+CIC_V2,graphids_public,42,Brute Force -XSS,30,0.5666666666666667,step6_public
+CIC_V2,graphids_public,42,SQL Injection,15,0.7333333333333333,step6_public
+CIC_V2,graphids_public,123,SSH-Bruteforce,224,1.0,step6_public
+CIC_V2,graphids_public,123,DDOS attack-HOIC,12102,1.0,step6_public
+CIC_V2,graphids_public,123,DoS attacks-Hulk,5655,1.0,step6_public
+CIC_V2,graphids_public,123,DDoS attacks-LOIC-HTTP,2122,1.0,step6_public
+CIC_V2,graphids_public,123,Infilteration,1536,0.09830729166666667,step6_public
+CIC_V2,graphids_public,123,Bot,601,0.09151414309484193,step6_public
+CIC_V2,graphids_public,123,DoS attacks-GoldenEye,372,1.0,step6_public
+CIC_V2,graphids_public,123,Brute Force -Web,62,1.0,step6_public
+CIC_V2,graphids_public,123,DDOS attack-LOIC-UDP,59,1.0,step6_public
+CIC_V2,graphids_public,123,Brute Force -XSS,30,1.0,step6_public
+CIC_V2,graphids_public,123,SQL Injection,15,1.0,step6_public
+CIC_V2,graphids_public,456,SSH-Bruteforce,224,0.0,step6_public
+CIC_V2,graphids_public,456,DDOS attack-HOIC,12102,1.0,step6_public
+CIC_V2,graphids_public,456,DoS attacks-Hulk,5655,0.15101679929266137,step6_public
+CIC_V2,graphids_public,456,DDoS attacks-LOIC-HTTP,2122,0.015551366635249765,step6_public
+CIC_V2,graphids_public,456,Infilteration,1536,0.10611979166666667,step6_public
+CIC_V2,graphids_public,456,Bot,601,0.5507487520798668,step6_public
+CIC_V2,graphids_public,456,DoS attacks-GoldenEye,372,0.0,step6_public
+CIC_V2,graphids_public,456,Brute Force -Web,62,1.0,step6_public
+CIC_V2,graphids_public,456,DDOS attack-LOIC-UDP,59,1.0,step6_public
+CIC_V2,graphids_public,456,Brute Force -XSS,30,1.0,step6_public
+CIC_V2,graphids_public,456,SQL Injection,15,1.0,step6_public

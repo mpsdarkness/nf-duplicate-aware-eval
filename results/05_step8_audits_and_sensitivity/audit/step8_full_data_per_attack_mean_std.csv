@@ -1,0 +1,43 @@
+dataset,protocol,model,attack,n_seeds,support_mean,recall_mean,recall_std
+CIC_V2,exact_feature_group,full,Bot,1,3534.0,0.967741935483871,0.0
+CIC_V2,exact_feature_group,full,Brute Force -Web,1,439.0,1.0,0.0
+CIC_V2,exact_feature_group,full,Brute Force -XSS,1,181.0,1.0,0.0
+CIC_V2,exact_feature_group,full,DDOS attack-HOIC,1,222416.0,1.0,0.0
+CIC_V2,exact_feature_group,full,DDOS attack-LOIC-UDP,1,404.0,1.0,0.0
+CIC_V2,exact_feature_group,full,DDoS attacks-LOIC-HTTP,1,73087.0,1.0,0.0
+CIC_V2,exact_feature_group,full,DoS attacks-GoldenEye,1,5625.0,1.0,0.0
+CIC_V2,exact_feature_group,full,DoS attacks-Hulk,1,86380.0,1.0,0.0
+CIC_V2,exact_feature_group,full,DoS attacks-SlowHTTPTest,1,2526.0,1.0,0.0
+CIC_V2,exact_feature_group,full,DoS attacks-Slowloris,1,2026.0,1.0,0.0
+CIC_V2,exact_feature_group,full,FTP-BruteForce,1,8736.0,1.0,0.0
+CIC_V2,exact_feature_group,full,Infilteration,1,18456.0,0.023677936714347637,0.0
+CIC_V2,exact_feature_group,full,SQL Injection,1,94.0,1.0,0.0
+CIC_V2,exact_feature_group,full,SSH-Bruteforce,1,15499.0,1.0,0.0
+CIC_V2,exact_feature_group,mlp,Bot,1,3534.0,1.0,0.0
+CIC_V2,exact_feature_group,mlp,Brute Force -Web,1,439.0,0.8610478359908884,0.0
+CIC_V2,exact_feature_group,mlp,Brute Force -XSS,1,181.0,0.8287292817679558,0.0
+CIC_V2,exact_feature_group,mlp,DDOS attack-HOIC,1,222416.0,1.0,0.0
+CIC_V2,exact_feature_group,mlp,DDOS attack-LOIC-UDP,1,404.0,1.0,0.0
+CIC_V2,exact_feature_group,mlp,DDoS attacks-LOIC-HTTP,1,73087.0,0.9999042237333589,0.0
+CIC_V2,exact_feature_group,mlp,DoS attacks-GoldenEye,1,5625.0,1.0,0.0
+CIC_V2,exact_feature_group,mlp,DoS attacks-Hulk,1,86380.0,0.9999652697383654,0.0
+CIC_V2,exact_feature_group,mlp,DoS attacks-SlowHTTPTest,1,2526.0,1.0,0.0
+CIC_V2,exact_feature_group,mlp,DoS attacks-Slowloris,1,2026.0,1.0,0.0
+CIC_V2,exact_feature_group,mlp,FTP-BruteForce,1,8736.0,1.0,0.0
+CIC_V2,exact_feature_group,mlp,Infilteration,1,18456.0,0.09357390550498483,0.0
+CIC_V2,exact_feature_group,mlp,SQL Injection,1,94.0,0.8829787234042553,0.0
+CIC_V2,exact_feature_group,mlp,SSH-Bruteforce,1,15499.0,0.9999354797083683,0.0
+CIC_V2,exact_feature_group,no_graph,Bot,1,3534.0,1.0,0.0
+CIC_V2,exact_feature_group,no_graph,Brute Force -Web,1,439.0,0.8519362186788155,0.0
+CIC_V2,exact_feature_group,no_graph,Brute Force -XSS,1,181.0,0.8121546961325967,0.0
+CIC_V2,exact_feature_group,no_graph,DDOS attack-HOIC,1,222416.0,1.0,0.0
+CIC_V2,exact_feature_group,no_graph,DDOS attack-LOIC-UDP,1,404.0,1.0,0.0
+CIC_V2,exact_feature_group,no_graph,DDoS attacks-LOIC-HTTP,1,73087.0,0.9999042237333589,0.0
+CIC_V2,exact_feature_group,no_graph,DoS attacks-GoldenEye,1,5625.0,1.0,0.0
+CIC_V2,exact_feature_group,no_graph,DoS attacks-Hulk,1,86380.0,0.9999536929844871,0.0
+CIC_V2,exact_feature_group,no_graph,DoS attacks-SlowHTTPTest,1,2526.0,1.0,0.0
+CIC_V2,exact_feature_group,no_graph,DoS attacks-Slowloris,1,2026.0,1.0,0.0
+CIC_V2,exact_feature_group,no_graph,FTP-BruteForce,1,8736.0,1.0,0.0
+CIC_V2,exact_feature_group,no_graph,Infilteration,1,18456.0,0.08750541829215432,0.0
+CIC_V2,exact_feature_group,no_graph,SQL Injection,1,94.0,0.9787234042553191,0.0
+CIC_V2,exact_feature_group,no_graph,SSH-Bruteforce,1,15499.0,1.0,0.0

@@ -1,0 +1,111 @@
+{
+ "run": {
+  "dataset": "UNSW_V2",
+  "seed": 456,
+  "split": "hash_group_disjoint",
+  "model": "lightgbm",
+  "salt": "5346391484498864780",
+  "mix_variant": "xor/True/div64",
+  "threshold": 0.8967638716532158,
+  "best_iteration": 1604,
+  "scale_pos_weight": 12.0,
+  "train_seconds": 140.3,
+  "smoke": false,
+  "n": 452636,
+  "n_attack": 18013,
+  "n_benign": 434623,
+  "attack_pct": 3.979577408778798,
+  "f1_macro": 0.979203264969202,
+  "fpr_pct": 0.21604931170232594,
+  "tpr": 0.9713540220951535,
+  "precision": 0.9490670427424605,
+  "tp": 17497,
+  "fp": 939,
+  "fn": 516,
+  "tn": 433684,
+  "pr_auc": 0.99183334465119
+ },
+ "family_recall": [
+  {
+   "dataset": "UNSW_V2",
+   "seed": 456,
+   "family": "Exploits",
+   "count": 6555,
+   "recall": 0.9859649122807017
+  },
+  {
+   "dataset": "UNSW_V2",
+   "seed": 456,
+   "family": "Generic",
+   "count": 3434,
+   "recall": 0.9956319161327898
+  },
+  {
+   "dataset": "UNSW_V2",
+   "seed": 456,
+   "family": "Fuzzers",
+   "count": 4190,
+   "recall": 0.9341288782816229
+  },
+  {
+   "dataset": "UNSW_V2",
+   "seed": 456,
+   "family": "Backdoor",
+   "count": 518,
+   "recall": 0.9864864864864865
+  },
+  {
+   "dataset": "UNSW_V2",
+   "seed": 456,
+   "family": "DoS",
+   "count": 1227,
+   "recall": 0.9706601466992665
+  },
+  {
+   "dataset": "UNSW_V2",
+   "seed": 456,
+   "family": "Reconnaissance",
+   "count": 1239,
+   "recall": 0.9887005649717514
+  },
+  {
+   "dataset": "UNSW_V2",
+   "seed": 456,
+   "family": "Shellcode",
+   "count": 275,
+   "recall": 0.9454545454545454
+  },
+  {
+   "dataset": "UNSW_V2",
+   "seed": 456,
+   "family": "Worms",
+   "count": 42,
+   "recall": 1.0
+  },
+  {
+   "dataset": "UNSW_V2",
+   "seed": 456,
+   "family": "Analysis",
+   "count": 533,
+   "recall": 0.8855534709193246
+  }
+ ],
+ "lgbm_params": {
+  "objective": "binary",
+  "n_estimators": 2000,
+  "learning_rate": 0.03,
+  "num_leaves": 31,
+  "max_depth": -1,
+  "min_child_samples": 50,
+  "subsample": 0.8,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.8,
+  "reg_alpha": 0.0,
+  "reg_lambda": 1.0,
+  "max_bin": 255,
+  "deterministic": true,
+  "force_col_wise": true,
+  "n_jobs": -1,
+  "verbose": -1
+ }
+}

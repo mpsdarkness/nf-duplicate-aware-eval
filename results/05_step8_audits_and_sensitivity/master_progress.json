@@ -1,0 +1,67 @@
+{
+  "experiment_tag": "conference_step8_supervisor_revision_master_v1",
+  "created_at_unix": 1785120584.5469666,
+  "phases": {
+    "master": {
+      "status": "completed",
+      "updated_at_unix": 1785123179.6346493,
+      "details": {
+        "run_mode": "all",
+        "elapsed_hours": 0.7208573741383023
+      }
+    },
+    "audit:CIC_V2": {
+      "status": "completed",
+      "updated_at_unix": 1785121433.3179853,
+      "details": {}
+    },
+    "audit:UNSW_V2": {
+      "status": "completed",
+      "updated_at_unix": 1785121741.3657331,
+      "details": {}
+    },
+    "audit": {
+      "status": "completed",
+      "updated_at_unix": 1785121748.6093202,
+      "details": {}
+    },
+    "batch_partition:CIC_V2": {
+      "status": "completed",
+      "updated_at_unix": 1785122096.7336733,
+      "details": {}
+    },
+    "batch_partition:UNSW_V2": {
+      "status": "completed",
+      "updated_at_unix": 1785122360.899085,
+      "details": {}
+    },
+    "batch_partition": {
+      "status": "completed",
+      "updated_at_unix": 1785122361.0621083,
+      "details": {}
+    },
+    "relation_ablation:CIC_V2": {
+      "status": "completed",
+      "updated_at_unix": 1785122953.7175856,
+      "details": {}
+    },
+    "relation_ablation:UNSW_V2": {
+      "status": "completed",
+      "updated_at_unix": 1785123178.3766375,
+      "details": {}
+    },
+    "relation_ablation": {
+      "status": "completed",
+      "updated_at_unix": 1785123178.547986,
+      "details": {}
+    },
+    "aggregate": {
+      "status": "completed",
+      "updated_at_unix": 1785123179.620551,
+      "details": {
+        "complete_runs": 42,
+        "expected_runs": 42
+      }
+    }
+  }
+}

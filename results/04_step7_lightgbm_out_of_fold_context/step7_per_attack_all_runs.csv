@@ -1,0 +1,181 @@
+dataset,model,seed,attack,support,recall
+UNSW_V2,full,42,Exploits,4708,0.9997875955819882
+UNSW_V2,full,42,Generic,2625,1.0
+UNSW_V2,full,42,Fuzzers,4794,0.9997914059240718
+UNSW_V2,full,42,DoS,955,1.0
+UNSW_V2,full,42,Reconnaissance,697,1.0
+UNSW_V2,full,42,Backdoor,402,1.0
+UNSW_V2,full,42,Shellcode,177,1.0
+UNSW_V2,full,42,Worms,15,1.0
+UNSW_V2,full,42,Analysis,441,1.0
+UNSW_V2,lightgbm,42,Exploits,4708,0.9995751911639762
+UNSW_V2,lightgbm,42,Generic,2625,1.0
+UNSW_V2,lightgbm,42,Fuzzers,4794,0.9997914059240718
+UNSW_V2,lightgbm,42,DoS,955,1.0
+UNSW_V2,lightgbm,42,Reconnaissance,697,1.0
+UNSW_V2,lightgbm,42,Backdoor,402,1.0
+UNSW_V2,lightgbm,42,Shellcode,177,1.0
+UNSW_V2,lightgbm,42,Worms,15,1.0
+UNSW_V2,lightgbm,42,Analysis,441,1.0
+UNSW_V2,full_loo_crossfit,42,Exploits,4708,0.9993627867459643
+UNSW_V2,full_loo_crossfit,42,Generic,2625,0.9996190476190476
+UNSW_V2,full_loo_crossfit,42,Fuzzers,4794,0.999165623696287
+UNSW_V2,full_loo_crossfit,42,DoS,955,0.9979057591623036
+UNSW_V2,full_loo_crossfit,42,Reconnaissance,697,1.0
+UNSW_V2,full_loo_crossfit,42,Backdoor,402,0.9975124378109452
+UNSW_V2,full_loo_crossfit,42,Shellcode,177,1.0
+UNSW_V2,full_loo_crossfit,42,Worms,15,1.0
+UNSW_V2,full_loo_crossfit,42,Analysis,441,1.0
+UNSW_V2,full,123,Exploits,4708,0.9991503823279524
+UNSW_V2,full,123,Generic,2625,0.9984761904761905
+UNSW_V2,full,123,Fuzzers,4794,0.9995828118481435
+UNSW_V2,full,123,DoS,955,0.9958115183246073
+UNSW_V2,full,123,Reconnaissance,697,0.9971305595408895
+UNSW_V2,full,123,Backdoor,402,0.9900497512437811
+UNSW_V2,full,123,Shellcode,177,1.0
+UNSW_V2,full,123,Worms,15,1.0
+UNSW_V2,full,123,Analysis,441,0.9977324263038548
+UNSW_V2,lightgbm,123,Exploits,4708,0.9995751911639762
+UNSW_V2,lightgbm,123,Generic,2625,1.0
+UNSW_V2,lightgbm,123,Fuzzers,4794,0.9997914059240718
+UNSW_V2,lightgbm,123,DoS,955,1.0
+UNSW_V2,lightgbm,123,Reconnaissance,697,1.0
+UNSW_V2,lightgbm,123,Backdoor,402,1.0
+UNSW_V2,lightgbm,123,Shellcode,177,1.0
+UNSW_V2,lightgbm,123,Worms,15,1.0
+UNSW_V2,lightgbm,123,Analysis,441,1.0
+UNSW_V2,full_loo_crossfit,123,Exploits,4708,0.9989379779099405
+UNSW_V2,full_loo_crossfit,123,Generic,2625,0.9980952380952381
+UNSW_V2,full_loo_crossfit,123,Fuzzers,4794,0.9987484355444305
+UNSW_V2,full_loo_crossfit,123,DoS,955,0.9947643979057592
+UNSW_V2,full_loo_crossfit,123,Reconnaissance,697,0.9956958393113343
+UNSW_V2,full_loo_crossfit,123,Backdoor,402,0.9900497512437811
+UNSW_V2,full_loo_crossfit,123,Shellcode,177,1.0
+UNSW_V2,full_loo_crossfit,123,Worms,15,1.0
+UNSW_V2,full_loo_crossfit,123,Analysis,441,0.9977324263038548
+UNSW_V2,full,456,Exploits,4708,0.9993627867459643
+UNSW_V2,full,456,Generic,2625,0.9988571428571429
+UNSW_V2,full,456,Fuzzers,4794,0.9993742177722152
+UNSW_V2,full,456,DoS,955,0.9979057591623036
+UNSW_V2,full,456,Reconnaissance,697,0.9971305595408895
+UNSW_V2,full,456,Backdoor,402,0.9950248756218906
+UNSW_V2,full,456,Shellcode,177,1.0
+UNSW_V2,full,456,Worms,15,1.0
+UNSW_V2,full,456,Analysis,441,1.0
+UNSW_V2,lightgbm,456,Exploits,4708,0.9995751911639762
+UNSW_V2,lightgbm,456,Generic,2625,1.0
+UNSW_V2,lightgbm,456,Fuzzers,4794,0.9993742177722152
+UNSW_V2,lightgbm,456,DoS,955,1.0
+UNSW_V2,lightgbm,456,Reconnaissance,697,1.0
+UNSW_V2,lightgbm,456,Backdoor,402,1.0
+UNSW_V2,lightgbm,456,Shellcode,177,0.9830508474576272
+UNSW_V2,lightgbm,456,Worms,15,1.0
+UNSW_V2,lightgbm,456,Analysis,441,1.0
+UNSW_V2,full_loo_crossfit,456,Exploits,4708,0.9991503823279524
+UNSW_V2,full_loo_crossfit,456,Generic,2625,0.9984761904761905
+UNSW_V2,full_loo_crossfit,456,Fuzzers,4794,0.9987484355444305
+UNSW_V2,full_loo_crossfit,456,DoS,955,0.9958115183246073
+UNSW_V2,full_loo_crossfit,456,Reconnaissance,697,0.9956958393113343
+UNSW_V2,full_loo_crossfit,456,Backdoor,402,0.9900497512437811
+UNSW_V2,full_loo_crossfit,456,Shellcode,177,1.0
+UNSW_V2,full_loo_crossfit,456,Worms,15,1.0
+UNSW_V2,full_loo_crossfit,456,Analysis,441,0.9977324263038548
+CIC_V2,full,42,SSH-Bruteforce,224,1.0
+CIC_V2,full,42,DDOS attack-HOIC,12102,1.0
+CIC_V2,full,42,DoS attacks-Hulk,5655,1.0
+CIC_V2,full,42,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,full,42,Infilteration,1536,0.00390625
+CIC_V2,full,42,Bot,601,0.47587354409317806
+CIC_V2,full,42,DoS attacks-GoldenEye,372,1.0
+CIC_V2,full,42,Brute Force -Web,62,0.967741935483871
+CIC_V2,full,42,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,full,42,Brute Force -XSS,30,1.0
+CIC_V2,full,42,SQL Injection,15,1.0
+CIC_V2,lightgbm,42,SSH-Bruteforce,224,1.0
+CIC_V2,lightgbm,42,DDOS attack-HOIC,12102,1.0
+CIC_V2,lightgbm,42,DoS attacks-Hulk,5655,1.0
+CIC_V2,lightgbm,42,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,lightgbm,42,Infilteration,1536,0.078125
+CIC_V2,lightgbm,42,Bot,601,1.0
+CIC_V2,lightgbm,42,DoS attacks-GoldenEye,372,1.0
+CIC_V2,lightgbm,42,Brute Force -Web,62,1.0
+CIC_V2,lightgbm,42,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,lightgbm,42,Brute Force -XSS,30,1.0
+CIC_V2,lightgbm,42,SQL Injection,15,1.0
+CIC_V2,full_loo_crossfit,42,SSH-Bruteforce,224,1.0
+CIC_V2,full_loo_crossfit,42,DDOS attack-HOIC,12102,1.0
+CIC_V2,full_loo_crossfit,42,DoS attacks-Hulk,5655,1.0
+CIC_V2,full_loo_crossfit,42,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,full_loo_crossfit,42,Infilteration,1536,0.0013020833333333333
+CIC_V2,full_loo_crossfit,42,Bot,601,0.5307820299500832
+CIC_V2,full_loo_crossfit,42,DoS attacks-GoldenEye,372,1.0
+CIC_V2,full_loo_crossfit,42,Brute Force -Web,62,0.967741935483871
+CIC_V2,full_loo_crossfit,42,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,full_loo_crossfit,42,Brute Force -XSS,30,1.0
+CIC_V2,full_loo_crossfit,42,SQL Injection,15,1.0
+CIC_V2,full,123,SSH-Bruteforce,224,1.0
+CIC_V2,full,123,DDOS attack-HOIC,12102,1.0
+CIC_V2,full,123,DoS attacks-Hulk,5655,1.0
+CIC_V2,full,123,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,full,123,Infilteration,1536,0.00390625
+CIC_V2,full,123,Bot,601,0.7204658901830283
+CIC_V2,full,123,DoS attacks-GoldenEye,372,1.0
+CIC_V2,full,123,Brute Force -Web,62,0.967741935483871
+CIC_V2,full,123,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,full,123,Brute Force -XSS,30,1.0
+CIC_V2,full,123,SQL Injection,15,1.0
+CIC_V2,lightgbm,123,SSH-Bruteforce,224,1.0
+CIC_V2,lightgbm,123,DDOS attack-HOIC,12102,1.0
+CIC_V2,lightgbm,123,DoS attacks-Hulk,5655,1.0
+CIC_V2,lightgbm,123,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,lightgbm,123,Infilteration,1536,0.07747395833333333
+CIC_V2,lightgbm,123,Bot,601,1.0
+CIC_V2,lightgbm,123,DoS attacks-GoldenEye,372,1.0
+CIC_V2,lightgbm,123,Brute Force -Web,62,1.0
+CIC_V2,lightgbm,123,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,lightgbm,123,Brute Force -XSS,30,1.0
+CIC_V2,lightgbm,123,SQL Injection,15,1.0
+CIC_V2,full_loo_crossfit,123,SSH-Bruteforce,224,1.0
+CIC_V2,full_loo_crossfit,123,DDOS attack-HOIC,12102,1.0
+CIC_V2,full_loo_crossfit,123,DoS attacks-Hulk,5655,1.0
+CIC_V2,full_loo_crossfit,123,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,full_loo_crossfit,123,Infilteration,1536,0.001953125
+CIC_V2,full_loo_crossfit,123,Bot,601,0.6572379367720466
+CIC_V2,full_loo_crossfit,123,DoS attacks-GoldenEye,372,1.0
+CIC_V2,full_loo_crossfit,123,Brute Force -Web,62,0.967741935483871
+CIC_V2,full_loo_crossfit,123,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,full_loo_crossfit,123,Brute Force -XSS,30,1.0
+CIC_V2,full_loo_crossfit,123,SQL Injection,15,1.0
+CIC_V2,full,456,SSH-Bruteforce,224,1.0
+CIC_V2,full,456,DDOS attack-HOIC,12102,1.0
+CIC_V2,full,456,DoS attacks-Hulk,5655,1.0
+CIC_V2,full,456,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,full,456,Infilteration,1536,0.001953125
+CIC_V2,full,456,Bot,601,0.653910149750416
+CIC_V2,full,456,DoS attacks-GoldenEye,372,1.0
+CIC_V2,full,456,Brute Force -Web,62,0.967741935483871
+CIC_V2,full,456,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,full,456,Brute Force -XSS,30,1.0
+CIC_V2,full,456,SQL Injection,15,1.0
+CIC_V2,lightgbm,456,SSH-Bruteforce,224,1.0
+CIC_V2,lightgbm,456,DDOS attack-HOIC,12102,1.0
+CIC_V2,lightgbm,456,DoS attacks-Hulk,5655,1.0
+CIC_V2,lightgbm,456,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,lightgbm,456,Infilteration,1536,0.07161458333333333
+CIC_V2,lightgbm,456,Bot,601,1.0
+CIC_V2,lightgbm,456,DoS attacks-GoldenEye,372,1.0
+CIC_V2,lightgbm,456,Brute Force -Web,62,1.0
+CIC_V2,lightgbm,456,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,lightgbm,456,Brute Force -XSS,30,1.0
+CIC_V2,lightgbm,456,SQL Injection,15,1.0
+CIC_V2,full_loo_crossfit,456,SSH-Bruteforce,224,1.0
+CIC_V2,full_loo_crossfit,456,DDOS attack-HOIC,12102,1.0
+CIC_V2,full_loo_crossfit,456,DoS attacks-Hulk,5655,1.0
+CIC_V2,full_loo_crossfit,456,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,full_loo_crossfit,456,Infilteration,1536,0.0006510416666666666
+CIC_V2,full_loo_crossfit,456,Bot,601,0.6821963394342762
+CIC_V2,full_loo_crossfit,456,DoS attacks-GoldenEye,372,1.0
+CIC_V2,full_loo_crossfit,456,Brute Force -Web,62,0.9838709677419355
+CIC_V2,full_loo_crossfit,456,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,full_loo_crossfit,456,Brute Force -XSS,30,1.0
+CIC_V2,full_loo_crossfit,456,SQL Injection,15,1.0

@@ -1,0 +1,24 @@
+{
+  "output_root": "/content/drive/MyDrive/THAT_IDS_RERUN/conference_step4_exact_feature_group_paper_v2/paper",
+  "expected_tasks": 36,
+  "completed_tasks": 36,
+  "complete": true,
+  "datasets_discovered": [
+    "CIC_V2",
+    "UNSW_V2"
+  ],
+  "models_expected": [
+    "mlp",
+    "no_graph",
+    "graph_classifier",
+    "ae_only",
+    "full",
+    "full_shuffled_edges"
+  ],
+  "seeds_expected": [
+    42,
+    123,
+    456
+  ],
+  "generated_at_unix": 1784700757.126175
+}

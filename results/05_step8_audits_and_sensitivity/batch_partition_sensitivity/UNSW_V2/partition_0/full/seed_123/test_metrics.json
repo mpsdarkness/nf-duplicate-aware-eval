@@ -1,0 +1,92 @@
+{
+  "dataset": "UNSW_V2",
+  "experiment": "batch_partition_sensitivity",
+  "partition_seed": 0,
+  "model_seed": 123,
+  "variant": "full",
+  "source": "reused_step5_confirmation",
+  "parameters": 157196,
+  "best_epoch": 52,
+  "gate_final": 0.18431861698627472,
+  "validation": {
+    "f1_macro": 0.9955957803125236,
+    "threshold": 0.5853421092033386,
+    "score_sign": 1
+  },
+  "test": {
+    "f1_macro": 0.9925630405541173,
+    "auc_roc": 0.999131112065663,
+    "pr_auc": 0.9971831089224868,
+    "threshold": 0.5853421092033386,
+    "score_sign": 1,
+    "tn": 32842,
+    "fp": 285,
+    "fn": 21,
+    "tp": 14793,
+    "accuracy": 0.9936171544189734,
+    "precision": 0.9810982888977318,
+    "recall": 0.9985824220332118,
+    "specificity": 0.9913967458568539,
+    "balanced_accuracy": 0.9949895839450329,
+    "f1_attack": 0.9897631473303894,
+    "f1_benign": 0.9953629337778451,
+    "fp_rate": 0.008603254143146074,
+    "tp_rate": 0.9985824220332118
+  },
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 4708,
+      "detected": 4704,
+      "recall": 0.9991503823279524
+    },
+    {
+      "attack": "Generic",
+      "count": 2625,
+      "detected": 2621,
+      "recall": 0.9984761904761905
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 4794,
+      "detected": 4792,
+      "recall": 0.9995828118481435
+    },
+    {
+      "attack": "DoS",
+      "count": 955,
+      "detected": 951,
+      "recall": 0.9958115183246073
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 697,
+      "detected": 695,
+      "recall": 0.9971305595408895
+    },
+    {
+      "attack": "Backdoor",
+      "count": 402,
+      "detected": 398,
+      "recall": 0.9900497512437811
+    },
+    {
+      "attack": "Shellcode",
+      "count": 177,
+      "detected": 177,
+      "recall": 1.0
+    },
+    {
+      "attack": "Worms",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    },
+    {
+      "attack": "Analysis",
+      "count": 441,
+      "detected": 440,
+      "recall": 0.9977324263038548
+    }
+  ]
+}

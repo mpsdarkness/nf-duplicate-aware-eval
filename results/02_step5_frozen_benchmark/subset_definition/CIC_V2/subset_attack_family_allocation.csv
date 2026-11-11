@@ -1,0 +1,16 @@
+attack_family,available_rows,target_rows,achieved_rows,selected_groups
+<MIXED_ATTACK_GROUP>,446303,29322,29277,114
+SSH-Bruteforce,94979,6387,6387,937
+DDoS attacks-LOIC-HTTP,307300,20248,22152,285
+DDOS attack-HOIC,637681,41816,41821,6590
+DoS attacks-Slowloris,9512,814,970,2
+DoS attacks-Hulk,432648,28431,28431,20097
+FTP-BruteForce,25933,1879,1866,2
+Infilteration,116361,7783,7783,6710
+Bot,143097,9528,3882,210
+DoS attacks-GoldenEye,27723,1996,1996,1939
+Brute Force -Web,212,200,200,60
+DoS attacks-SlowHTTPTest,14116,1108,1138,1
+SQL Injection,49,49,49,46
+DDOS attack-LOIC-UDP,2112,324,324,319
+Brute Force -XSS,115,115,115,97

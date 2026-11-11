@@ -1,0 +1,5 @@
+dataset,protocol,seed,repeated_rows_rate,train_rows,validation_rows,test_rows,validation_rows_with_feature_group_in_train,validation_feature_overlap_rate,test_rows_with_feature_group_in_train,test_feature_overlap_rate,validation_same_feature_and_label_in_train,validation_same_feature_and_label_overlap_rate,test_same_feature_and_label_in_train,test_same_feature_and_label_overlap_rate,unique_groups_shared_train_validation,unique_groups_shared_train_test,unique_groups_shared_validation_test,unique_groups_spanning_all_three
+CIC_V2,exact_feature_group,2027,0.528659263795771,361202,40519,94663,0,0.0,0,0.0,0,0.0,0,0.0,0,0,0,0
+CIC_V2,random,2027,0.528659263795771,347463,49635,99286,27344,0.5509015815452806,54941,0.5533609975223093,27344,0.5509015815452806,54941,0.5533609975223093,5651,9257,3458,2834
+UNSW_V2,exact_feature_group,2027,0.8307275787214322,174756,23297,47941,0,0.0,0,0.0,0,0.0,0,0.0,0,0,0,0
+UNSW_V2,random,2027,0.8307275787214322,172192,24596,49206,21366,0.8686778337941129,42749,0.8687761655082713,21366,0.8686778337941129,42749,0.8687761655082713,4407,6981,2969,2743

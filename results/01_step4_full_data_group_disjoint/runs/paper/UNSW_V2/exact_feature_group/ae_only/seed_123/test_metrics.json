@@ -1,0 +1,97 @@
+{
+  "dataset": "UNSW_V2",
+  "protocol": "exact_feature_group",
+  "split_fingerprint": "f35282269dcfd1a30855",
+  "variant": "ae_only",
+  "edge_control": "observed",
+  "seed": 123,
+  "parameters": 94027,
+  "best_epoch": 2,
+  "validation": {
+    "f1_macro": 0.8729998561990622,
+    "threshold": 0.03261294588446617,
+    "score_sign": 1
+  },
+  "test": {
+    "f1_macro": 0.8839985658392354,
+    "auc_roc": 0.9458526865063852,
+    "pr_auc": 0.6405826162382954,
+    "threshold": 0.03261294588446617,
+    "score_sign": 1,
+    "tn": 481571,
+    "fp": 2479,
+    "fn": 4660,
+    "tp": 12320,
+    "accuracy": 0.9857513522144382,
+    "precision": 0.8324886816676802,
+    "recall": 0.7255594817432274,
+    "specificity": 0.9948786282408842,
+    "balanced_accuracy": 0.8602190549920559,
+    "f1_attack": 0.7753547940463829,
+    "f1_benign": 0.992642337632088,
+    "fp_rate": 0.005121371759115794,
+    "tp_rate": 0.7255594817432274
+  },
+  "gate_final": 0.18226532638072968,
+  "positive_class_weight": 12.0,
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 5999,
+      "detected": 2081,
+      "recall": 0.3468911485247541
+    },
+    {
+      "attack": "Generic",
+      "count": 3509,
+      "detected": 3221,
+      "recall": 0.9179253348532346
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 3707,
+      "detected": 3695,
+      "recall": 0.9967628810358781
+    },
+    {
+      "attack": "Backdoor",
+      "count": 461,
+      "detected": 432,
+      "recall": 0.9370932754880694
+    },
+    {
+      "attack": "DoS",
+      "count": 1156,
+      "detected": 823,
+      "recall": 0.7119377162629758
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 1380,
+      "detected": 1370,
+      "recall": 0.9927536231884058
+    },
+    {
+      "attack": "Shellcode",
+      "count": 267,
+      "detected": 267,
+      "recall": 1.0
+    },
+    {
+      "attack": "Worms",
+      "count": 37,
+      "detected": 36,
+      "recall": 0.972972972972973
+    },
+    {
+      "attack": "Analysis",
+      "count": 464,
+      "detected": 395,
+      "recall": 0.8512931034482759
+    }
+  ],
+  "elapsed_seconds_current_session": 62.61995792388916,
+  "elapsed_seconds_history": 61.483646869659424,
+  "epochs_recorded": 14,
+  "config_fingerprint": "ccb1761eb1eae44181cf"
+}

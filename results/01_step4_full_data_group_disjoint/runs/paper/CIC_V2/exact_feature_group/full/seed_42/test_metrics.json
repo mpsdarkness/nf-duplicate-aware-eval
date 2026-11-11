@@ -1,0 +1,127 @@
+{
+  "dataset": "CIC_V2",
+  "protocol": "exact_feature_group",
+  "split_fingerprint": "7858dabbbb64c8de6b34",
+  "variant": "full",
+  "edge_control": "observed",
+  "seed": 42,
+  "parameters": 157196,
+  "best_epoch": 13,
+  "validation": {
+    "f1_macro": 0.9873900457296222,
+    "threshold": 0.5581048727035522,
+    "score_sign": 1
+  },
+  "test": {
+    "f1_macro": 0.9877353250158831,
+    "auc_roc": 0.993212560420972,
+    "pr_auc": 0.9827816832849136,
+    "threshold": 0.5581048727035522,
+    "score_sign": 1,
+    "tn": 3208395,
+    "fp": 529,
+    "fn": 18103,
+    "tp": 421300,
+    "accuracy": 0.9948930016415743,
+    "precision": 0.9987459373347968,
+    "recall": 0.9588009185189905,
+    "specificity": 0.9998351472331536,
+    "balanced_accuracy": 0.979318032876072,
+    "f1_attack": 0.9783658758615564,
+    "f1_benign": 0.9971047741702098,
+    "fp_rate": 0.00016485276684645694,
+    "tp_rate": 0.9588009185189905
+  },
+  "gate_final": 0.18146394193172455,
+  "positive_class_weight": 7.257378842461347,
+  "per_attack": [
+    {
+      "attack": "SSH-Bruteforce",
+      "count": 15499,
+      "detected": 15499,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDoS attacks-LOIC-HTTP",
+      "count": 73087,
+      "detected": 73087,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDOS attack-HOIC",
+      "count": 222416,
+      "detected": 222416,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS attacks-Slowloris",
+      "count": 2026,
+      "detected": 2026,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS attacks-Hulk",
+      "count": 86380,
+      "detected": 86380,
+      "recall": 1.0
+    },
+    {
+      "attack": "FTP-BruteForce",
+      "count": 8736,
+      "detected": 8736,
+      "recall": 1.0
+    },
+    {
+      "attack": "Infilteration",
+      "count": 18456,
+      "detected": 450,
+      "recall": 0.02438231469440832
+    },
+    {
+      "attack": "Bot",
+      "count": 3534,
+      "detected": 3438,
+      "recall": 0.9728353140916808
+    },
+    {
+      "attack": "DoS attacks-GoldenEye",
+      "count": 5625,
+      "detected": 5625,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -Web",
+      "count": 439,
+      "detected": 439,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS attacks-SlowHTTPTest",
+      "count": 2526,
+      "detected": 2526,
+      "recall": 1.0
+    },
+    {
+      "attack": "SQL Injection",
+      "count": 94,
+      "detected": 94,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDOS attack-LOIC-UDP",
+      "count": 404,
+      "detected": 404,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -XSS",
+      "count": 181,
+      "detected": 180,
+      "recall": 0.994475138121547
+    }
+  ],
+  "elapsed_seconds_current_session": 1121.0363221168518,
+  "elapsed_seconds_history": 1114.0188546180725,
+  "epochs_recorded": 25,
+  "config_fingerprint": "6d1da0e6d3dd13b5a1d7"
+}

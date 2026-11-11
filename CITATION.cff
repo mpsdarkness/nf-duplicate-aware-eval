@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Duplicate-Aware Evaluation of NetFlow Intrusion Detection: A Hash-Group-Disjoint Protocol for the NF-v2 Datasets"
+authors:
+  - family-names: Nguyen
+    given-names: Ngoc Quy
+    affiliation: "Faculty of Computer Science and Engineering, Thuyloi University"
+  - family-names: Le
+    given-names: Van Hung
+    affiliation: "Faculty of Computer Science and Engineering, Thuyloi University"
+license: MIT

@@ -1,0 +1,12 @@
+{
+  "collected_on": "2026-11-11",
+  "note": "Library versions of the Colab session that collected these files; versions at experiment time were recorded only where a notebook printed them.",
+  "python": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "sklearn": "1.6.1",
+  "torch": "2.14.1+cpu",
+  "lightgbm": "4.6.0",
+  "joblib": "1.6.0"
+}

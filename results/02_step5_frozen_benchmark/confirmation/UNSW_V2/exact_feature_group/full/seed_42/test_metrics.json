@@ -1,0 +1,97 @@
+{
+  "dataset": "UNSW_V2",
+  "protocol": "exact_feature_group",
+  "split_fingerprint": "fdfa40e95ad722f3315a",
+  "variant": "full",
+  "edge_control": "observed",
+  "seed": 42,
+  "parameters": 157196,
+  "best_epoch": 61,
+  "validation": {
+    "f1_macro": 0.9955409580019774,
+    "threshold": 0.5672522187232971,
+    "score_sign": 1
+  },
+  "test": {
+    "f1_macro": 0.9960065563973368,
+    "auc_roc": 0.9992234026640294,
+    "pr_auc": 0.9975957126195649,
+    "threshold": 0.5672522187232971,
+    "score_sign": 1,
+    "tn": 32965,
+    "fp": 162,
+    "fn": 2,
+    "tp": 14812,
+    "accuracy": 0.9965791285121295,
+    "precision": 0.9891812474956592,
+    "recall": 0.9998649925745916,
+    "specificity": 0.995109729223896,
+    "balanced_accuracy": 0.9974873608992438,
+    "f1_attack": 0.9944944272861554,
+    "f1_benign": 0.9975186855085182,
+    "fp_rate": 0.004890270776104084,
+    "tp_rate": 0.9998649925745916
+  },
+  "gate_final": 0.18412314355373383,
+  "positive_class_weight": 2.465593146392734,
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 4708,
+      "detected": 4707,
+      "recall": 0.9997875955819882
+    },
+    {
+      "attack": "Generic",
+      "count": 2625,
+      "detected": 2625,
+      "recall": 1.0
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 4794,
+      "detected": 4793,
+      "recall": 0.9997914059240718
+    },
+    {
+      "attack": "DoS",
+      "count": 955,
+      "detected": 955,
+      "recall": 1.0
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 697,
+      "detected": 697,
+      "recall": 1.0
+    },
+    {
+      "attack": "Backdoor",
+      "count": 402,
+      "detected": 402,
+      "recall": 1.0
+    },
+    {
+      "attack": "Shellcode",
+      "count": 177,
+      "detected": 177,
+      "recall": 1.0
+    },
+    {
+      "attack": "Worms",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    },
+    {
+      "attack": "Analysis",
+      "count": 441,
+      "detected": 441,
+      "recall": 1.0
+    }
+  ],
+  "elapsed_seconds_current_session": 40.82429051399231,
+  "elapsed_seconds_history": 37.0495822429657,
+  "epochs_recorded": 73,
+  "config_fingerprint": "e829a9407a7a1ae6449d"
+}

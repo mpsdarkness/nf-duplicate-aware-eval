@@ -1,0 +1,100 @@
+{
+  "dataset": "UNSW_V2",
+  "protocol": "exact_feature_group",
+  "model": "graphids_public",
+  "seed": 123,
+  "parameters": 92744,
+  "best_epoch": 6,
+  "selection_metric": "val_pr_auc",
+  "validation": {
+    "selection_value": 0.5254626220447256,
+    "threshold": 0.46553918719291687
+  },
+  "test": {
+    "threshold": 0.46553918719291687,
+    "f1_macro": 0.8920862003279793,
+    "auc_roc": 0.9547373902618408,
+    "pr_auc": 0.8578449989251977,
+    "accuracy": 0.9039444316972945,
+    "precision": 0.7961705831157528,
+    "recall": 0.926285945727015,
+    "specificity": 0.8939535726144836,
+    "balanced_accuracy": 0.9101197591707493,
+    "f1_attack": 0.8563137695403913,
+    "f1_benign": 0.9278586311155672,
+    "fp_rate": 0.10604642738551634,
+    "tp_rate": 0.926285945727015,
+    "tn": 29614,
+    "fp": 3513,
+    "fn": 1092,
+    "tp": 13722
+  },
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 4708,
+      "detected": 4301,
+      "recall": 0.9135514018691588
+    },
+    {
+      "attack": "Generic",
+      "count": 2625,
+      "detected": 2431,
+      "recall": 0.9260952380952381
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 4794,
+      "detected": 4433,
+      "recall": 0.924697538589904
+    },
+    {
+      "attack": "DoS",
+      "count": 955,
+      "detected": 908,
+      "recall": 0.9507853403141361
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 697,
+      "detected": 655,
+      "recall": 0.93974175035868
+    },
+    {
+      "attack": "Backdoor",
+      "count": 402,
+      "detected": 384,
+      "recall": 0.9552238805970149
+    },
+    {
+      "attack": "Shellcode",
+      "count": 177,
+      "detected": 163,
+      "recall": 0.9209039548022598
+    },
+    {
+      "attack": "Worms",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    },
+    {
+      "attack": "Analysis",
+      "count": 441,
+      "detected": 432,
+      "recall": 0.9795918367346939
+    }
+  ],
+  "prediction_seconds": 0.04496683399997892,
+  "elapsed_seconds_history": 9.530014276504517,
+  "epochs_recorded": 26,
+  "subset_fingerprint": "1d05648b18c170aec332",
+  "split_fingerprint": "fdfa40e95ad722f3315a",
+  "public_source": {
+    "paper": "Self-Supervised Learning of Graph Representations for Network Intrusion Detection",
+    "venue": "NeurIPS 2025",
+    "repository": "https://github.com/lorenzo9uerra/GraphIDS",
+    "implementation_scope": "controlled reimplementation of the official PyG architecture and benign-only objective"
+  },
+  "config_fingerprint": "5ce221a378cdf54e06c1"
+}

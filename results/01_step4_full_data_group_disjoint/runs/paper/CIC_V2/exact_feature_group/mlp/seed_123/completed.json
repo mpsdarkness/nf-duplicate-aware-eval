@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "dataset": "CIC_V2",
+  "protocol": "exact_feature_group",
+  "variant": "mlp",
+  "seed": 123,
+  "completed_at_unix": 1784687654.8995223,
+  "config_fingerprint": "35656ab8f957ef15ce9b"
+}

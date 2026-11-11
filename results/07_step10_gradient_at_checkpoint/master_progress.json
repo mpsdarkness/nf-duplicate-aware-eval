@@ -1,0 +1,23 @@
+{
+  "experiment_tag": "conference_step10_gradient_at_checkpoint_v1",
+  "created_at_unix": 1789456545.9379914,
+  "phases": {
+    "master": {
+      "status": "completed",
+      "updated_at_unix": 1789458282.569344,
+      "details": {
+        "elapsed_minutes": 6.059300724665324
+      }
+    },
+    "measure": {
+      "status": "completed",
+      "updated_at_unix": 1789458281.4595408,
+      "details": {}
+    },
+    "aggregate": {
+      "status": "completed",
+      "updated_at_unix": 1789458282.5584645,
+      "details": {}
+    }
+  }
+}

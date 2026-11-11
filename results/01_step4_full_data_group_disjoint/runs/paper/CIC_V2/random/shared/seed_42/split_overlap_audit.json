@@ -1,0 +1,17 @@
+{
+  "train_rows": 13225589,
+  "validation_rows": 1889369,
+  "test_rows": 3778750,
+  "validation_rows_with_feature_group_in_train": 1035176,
+  "validation_feature_overlap_rate": 0.5478950909007188,
+  "test_rows_with_feature_group_in_train": 2071664,
+  "test_feature_overlap_rate": 0.5482405557393318,
+  "validation_same_feature_and_label_in_train": 1035176,
+  "validation_same_feature_and_label_overlap_rate": 0.5478950909007188,
+  "test_same_feature_and_label_in_train": 2071664,
+  "test_same_feature_and_label_overlap_rate": 0.5482405557393318,
+  "unique_groups_shared_train_validation": 194551,
+  "unique_groups_shared_train_test": 320884,
+  "unique_groups_shared_validation_test": 110481,
+  "unique_groups_spanning_all_three": 87453
+}

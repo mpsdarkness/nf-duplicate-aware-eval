@@ -1,0 +1,97 @@
+{
+  "dataset": "UNSW_V2",
+  "protocol": "exact_feature_group",
+  "split_fingerprint": "93e3f4ef7c39e41f005f",
+  "variant": "full",
+  "edge_control": "observed",
+  "seed": 42,
+  "parameters": 157196,
+  "best_epoch": 4,
+  "validation": {
+    "f1_macro": 0.9886802589920136,
+    "threshold": 0.48877760767936707,
+    "score_sign": 1
+  },
+  "test": {
+    "f1_macro": 0.9896049189032293,
+    "auc_roc": 0.9964226618662595,
+    "pr_auc": 0.9870425833970622,
+    "threshold": 0.48877760767936707,
+    "score_sign": 1,
+    "tn": 32698,
+    "fp": 429,
+    "fn": 0,
+    "tp": 14814,
+    "accuracy": 0.9910515008030705,
+    "precision": 0.9718559338712852,
+    "recall": 1.0,
+    "specificity": 0.9870498385003169,
+    "balanced_accuracy": 0.9935249192501585,
+    "f1_attack": 0.9857271184748977,
+    "f1_benign": 0.993482719331561,
+    "fp_rate": 0.012950161499683038,
+    "tp_rate": 1.0
+  },
+  "gate_final": 0.18324469029903412,
+  "positive_class_weight": 2.465593146392734,
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 4708,
+      "detected": 4708,
+      "recall": 1.0
+    },
+    {
+      "attack": "Generic",
+      "count": 2625,
+      "detected": 2625,
+      "recall": 1.0
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 4794,
+      "detected": 4794,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS",
+      "count": 955,
+      "detected": 955,
+      "recall": 1.0
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 697,
+      "detected": 697,
+      "recall": 1.0
+    },
+    {
+      "attack": "Backdoor",
+      "count": 402,
+      "detected": 402,
+      "recall": 1.0
+    },
+    {
+      "attack": "Shellcode",
+      "count": 177,
+      "detected": 177,
+      "recall": 1.0
+    },
+    {
+      "attack": "Worms",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    },
+    {
+      "attack": "Analysis",
+      "count": 441,
+      "detected": 441,
+      "recall": 1.0
+    }
+  ],
+  "elapsed_seconds_current_session": 6.644823312759399,
+  "elapsed_seconds_history": 5.964970111846924,
+  "epochs_recorded": 12,
+  "config_fingerprint": "7b88e61c64432f6670f0"
+}

@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "dataset": "CIC_V2",
+  "protocol": "exact_feature_group",
+  "variant": "no_graph",
+  "seed": 456,
+  "completed_at_unix": 1784695245.8365188,
+  "config_fingerprint": "bee4e3d433cff35f60af"
+}

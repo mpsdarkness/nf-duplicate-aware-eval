@@ -1,0 +1,100 @@
+{
+  "dataset": "UNSW_V2",
+  "protocol": "exact_feature_group",
+  "model": "egraphsage_public",
+  "seed": 42,
+  "parameters": 86530,
+  "best_epoch": 45,
+  "selection_metric": "val_f1_macro",
+  "validation": {
+    "selection_value": 0.9959252542933761,
+    "threshold": 0.7503901720046997
+  },
+  "test": {
+    "threshold": 0.7503901720046997,
+    "f1_macro": 0.996054383526121,
+    "auc_roc": 0.999054981644602,
+    "pr_auc": 0.9968930170667358,
+    "accuracy": 0.9966208464571035,
+    "precision": 0.989640422403422,
+    "recall": 0.9995274740110706,
+    "specificity": 0.9953210372203942,
+    "balanced_accuracy": 0.9974242556157324,
+    "f1_attack": 0.9945593766792047,
+    "f1_benign": 0.9975493903730372,
+    "fp_rate": 0.004678962779605759,
+    "tp_rate": 0.9995274740110706,
+    "tn": 32972,
+    "fp": 155,
+    "fn": 7,
+    "tp": 14807
+  },
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 4708,
+      "detected": 4705,
+      "recall": 0.9993627867459643
+    },
+    {
+      "attack": "Generic",
+      "count": 2625,
+      "detected": 2625,
+      "recall": 1.0
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 4794,
+      "detected": 4793,
+      "recall": 0.9997914059240718
+    },
+    {
+      "attack": "DoS",
+      "count": 955,
+      "detected": 954,
+      "recall": 0.9989528795811519
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 697,
+      "detected": 697,
+      "recall": 1.0
+    },
+    {
+      "attack": "Backdoor",
+      "count": 402,
+      "detected": 401,
+      "recall": 0.9975124378109452
+    },
+    {
+      "attack": "Shellcode",
+      "count": 177,
+      "detected": 177,
+      "recall": 1.0
+    },
+    {
+      "attack": "Worms",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    },
+    {
+      "attack": "Analysis",
+      "count": 441,
+      "detected": 440,
+      "recall": 0.9977324263038548
+    }
+  ],
+  "prediction_seconds": 0.014555201999996825,
+  "elapsed_seconds_history": 10.753188133239746,
+  "epochs_recorded": 65,
+  "subset_fingerprint": "1d05648b18c170aec332",
+  "split_fingerprint": "fdfa40e95ad722f3315a",
+  "public_source": {
+    "paper": "E-GraphSAGE: A Graph Neural Network based Intrusion Detection System for IoT",
+    "venue": "NOMS 2022",
+    "repository": "https://github.com/waimorris/E-GraphSAGE",
+    "implementation_scope": "controlled reimplementation of the official binary mean-aggregation architecture"
+  },
+  "config_fingerprint": "5abe35c04ef60f069960"
+}

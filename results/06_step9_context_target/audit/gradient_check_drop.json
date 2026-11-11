@@ -1,0 +1,13 @@
+{
+  "context_target_mode": "drop",
+  "dataset": "CIC_V2",
+  "ctx_recon_weight": 0.1,
+  "grad_live_target": 0.005270344205200672,
+  "grad_detached_target": 0.0002140237484127283,
+  "grad_flow_only": 0.00022549685672856867,
+  "grad_target_path_component": 0.005056320456787944,
+  "target_path_share_of_live": 0.9593909353773262,
+  "grad_actual_under_arm": 0.00022549685672856867,
+  "grad_expected_under_arm": 0.00022549685672856867,
+  "check_passed": true
+}

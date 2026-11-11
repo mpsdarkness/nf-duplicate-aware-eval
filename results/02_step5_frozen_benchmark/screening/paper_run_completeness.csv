@@ -1,0 +1,7 @@
+dataset,seed,model,completed,has_result,has_predictions,has_completed_marker,task_dir
+UNSW_V2,42,mlp,True,True,True,True,/content/drive/MyDrive/THAT_IDS_RERUN/conference_step5_literature_subset_v1/screening/UNSW_V2/exact_feature_group/mlp/seed_42
+UNSW_V2,42,no_graph,True,True,True,True,/content/drive/MyDrive/THAT_IDS_RERUN/conference_step5_literature_subset_v1/screening/UNSW_V2/exact_feature_group/no_graph/seed_42
+UNSW_V2,42,full,True,True,True,True,/content/drive/MyDrive/THAT_IDS_RERUN/conference_step5_literature_subset_v1/screening/UNSW_V2/exact_feature_group/full/seed_42
+CIC_V2,42,mlp,True,True,True,True,/content/drive/MyDrive/THAT_IDS_RERUN/conference_step5_literature_subset_v1/screening/CIC_V2/exact_feature_group/mlp/seed_42
+CIC_V2,42,no_graph,True,True,True,True,/content/drive/MyDrive/THAT_IDS_RERUN/conference_step5_literature_subset_v1/screening/CIC_V2/exact_feature_group/no_graph/seed_42
+CIC_V2,42,full,True,True,True,True,/content/drive/MyDrive/THAT_IDS_RERUN/conference_step5_literature_subset_v1/screening/CIC_V2/exact_feature_group/full/seed_42

@@ -1,0 +1,208 @@
+dataset,seed,model,subset,family,count,recall
+CIC_V2,123,lightgbm,all,SSH-Bruteforce,18996,1.0
+CIC_V2,123,lightgbm,all,DDoS attacks-LOIC-HTTP,61460,0.9999837292547998
+CIC_V2,123,lightgbm,all,DDOS attack-HOIC,216172,1.0
+CIC_V2,123,lightgbm,all,DoS attacks-Slowloris,1903,1.0
+CIC_V2,123,lightgbm,all,DoS attacks-Hulk,86530,1.0
+CIC_V2,123,lightgbm,all,FTP-BruteForce,5187,1.0
+CIC_V2,123,lightgbm,all,Infilteration,23273,0.33721479826408285
+CIC_V2,123,lightgbm,all,Bot,28620,1.0
+CIC_V2,123,lightgbm,all,DoS attacks-GoldenEye,5545,1.0
+CIC_V2,123,lightgbm,all,Brute Force -Web,429,0.9976689976689976
+CIC_V2,123,lightgbm,all,DoS attacks-SlowHTTPTest,2824,1.0
+CIC_V2,123,lightgbm,all,SQL Injection,87,1.0
+CIC_V2,123,lightgbm,all,DDOS attack-LOIC-UDP,423,1.0
+CIC_V2,123,lightgbm,all,Brute Force -XSS,186,0.9946236559139785
+CIC_V2,123,lightgbm,seen,SSH-Bruteforce,16055,1.0
+CIC_V2,123,lightgbm,seen,DDoS attacks-LOIC-HTTP,58242,0.9999828302599498
+CIC_V2,123,lightgbm,seen,DDOS attack-HOIC,202046,1.0
+CIC_V2,123,lightgbm,seen,DoS attacks-Slowloris,1889,1.0
+CIC_V2,123,lightgbm,seen,DoS attacks-Hulk,28491,1.0
+CIC_V2,123,lightgbm,seen,FTP-BruteForce,5186,1.0
+CIC_V2,123,lightgbm,seen,Infilteration,8572,0.8736584227718152
+CIC_V2,123,lightgbm,seen,Bot,28567,1.0
+CIC_V2,123,lightgbm,seen,DoS attacks-GoldenEye,206,1.0
+CIC_V2,123,lightgbm,seen,Brute Force -Web,412,0.9975728155339806
+CIC_V2,123,lightgbm,seen,DoS attacks-SlowHTTPTest,2823,1.0
+CIC_V2,123,lightgbm,seen,SQL Injection,78,1.0
+CIC_V2,123,lightgbm,seen,DDOS attack-LOIC-UDP,1,1.0
+CIC_V2,123,lightgbm,seen,Brute Force -XSS,163,1.0
+CIC_V2,123,lightgbm,unseen,SSH-Bruteforce,2941,1.0
+CIC_V2,123,lightgbm,unseen,DDoS attacks-LOIC-HTTP,3218,1.0
+CIC_V2,123,lightgbm,unseen,DDOS attack-HOIC,14126,1.0
+CIC_V2,123,lightgbm,unseen,DoS attacks-Slowloris,14,1.0
+CIC_V2,123,lightgbm,unseen,DoS attacks-Hulk,58039,1.0
+CIC_V2,123,lightgbm,unseen,FTP-BruteForce,1,1.0
+CIC_V2,123,lightgbm,unseen,Infilteration,14701,0.024420107475681928
+CIC_V2,123,lightgbm,unseen,Bot,53,1.0
+CIC_V2,123,lightgbm,unseen,DoS attacks-GoldenEye,5339,1.0
+CIC_V2,123,lightgbm,unseen,Brute Force -Web,17,1.0
+CIC_V2,123,lightgbm,unseen,DoS attacks-SlowHTTPTest,1,1.0
+CIC_V2,123,lightgbm,unseen,SQL Injection,9,1.0
+CIC_V2,123,lightgbm,unseen,DDOS attack-LOIC-UDP,422,1.0
+CIC_V2,123,lightgbm,unseen,Brute Force -XSS,23,0.9565217391304348
+CIC_V2,42,lightgbm,all,SSH-Bruteforce,18996,1.0
+CIC_V2,42,lightgbm,all,DDoS attacks-LOIC-HTTP,61460,0.9999674585095998
+CIC_V2,42,lightgbm,all,DDOS attack-HOIC,216172,1.0
+CIC_V2,42,lightgbm,all,DoS attacks-Slowloris,1903,1.0
+CIC_V2,42,lightgbm,all,DoS attacks-Hulk,86530,1.0
+CIC_V2,42,lightgbm,all,FTP-BruteForce,5187,1.0
+CIC_V2,42,lightgbm,all,Infilteration,23273,0.330640656554806
+CIC_V2,42,lightgbm,all,Bot,28620,1.0
+CIC_V2,42,lightgbm,all,DoS attacks-GoldenEye,5545,1.0
+CIC_V2,42,lightgbm,all,Brute Force -Web,429,0.9976689976689976
+CIC_V2,42,lightgbm,all,DoS attacks-SlowHTTPTest,2824,1.0
+CIC_V2,42,lightgbm,all,SQL Injection,87,0.9770114942528736
+CIC_V2,42,lightgbm,all,DDOS attack-LOIC-UDP,423,1.0
+CIC_V2,42,lightgbm,all,Brute Force -XSS,186,1.0
+CIC_V2,42,lightgbm,seen,SSH-Bruteforce,16122,1.0
+CIC_V2,42,lightgbm,seen,DDoS attacks-LOIC-HTTP,58253,0.9999656670042745
+CIC_V2,42,lightgbm,seen,DDOS attack-HOIC,202140,1.0
+CIC_V2,42,lightgbm,seen,DoS attacks-Slowloris,1887,1.0
+CIC_V2,42,lightgbm,seen,DoS attacks-Hulk,28455,1.0
+CIC_V2,42,lightgbm,seen,FTP-BruteForce,5186,1.0
+CIC_V2,42,lightgbm,seen,Infilteration,8417,0.874420815017227
+CIC_V2,42,lightgbm,seen,Bot,28569,1.0
+CIC_V2,42,lightgbm,seen,DoS attacks-GoldenEye,202,1.0
+CIC_V2,42,lightgbm,seen,Brute Force -Web,412,0.9975728155339806
+CIC_V2,42,lightgbm,seen,DoS attacks-SlowHTTPTest,2821,1.0
+CIC_V2,42,lightgbm,seen,SQL Injection,77,0.974025974025974
+CIC_V2,42,lightgbm,seen,DDOS attack-LOIC-UDP,1,1.0
+CIC_V2,42,lightgbm,seen,Brute Force -XSS,146,1.0
+CIC_V2,42,lightgbm,unseen,SSH-Bruteforce,2874,1.0
+CIC_V2,42,lightgbm,unseen,DDoS attacks-LOIC-HTTP,3207,1.0
+CIC_V2,42,lightgbm,unseen,DDOS attack-HOIC,14032,1.0
+CIC_V2,42,lightgbm,unseen,DoS attacks-Slowloris,16,1.0
+CIC_V2,42,lightgbm,unseen,DoS attacks-Hulk,58075,1.0
+CIC_V2,42,lightgbm,unseen,FTP-BruteForce,1,1.0
+CIC_V2,42,lightgbm,unseen,Infilteration,14856,0.022549811523963383
+CIC_V2,42,lightgbm,unseen,Bot,51,1.0
+CIC_V2,42,lightgbm,unseen,DoS attacks-GoldenEye,5343,1.0
+CIC_V2,42,lightgbm,unseen,Brute Force -Web,17,1.0
+CIC_V2,42,lightgbm,unseen,DoS attacks-SlowHTTPTest,3,1.0
+CIC_V2,42,lightgbm,unseen,SQL Injection,10,1.0
+CIC_V2,42,lightgbm,unseen,DDOS attack-LOIC-UDP,422,1.0
+CIC_V2,42,lightgbm,unseen,Brute Force -XSS,40,1.0
+CIC_V2,456,lightgbm,all,SSH-Bruteforce,18996,1.0
+CIC_V2,456,lightgbm,all,DDoS attacks-LOIC-HTTP,61460,0.9999837292547998
+CIC_V2,456,lightgbm,all,DDOS attack-HOIC,216172,1.0
+CIC_V2,456,lightgbm,all,DoS attacks-Slowloris,1903,1.0
+CIC_V2,456,lightgbm,all,DoS attacks-Hulk,86530,1.0
+CIC_V2,456,lightgbm,all,FTP-BruteForce,5187,1.0
+CIC_V2,456,lightgbm,all,Infilteration,23273,0.3279336570274567
+CIC_V2,456,lightgbm,all,Bot,28620,1.0
+CIC_V2,456,lightgbm,all,DoS attacks-GoldenEye,5545,1.0
+CIC_V2,456,lightgbm,all,Brute Force -Web,429,0.9906759906759907
+CIC_V2,456,lightgbm,all,DoS attacks-SlowHTTPTest,2824,1.0
+CIC_V2,456,lightgbm,all,SQL Injection,87,1.0
+CIC_V2,456,lightgbm,all,DDOS attack-LOIC-UDP,423,1.0
+CIC_V2,456,lightgbm,all,Brute Force -XSS,186,0.9946236559139785
+CIC_V2,456,lightgbm,seen,SSH-Bruteforce,16084,1.0
+CIC_V2,456,lightgbm,seen,DDoS attacks-LOIC-HTTP,58254,0.9999828337968208
+CIC_V2,456,lightgbm,seen,DDOS attack-HOIC,201971,1.0
+CIC_V2,456,lightgbm,seen,DoS attacks-Slowloris,1879,1.0
+CIC_V2,456,lightgbm,seen,DoS attacks-Hulk,28792,1.0
+CIC_V2,456,lightgbm,seen,FTP-BruteForce,5184,1.0
+CIC_V2,456,lightgbm,seen,Infilteration,8442,0.8675669272684198
+CIC_V2,456,lightgbm,seen,Bot,28570,1.0
+CIC_V2,456,lightgbm,seen,DoS attacks-GoldenEye,198,1.0
+CIC_V2,456,lightgbm,seen,Brute Force -Web,404,0.9925742574257426
+CIC_V2,456,lightgbm,seen,DoS attacks-SlowHTTPTest,2823,1.0
+CIC_V2,456,lightgbm,seen,SQL Injection,79,1.0
+CIC_V2,456,lightgbm,seen,DDOS attack-LOIC-UDP,2,1.0
+CIC_V2,456,lightgbm,seen,Brute Force -XSS,157,0.9936305732484076
+CIC_V2,456,lightgbm,unseen,SSH-Bruteforce,2912,1.0
+CIC_V2,456,lightgbm,unseen,DDoS attacks-LOIC-HTTP,3206,1.0
+CIC_V2,456,lightgbm,unseen,DDOS attack-HOIC,14201,1.0
+CIC_V2,456,lightgbm,unseen,DoS attacks-Slowloris,24,1.0
+CIC_V2,456,lightgbm,unseen,DoS attacks-Hulk,57738,1.0
+CIC_V2,456,lightgbm,unseen,FTP-BruteForce,3,1.0
+CIC_V2,456,lightgbm,unseen,Infilteration,14831,0.02076731171195469
+CIC_V2,456,lightgbm,unseen,Bot,50,1.0
+CIC_V2,456,lightgbm,unseen,DoS attacks-GoldenEye,5347,1.0
+CIC_V2,456,lightgbm,unseen,Brute Force -Web,25,0.96
+CIC_V2,456,lightgbm,unseen,DoS attacks-SlowHTTPTest,1,1.0
+CIC_V2,456,lightgbm,unseen,SQL Injection,8,1.0
+CIC_V2,456,lightgbm,unseen,DDOS attack-LOIC-UDP,421,1.0
+CIC_V2,456,lightgbm,unseen,Brute Force -XSS,29,1.0
+UNSW_V2,123,lightgbm,all,Exploits,6311,0.9833623831405482
+UNSW_V2,123,lightgbm,all,Generic,3312,0.9993961352657005
+UNSW_V2,123,lightgbm,all,Fuzzers,4462,0.9578664276109368
+UNSW_V2,123,lightgbm,all,Backdoor,434,0.9953917050691244
+UNSW_V2,123,lightgbm,all,DoS,1159,0.9792924935289042
+UNSW_V2,123,lightgbm,all,Reconnaissance,2556,0.9992175273865415
+UNSW_V2,123,lightgbm,all,Shellcode,286,0.986013986013986
+UNSW_V2,123,lightgbm,all,Worms,33,1.0
+UNSW_V2,123,lightgbm,all,Analysis,460,0.8782608695652174
+UNSW_V2,123,lightgbm,seen,Exploits,2113,0.9985802176999526
+UNSW_V2,123,lightgbm,seen,Generic,3055,1.0
+UNSW_V2,123,lightgbm,seen,Fuzzers,3373,0.9964423361992292
+UNSW_V2,123,lightgbm,seen,Backdoor,410,1.0
+UNSW_V2,123,lightgbm,seen,DoS,586,0.9982935153583617
+UNSW_V2,123,lightgbm,seen,Reconnaissance,2511,1.0
+UNSW_V2,123,lightgbm,seen,Shellcode,269,1.0
+UNSW_V2,123,lightgbm,seen,Worms,28,1.0
+UNSW_V2,123,lightgbm,seen,Analysis,394,0.9847715736040609
+UNSW_V2,123,lightgbm,unseen,Exploits,4198,0.975702715578847
+UNSW_V2,123,lightgbm,unseen,Generic,257,0.9922178988326849
+UNSW_V2,123,lightgbm,unseen,Fuzzers,1089,0.8383838383838383
+UNSW_V2,123,lightgbm,unseen,Backdoor,24,0.9166666666666666
+UNSW_V2,123,lightgbm,unseen,DoS,573,0.9598603839441536
+UNSW_V2,123,lightgbm,unseen,Reconnaissance,45,0.9555555555555556
+UNSW_V2,123,lightgbm,unseen,Shellcode,17,0.7647058823529411
+UNSW_V2,123,lightgbm,unseen,Worms,5,1.0
+UNSW_V2,123,lightgbm,unseen,Analysis,66,0.24242424242424243
+UNSW_V2,42,lightgbm,all,Exploits,6311,0.9835208366344478
+UNSW_V2,42,lightgbm,all,Generic,3312,0.9990942028985508
+UNSW_V2,42,lightgbm,all,Fuzzers,4462,0.9435230838189153
+UNSW_V2,42,lightgbm,all,Backdoor,434,0.9953917050691244
+UNSW_V2,42,lightgbm,all,DoS,1159,0.9723899913718723
+UNSW_V2,42,lightgbm,all,Reconnaissance,2556,0.9996087636932708
+UNSW_V2,42,lightgbm,all,Shellcode,286,0.958041958041958
+UNSW_V2,42,lightgbm,all,Worms,33,1.0
+UNSW_V2,42,lightgbm,all,Analysis,460,0.8760869565217392
+UNSW_V2,42,lightgbm,seen,Exploits,2090,0.9976076555023924
+UNSW_V2,42,lightgbm,seen,Generic,3055,0.9996726677577742
+UNSW_V2,42,lightgbm,seen,Fuzzers,3354,0.9937388193202147
+UNSW_V2,42,lightgbm,seen,Backdoor,411,1.0
+UNSW_V2,42,lightgbm,seen,DoS,580,0.996551724137931
+UNSW_V2,42,lightgbm,seen,Reconnaissance,2508,0.9996012759170654
+UNSW_V2,42,lightgbm,seen,Shellcode,271,0.988929889298893
+UNSW_V2,42,lightgbm,seen,Worms,27,1.0
+UNSW_V2,42,lightgbm,seen,Analysis,398,0.9899497487437185
+UNSW_V2,42,lightgbm,unseen,Exploits,4221,0.976545842217484
+UNSW_V2,42,lightgbm,unseen,Generic,257,0.9922178988326849
+UNSW_V2,42,lightgbm,unseen,Fuzzers,1108,0.7915162454873647
+UNSW_V2,42,lightgbm,unseen,Backdoor,23,0.9130434782608695
+UNSW_V2,42,lightgbm,unseen,DoS,579,0.9481865284974094
+UNSW_V2,42,lightgbm,unseen,Reconnaissance,48,1.0
+UNSW_V2,42,lightgbm,unseen,Shellcode,15,0.4
+UNSW_V2,42,lightgbm,unseen,Worms,6,1.0
+UNSW_V2,42,lightgbm,unseen,Analysis,62,0.14516129032258066
+UNSW_V2,456,lightgbm,all,Exploits,6311,0.9827285691649501
+UNSW_V2,456,lightgbm,all,Generic,3312,0.998792270531401
+UNSW_V2,456,lightgbm,all,Fuzzers,4462,0.9518153294486777
+UNSW_V2,456,lightgbm,all,Backdoor,434,0.9976958525345622
+UNSW_V2,456,lightgbm,all,DoS,1159,0.9810181190681622
+UNSW_V2,456,lightgbm,all,Reconnaissance,2556,0.9996087636932708
+UNSW_V2,456,lightgbm,all,Shellcode,286,0.9790209790209791
+UNSW_V2,456,lightgbm,all,Worms,33,1.0
+UNSW_V2,456,lightgbm,all,Analysis,460,0.8956521739130435
+UNSW_V2,456,lightgbm,seen,Exploits,2050,0.9970731707317073
+UNSW_V2,456,lightgbm,seen,Generic,3064,1.0
+UNSW_V2,456,lightgbm,seen,Fuzzers,3346,0.9952181709503886
+UNSW_V2,456,lightgbm,seen,Backdoor,419,1.0
+UNSW_V2,456,lightgbm,seen,DoS,570,0.9982456140350877
+UNSW_V2,456,lightgbm,seen,Reconnaissance,2508,1.0
+UNSW_V2,456,lightgbm,seen,Shellcode,276,0.9927536231884058
+UNSW_V2,456,lightgbm,seen,Worms,21,1.0
+UNSW_V2,456,lightgbm,seen,Analysis,405,0.9901234567901235
+UNSW_V2,456,lightgbm,unseen,Exploits,4261,0.9758272705937573
+UNSW_V2,456,lightgbm,unseen,Generic,248,0.9838709677419355
+UNSW_V2,456,lightgbm,unseen,Fuzzers,1116,0.8216845878136201
+UNSW_V2,456,lightgbm,unseen,Backdoor,15,0.9333333333333333
+UNSW_V2,456,lightgbm,unseen,DoS,589,0.9643463497453311
+UNSW_V2,456,lightgbm,unseen,Reconnaissance,48,0.9791666666666666
+UNSW_V2,456,lightgbm,unseen,Shellcode,10,0.6
+UNSW_V2,456,lightgbm,unseen,Worms,12,1.0
+UNSW_V2,456,lightgbm,unseen,Analysis,55,0.2

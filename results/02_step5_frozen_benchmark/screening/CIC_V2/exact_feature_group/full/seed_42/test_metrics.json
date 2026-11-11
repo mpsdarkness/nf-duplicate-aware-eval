@@ -1,0 +1,109 @@
+{
+  "dataset": "CIC_V2",
+  "protocol": "exact_feature_group",
+  "split_fingerprint": "22106b6fcf4502f07786",
+  "variant": "full",
+  "edge_control": "observed",
+  "seed": 42,
+  "parameters": 157196,
+  "best_epoch": 13,
+  "validation": {
+    "f1_macro": 0.9761051150606741,
+    "threshold": 0.783197820186615,
+    "score_sign": 1
+  },
+  "test": {
+    "f1_macro": 0.9722987770462201,
+    "auc_roc": 0.9896036856753324,
+    "pr_auc": 0.9827533779525485,
+    "threshold": 0.783197820186615,
+    "score_sign": 1,
+    "tn": 71869,
+    "fp": 16,
+    "fn": 1847,
+    "tp": 20931,
+    "accuracy": 0.9803196602685316,
+    "precision": 0.9992361674702821,
+    "recall": 0.9189129862147687,
+    "specificity": 0.999777422271684,
+    "balanced_accuracy": 0.9593452042432263,
+    "f1_attack": 0.9573927958833619,
+    "f1_benign": 0.9872047582090783,
+    "fp_rate": 0.00022257772831606038,
+    "tp_rate": 0.9189129862147687
+  },
+  "gate_final": 0.18516451120376587,
+  "positive_class_weight": 2.225133040465731,
+  "per_attack": [
+    {
+      "attack": "SSH-Bruteforce",
+      "count": 224,
+      "detected": 224,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDOS attack-HOIC",
+      "count": 12102,
+      "detected": 12102,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS attacks-Hulk",
+      "count": 5655,
+      "detected": 5655,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDoS attacks-LOIC-HTTP",
+      "count": 2122,
+      "detected": 2122,
+      "recall": 1.0
+    },
+    {
+      "attack": "Infilteration",
+      "count": 1536,
+      "detected": 6,
+      "recall": 0.00390625
+    },
+    {
+      "attack": "Bot",
+      "count": 601,
+      "detected": 286,
+      "recall": 0.47587354409317806
+    },
+    {
+      "attack": "DoS attacks-GoldenEye",
+      "count": 372,
+      "detected": 372,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -Web",
+      "count": 62,
+      "detected": 60,
+      "recall": 0.967741935483871
+    },
+    {
+      "attack": "DDOS attack-LOIC-UDP",
+      "count": 59,
+      "detected": 59,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -XSS",
+      "count": 30,
+      "detected": 30,
+      "recall": 1.0
+    },
+    {
+      "attack": "SQL Injection",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    }
+  ],
+  "elapsed_seconds_current_session": 24.877251148223877,
+  "elapsed_seconds_history": 23.700003147125244,
+  "epochs_recorded": 21,
+  "config_fingerprint": "08d177ab060daca52861"
+}

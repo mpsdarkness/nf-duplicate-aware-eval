@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "completed_at_unix": 1787818158.3712745,
+  "dataset": "CIC_V2",
+  "variant": "full",
+  "model_seed": 456,
+  "config_fingerprint": "123c71591c6380e11be49c16"
+}

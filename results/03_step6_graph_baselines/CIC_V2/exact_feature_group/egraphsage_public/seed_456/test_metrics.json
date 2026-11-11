@@ -1,0 +1,112 @@
+{
+  "dataset": "CIC_V2",
+  "protocol": "exact_feature_group",
+  "model": "egraphsage_public",
+  "seed": 456,
+  "parameters": 86530,
+  "best_epoch": 55,
+  "selection_metric": "val_f1_macro",
+  "validation": {
+    "selection_value": 0.9779285722696004,
+    "threshold": 0.6079314351081848
+  },
+  "test": {
+    "threshold": 0.6079314351081848,
+    "f1_macro": 0.9709169385716023,
+    "auc_roc": 0.9715247698735504,
+    "pr_auc": 0.964997268955398,
+    "accuracy": 0.9792104623770639,
+    "precision": 0.9877191337770694,
+    "recall": 0.9251031697251734,
+    "specificity": 0.9963552896988245,
+    "balanced_accuracy": 0.9607292297119989,
+    "f1_attack": 0.955386289445049,
+    "f1_benign": 0.9864475876981558,
+    "fp_rate": 0.0036447103011754884,
+    "tp_rate": 0.9251031697251734,
+    "tn": 71623,
+    "fp": 262,
+    "fn": 1706,
+    "tp": 21072
+  },
+  "per_attack": [
+    {
+      "attack": "SSH-Bruteforce",
+      "count": 224,
+      "detected": 0,
+      "recall": 0.0
+    },
+    {
+      "attack": "DDOS attack-HOIC",
+      "count": 12102,
+      "detected": 12102,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS attacks-Hulk",
+      "count": 5655,
+      "detected": 5655,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDoS attacks-LOIC-HTTP",
+      "count": 2122,
+      "detected": 2122,
+      "recall": 1.0
+    },
+    {
+      "attack": "Infilteration",
+      "count": 1536,
+      "detected": 55,
+      "recall": 0.035807291666666664
+    },
+    {
+      "attack": "Bot",
+      "count": 601,
+      "detected": 601,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS attacks-GoldenEye",
+      "count": 372,
+      "detected": 372,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -Web",
+      "count": 62,
+      "detected": 61,
+      "recall": 0.9838709677419355
+    },
+    {
+      "attack": "DDOS attack-LOIC-UDP",
+      "count": 59,
+      "detected": 59,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -XSS",
+      "count": 30,
+      "detected": 30,
+      "recall": 1.0
+    },
+    {
+      "attack": "SQL Injection",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    }
+  ],
+  "prediction_seconds": 0.022624645000007604,
+  "elapsed_seconds_history": 28.05168318748474,
+  "epochs_recorded": 75,
+  "subset_fingerprint": "4f148338d09e65b89a95",
+  "split_fingerprint": "58cfcf6084a427575c09",
+  "public_source": {
+    "paper": "E-GraphSAGE: A Graph Neural Network based Intrusion Detection System for IoT",
+    "venue": "NOMS 2022",
+    "repository": "https://github.com/waimorris/E-GraphSAGE",
+    "implementation_scope": "controlled reimplementation of the official binary mean-aggregation architecture"
+  },
+  "config_fingerprint": "641bdca41db27dc694d7"
+}

@@ -1,0 +1,146 @@
+{
+ "run": {
+  "dataset": "CIC_V2",
+  "seed": 456,
+  "split": "hash_group_disjoint",
+  "model": "lightgbm",
+  "salt": "3253095538486194220",
+  "mix_variant": "xor/True/div64",
+  "threshold": 0.7422091142533993,
+  "best_iteration": 863,
+  "scale_pos_weight": 7.152687406929233,
+  "train_seconds": 580.4,
+  "smoke": false,
+  "n": 3720987,
+  "n_attack": 407495,
+  "n_benign": 3313492,
+  "attack_pct": 10.951261049823609,
+  "f1_macro": 0.9876092524437112,
+  "fpr_pct": 0.018651018321456637,
+  "tpr": 0.958163903851581,
+  "precision": 0.9984197000498638,
+  "tp": 390447,
+  "fp": 618,
+  "fn": 17048,
+  "tn": 3312874,
+  "pr_auc": 0.9785430398150134
+ },
+ "family_recall": [
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "SSH-Bruteforce",
+   "count": 22509,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "DDoS attacks-LOIC-HTTP",
+   "count": 61295,
+   "recall": 0.9805693776001305
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "DDOS attack-HOIC",
+   "count": 204750,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "DoS attacks-Slowloris",
+   "count": 460,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "DoS attacks-Hulk",
+   "count": 86990,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "FTP-BruteForce",
+   "count": 4648,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "Infilteration",
+   "count": 18340,
+   "recall": 0.13587786259541984
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "Bot",
+   "count": 1929,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "DoS attacks-GoldenEye",
+   "count": 5476,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "Brute Force -Web",
+   "count": 448,
+   "recall": 0.9888392857142857
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "DoS attacks-SlowHTTPTest",
+   "count": 1,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "SQL Injection",
+   "count": 100,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "DDOS attack-LOIC-UDP",
+   "count": 404,
+   "recall": 1.0
+  },
+  {
+   "dataset": "CIC_V2",
+   "seed": 456,
+   "family": "Brute Force -XSS",
+   "count": 145,
+   "recall": 0.9724137931034482
+  }
+ ],
+ "lgbm_params": {
+  "objective": "binary",
+  "n_estimators": 2000,
+  "learning_rate": 0.03,
+  "num_leaves": 31,
+  "max_depth": -1,
+  "min_child_samples": 50,
+  "subsample": 0.8,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.8,
+  "reg_alpha": 0.0,
+  "reg_lambda": 1.0,
+  "max_bin": 255,
+  "deterministic": true,
+  "force_col_wise": true,
+  "n_jobs": -1,
+  "verbose": -1
+ }
+}

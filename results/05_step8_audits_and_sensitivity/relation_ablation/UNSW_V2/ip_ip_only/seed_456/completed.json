@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "completed_at_unix": 1785122982.030388,
+  "dataset": "UNSW_V2",
+  "variant": "ip_ip_only",
+  "model_seed": 456,
+  "config_fingerprint": "12e114989516a96bda0911f4"
+}

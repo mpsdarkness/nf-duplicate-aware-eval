@@ -1,0 +1,21 @@
+{
+  "dataset": "UNSW_V2",
+  "n_rows": 2390275,
+  "n_features": 39,
+  "n_unique_feature_groups": 236999,
+  "n_duplicate_groups": 110868,
+  "repeated_rows_beyond_first": 2153276,
+  "repeated_rows_rate": 0.900848647122193,
+  "rows_belonging_to_duplicate_groups": 2264144,
+  "rows_in_duplicate_groups_rate": 0.9472315946909874,
+  "maximum_group_size": 65331,
+  "group_size_q50": 1.0,
+  "group_size_q90": 6.0,
+  "group_size_q99": 51.0,
+  "binary_label_conflicting_groups": 0,
+  "rows_in_binary_label_conflicting_groups": 0,
+  "attack_name_conflicting_groups": 1555,
+  "rows_in_attack_name_conflicting_groups": 32579,
+  "hash_definition": "pandas uint64 hash over the float32 numerical model-input vector after NaN/Inf normalization and before MinMaxScaler",
+  "hash_collision_note": "A deterministic 64-bit hash is used. Collision risk is negligible at this scale but nonzero."
+}

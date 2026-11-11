@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "dataset": "UNSW_V2",
+  "baseline": "egraphsage_public",
+  "seed": 123,
+  "completed_at_unix": 1784707981.616671,
+  "config_fingerprint": "364e7647d54cbcaa5741"
+}

@@ -1,0 +1,82 @@
+{
+ "UNSW_V2": {
+  "rows": 2390275,
+  "attack_rate": 0.039766554057587514,
+  "families": 9,
+  "benign_family_name": "Benign",
+  "dup_a": {
+   "unique_vectors": 236999,
+   "repeated_rows_beyond_first": 2153276,
+   "repeated_rows_rate": 0.900848647122193,
+   "rows_in_duplicate_groups_rate": 0.9472315946909874
+  },
+  "dup_b": null,
+  "unique_ips": 44,
+  "unique_host_pairs": 153,
+  "check_unique_vectors": "OK",
+  "check_unique_host_pairs": "OK"
+ },
+ "UNSW_V3": {
+  "rows": 2365424,
+  "attack_rate": 0.053983133679205084,
+  "families": 9,
+  "benign_family_name": "Benign",
+  "dup_a": {
+   "unique_vectors": 1230871,
+   "repeated_rows_beyond_first": 1134553,
+   "repeated_rows_rate": 0.4796404365559832,
+   "rows_in_duplicate_groups_rate": 0.5598746778590223
+  },
+  "dup_b": {
+   "unique_vectors": 889457,
+   "repeated_rows_beyond_first": 1475967,
+   "repeated_rows_rate": 0.6239756593321113,
+   "rows_in_duplicate_groups_rate": 0.7168875432057846
+  },
+  "unique_ips": 44,
+  "unique_host_pairs": 157,
+  "start_min": 1421927376907.0,
+  "start_max": 1424262564927.0,
+  "rows_without_start": 0
+ },
+ "CIC_V2": {
+  "rows": 18893708,
+  "attack_rate": 0.11951814858152777,
+  "families": 14,
+  "benign_family_name": "Benign",
+  "dup_a": {
+   "unique_vectors": 8981062,
+   "repeated_rows_beyond_first": 9912646,
+   "repeated_rows_rate": 0.5246532866920565,
+   "rows_in_duplicate_groups_rate": 0.5662532733119406
+  },
+  "dup_b": null,
+  "unique_ips": 255042,
+  "unique_host_pairs": 1866048,
+  "check_unique_vectors": "OK",
+  "check_unique_host_pairs": "OK"
+ },
+ "CIC_V3": {
+  "rows": 20115529,
+  "attack_rate": 0.12929826503692743,
+  "families": 14,
+  "benign_family_name": "Benign",
+  "dup_a": {
+   "unique_vectors": 14508426,
+   "repeated_rows_beyond_first": 5607103,
+   "repeated_rows_rate": 0.2787449934823986,
+   "rows_in_duplicate_groups_rate": 0.32533357685994735
+  },
+  "dup_b": {
+   "unique_vectors": 12857182,
+   "repeated_rows_beyond_first": 7258347,
+   "repeated_rows_rate": 0.3608330161240105,
+   "rows_in_duplicate_groups_rate": 0.415336280741113
+  },
+  "unique_ips": 205801,
+  "unique_host_pairs": 1127070,
+  "start_min": 1518611287705.0,
+  "start_max": 1520021065524.0,
+  "rows_without_start": 0
+ }
+}

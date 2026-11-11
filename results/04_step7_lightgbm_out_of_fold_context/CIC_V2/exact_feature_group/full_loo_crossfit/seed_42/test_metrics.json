@@ -1,0 +1,113 @@
+{
+  "dataset": "CIC_V2",
+  "protocol": "exact_feature_group",
+  "model": "full_loo_crossfit",
+  "seed": 42,
+  "source_full_best_epoch": 13,
+  "parameters": 157196,
+  "gate": 0.18516315519809723,
+  "elapsed_seconds": 2.2219345569610596,
+  "validation": {
+    "f1_macro": 0.9761182306667486,
+    "threshold": 0.7689467072486877,
+    "score_sign": 1
+  },
+  "test": {
+    "threshold": 0.7689467072486877,
+    "f1_macro": 0.9728724849292371,
+    "auc_roc": 0.9885807880635975,
+    "pr_auc": 0.9814955061524877,
+    "accuracy": 0.9807210842673484,
+    "precision": 0.9996661420327181,
+    "recall": 0.9201861445254192,
+    "specificity": 0.9999026222438617,
+    "balanced_accuracy": 0.9600443833846405,
+    "f1_attack": 0.9582809463938736,
+    "f1_benign": 0.9874640234646005,
+    "fp_rate": 9.737775613827641e-05,
+    "tp_rate": 0.9201861445254192,
+    "tn": 71878,
+    "fp": 7,
+    "fn": 1818,
+    "tp": 20960
+  },
+  "per_attack": [
+    {
+      "attack": "SSH-Bruteforce",
+      "count": 224,
+      "detected": 224,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDOS attack-HOIC",
+      "count": 12102,
+      "detected": 12102,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS attacks-Hulk",
+      "count": 5655,
+      "detected": 5655,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDoS attacks-LOIC-HTTP",
+      "count": 2122,
+      "detected": 2122,
+      "recall": 1.0
+    },
+    {
+      "attack": "Infilteration",
+      "count": 1536,
+      "detected": 2,
+      "recall": 0.0013020833333333333
+    },
+    {
+      "attack": "Bot",
+      "count": 601,
+      "detected": 319,
+      "recall": 0.5307820299500832
+    },
+    {
+      "attack": "DoS attacks-GoldenEye",
+      "count": 372,
+      "detected": 372,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -Web",
+      "count": 62,
+      "detected": 60,
+      "recall": 0.967741935483871
+    },
+    {
+      "attack": "DDOS attack-LOIC-UDP",
+      "count": 59,
+      "detected": 59,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -XSS",
+      "count": 30,
+      "detected": 30,
+      "recall": 1.0
+    },
+    {
+      "attack": "SQL Injection",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    }
+  ],
+  "subset_fingerprint": "4f148338d09e65b89a95",
+  "split_fingerprint": "58cfcf6084a427575c09",
+  "config": {
+    "loo_folds": 5,
+    "fold_seed": 2027,
+    "zero_unseen_nodes": true,
+    "inference_checkpoint": "Step5 Full best.pt",
+    "retraining": false,
+    "definition": "Each target fold is predicted from a graph built only from the other folds."
+  },
+  "config_fingerprint": "f5f70195ff569e30052d"
+}

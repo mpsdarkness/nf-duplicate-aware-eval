@@ -1,0 +1,21 @@
+{
+  "dataset": "CIC_V2",
+  "n_rows": 496384,
+  "n_features": 39,
+  "n_unique_feature_groups": 233966,
+  "n_duplicate_groups": 21363,
+  "repeated_rows_beyond_first": 262418,
+  "repeated_rows_rate": 0.528659263795771,
+  "rows_belonging_to_duplicate_groups": 283781,
+  "rows_in_duplicate_groups_rate": 0.5716965091542032,
+  "maximum_group_size": 19142,
+  "group_size_q50": 1.0,
+  "group_size_q90": 1.0,
+  "group_size_q99": 8.0,
+  "binary_label_conflicting_groups": 0,
+  "rows_in_binary_label_conflicting_groups": 0,
+  "attack_name_conflicting_groups": 114,
+  "rows_in_attack_name_conflicting_groups": 29277,
+  "hash_definition": "pandas uint64 hash over the float32 numerical model-input vector after NaN/Inf normalization and before MinMaxScaler",
+  "hash_collision_note": "A deterministic 64-bit hash is used. Collision risk is negligible at this scale but nonzero."
+}

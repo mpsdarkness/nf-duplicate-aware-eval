@@ -1,0 +1,12 @@
+% Step 9 - context-target gradient control, Full variant only.
+% Frozen Step-5 rows and split (benchmark seed 2027); 3 model seeds.
+\begin{tabular}{llcccc}
+\toprule
+Dataset & Context target & Gate & F1-macro & PR-AUC & FPR (\%) \\
+\midrule
+CIC-v2 & detached & $0.185924$ & $0.9729\pm0.0011$ & $0.9838\pm0.0011$ & $0.0232\pm0.0042$ \\
+CIC-v2 & removed ($\rho=0$) & $0.185947$ & $0.9724\pm0.0005$ & $0.9840\pm0.0010$ & $0.0199\pm0.0021$ \\
+UNSW-v2 & detached & $0.185025$ & $0.9948\pm0.0021$ & $0.9973\pm0.0003$ & $0.6098\pm0.2354$ \\
+UNSW-v2 & removed ($\rho=0$) & $0.185047$ & $0.9949\pm0.0019$ & $0.9973\pm0.0003$ & $0.5957\pm0.2110$ \\
+\bottomrule
+\end{tabular}

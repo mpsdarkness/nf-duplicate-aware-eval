@@ -1,0 +1,31 @@
+{
+  "gate_final": 0.18530502915382385,
+  "relation_names": [
+    "communication",
+    "protocol"
+  ],
+  "semantic_attention": {
+    "communication": {
+      "mean": 0.7509516916776958,
+      "std": 0.0015821442736106805,
+      "n_batches": 19
+    },
+    "protocol": {
+      "mean": 0.24904831145939074,
+      "std": 0.0015821459923365687,
+      "n_batches": 19
+    }
+  },
+  "edge_attention": {
+    "communication": {
+      "mean": 0.6242017432263023,
+      "std": 0.0009532613574954054,
+      "n_batches": 19
+    },
+    "protocol": {
+      "mean": 0.4217058655462767,
+      "std": 0.000384501846967225,
+      "n_batches": 19
+    }
+  }
+}

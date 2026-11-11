@@ -1,0 +1,11 @@
+attack_family,available_rows,target_rows,achieved_rows,selected_groups
+<MIXED_ATTACK_GROUP>,32579,24569,23960,1251
+Exploits,26491,19987,19987,16130
+Generic,14164,10714,10711,2675
+Fuzzers,16877,12751,12750,4871
+Backdoor,283,262,259,141
+DoS,3187,2448,2448,2272
+Reconnaissance,429,372,372,236
+Shellcode,643,533,532,116
+Worms,57,57,57,39
+Analysis,343,307,307,301

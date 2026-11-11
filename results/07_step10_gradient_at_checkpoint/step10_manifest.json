@@ -1,0 +1,24 @@
+{
+  "experiment_tag": "conference_step10_gradient_at_checkpoint_v1",
+  "datasets": [
+    "CIC_V2",
+    "UNSW_V2"
+  ],
+  "model_seeds": [
+    42,
+    123,
+    456
+  ],
+  "n_probe_batches": 20,
+  "probe_split": "train",
+  "window_size": 5000,
+  "rho": 0.1,
+  "lambda_recon": 1.0,
+  "lambda_cls": 1.0,
+  "focal_alpha": 0.75,
+  "focal_gamma": 2.0,
+  "pos_weight_cap": 12.0,
+  "step9_reported_share_at_init": 0.9593909290282177,
+  "dropout_disabled_during_probe": true,
+  "note": "No training performed; forward/backward passes only."
+}

@@ -1,0 +1,44 @@
+{
+  "experiment_tag": "conference_step9_context_target_v1",
+  "created_at_unix": 1787816379.572781,
+  "phases": {
+    "master": {
+      "status": "completed",
+      "updated_at_unix": 1787818730.052216,
+      "details": {
+        "run_mode": "all",
+        "elapsed_hours": 0.2507516712612576
+      }
+    },
+    "context_target:detach/CIC_V2": {
+      "status": "completed",
+      "updated_at_unix": 1787818158.5560782,
+      "details": {}
+    },
+    "context_target:detach/UNSW_V2": {
+      "status": "completed",
+      "updated_at_unix": 1787818300.2230825,
+      "details": {}
+    },
+    "context_target:drop/CIC_V2": {
+      "status": "completed",
+      "updated_at_unix": 1787818602.7766776,
+      "details": {}
+    },
+    "context_target:drop/UNSW_V2": {
+      "status": "completed",
+      "updated_at_unix": 1787818729.529469,
+      "details": {}
+    },
+    "context_target": {
+      "status": "completed",
+      "updated_at_unix": 1787818729.7387476,
+      "details": {}
+    },
+    "aggregate": {
+      "status": "completed",
+      "updated_at_unix": 1787818730.0409844,
+      "details": {}
+    }
+  }
+}

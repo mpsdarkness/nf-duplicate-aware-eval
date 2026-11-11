@@ -1,0 +1,101 @@
+{
+  "dataset": "UNSW_V2",
+  "protocol": "exact_feature_group",
+  "model": "full_loo_crossfit",
+  "seed": 42,
+  "source_full_best_epoch": 61,
+  "parameters": 157196,
+  "gate": 0.18412314355373383,
+  "elapsed_seconds": 2.935275077819824,
+  "validation": {
+    "f1_macro": 0.9954856748203367,
+    "threshold": 0.5807693004608154,
+    "score_sign": 1
+  },
+  "test": {
+    "threshold": 0.5807693004608154,
+    "f1_macro": 0.9955439835151583,
+    "auc_roc": 0.9992355607496348,
+    "pr_auc": 0.9976800232105845,
+    "accuracy": 0.9961828080348762,
+    "precision": 0.9885141903171953,
+    "recall": 0.9992574591602538,
+    "specificity": 0.9948078606574697,
+    "balanced_accuracy": 0.9970326599088617,
+    "f1_attack": 0.9938567927758568,
+    "f1_benign": 0.9972311742544596,
+    "fp_rate": 0.005192139342530262,
+    "tp_rate": 0.9992574591602538,
+    "tn": 32955,
+    "fp": 172,
+    "fn": 11,
+    "tp": 14803
+  },
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 4708,
+      "detected": 4705,
+      "recall": 0.9993627867459643
+    },
+    {
+      "attack": "Generic",
+      "count": 2625,
+      "detected": 2624,
+      "recall": 0.9996190476190476
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 4794,
+      "detected": 4790,
+      "recall": 0.999165623696287
+    },
+    {
+      "attack": "DoS",
+      "count": 955,
+      "detected": 953,
+      "recall": 0.9979057591623036
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 697,
+      "detected": 697,
+      "recall": 1.0
+    },
+    {
+      "attack": "Backdoor",
+      "count": 402,
+      "detected": 401,
+      "recall": 0.9975124378109452
+    },
+    {
+      "attack": "Shellcode",
+      "count": 177,
+      "detected": 177,
+      "recall": 1.0
+    },
+    {
+      "attack": "Worms",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    },
+    {
+      "attack": "Analysis",
+      "count": 441,
+      "detected": 441,
+      "recall": 1.0
+    }
+  ],
+  "subset_fingerprint": "1d05648b18c170aec332",
+  "split_fingerprint": "fdfa40e95ad722f3315a",
+  "config": {
+    "loo_folds": 5,
+    "fold_seed": 2027,
+    "zero_unseen_nodes": true,
+    "inference_checkpoint": "Step5 Full best.pt",
+    "retraining": false,
+    "definition": "Each target fold is predicted from a graph built only from the other folds."
+  },
+  "config_fingerprint": "cf06c22a4d0f5341a2a8"
+}

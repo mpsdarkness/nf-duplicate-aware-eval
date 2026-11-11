@@ -1,0 +1,112 @@
+{
+  "dataset": "CIC_V2",
+  "protocol": "exact_feature_group",
+  "model": "graphids_public",
+  "seed": 42,
+  "parameters": 57144,
+  "best_epoch": 2,
+  "selection_metric": "val_pr_auc",
+  "validation": {
+    "selection_value": 0.7948751085626353,
+    "threshold": 0.18331140279769897
+  },
+  "test": {
+    "threshold": 0.18331140279769897,
+    "f1_macro": 0.8866542264704809,
+    "auc_roc": 0.9308992843657731,
+    "pr_auc": 0.8505778536305852,
+    "accuracy": 0.9240146625397463,
+    "precision": 0.9443462393795974,
+    "recall": 0.7270611994029327,
+    "specificity": 0.9864227585727203,
+    "balanced_accuracy": 0.8567419789878266,
+    "f1_attack": 0.8215800570507256,
+    "f1_benign": 0.9517283958902363,
+    "fp_rate": 0.013577241427279682,
+    "tp_rate": 0.7270611994029327,
+    "tn": 70909,
+    "fp": 976,
+    "fn": 6217,
+    "tp": 16561
+  },
+  "per_attack": [
+    {
+      "attack": "SSH-Bruteforce",
+      "count": 224,
+      "detected": 224,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDOS attack-HOIC",
+      "count": 12102,
+      "detected": 8078,
+      "recall": 0.6674929763675426
+    },
+    {
+      "attack": "DoS attacks-Hulk",
+      "count": 5655,
+      "detected": 5655,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDoS attacks-LOIC-HTTP",
+      "count": 2122,
+      "detected": 2122,
+      "recall": 1.0
+    },
+    {
+      "attack": "Infilteration",
+      "count": 1536,
+      "detected": 4,
+      "recall": 0.0026041666666666665
+    },
+    {
+      "attack": "Bot",
+      "count": 601,
+      "detected": 0,
+      "recall": 0.0
+    },
+    {
+      "attack": "DoS attacks-GoldenEye",
+      "count": 372,
+      "detected": 368,
+      "recall": 0.989247311827957
+    },
+    {
+      "attack": "Brute Force -Web",
+      "count": 62,
+      "detected": 43,
+      "recall": 0.6935483870967742
+    },
+    {
+      "attack": "DDOS attack-LOIC-UDP",
+      "count": 59,
+      "detected": 39,
+      "recall": 0.6610169491525424
+    },
+    {
+      "attack": "Brute Force -XSS",
+      "count": 30,
+      "detected": 17,
+      "recall": 0.5666666666666667
+    },
+    {
+      "attack": "SQL Injection",
+      "count": 15,
+      "detected": 11,
+      "recall": 0.7333333333333333
+    }
+  ],
+  "prediction_seconds": 0.0852795029999811,
+  "elapsed_seconds_history": 16.460296869277954,
+  "epochs_recorded": 22,
+  "subset_fingerprint": "4f148338d09e65b89a95",
+  "split_fingerprint": "58cfcf6084a427575c09",
+  "public_source": {
+    "paper": "Self-Supervised Learning of Graph Representations for Network Intrusion Detection",
+    "venue": "NeurIPS 2025",
+    "repository": "https://github.com/lorenzo9uerra/GraphIDS",
+    "implementation_scope": "controlled reimplementation of the official PyG architecture and benign-only objective"
+  },
+  "config_fingerprint": "4b6b6fa0bf2bfe12519f"
+}

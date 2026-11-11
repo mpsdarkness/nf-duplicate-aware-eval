@@ -1,0 +1,131 @@
+{
+  "dataset": "UNSW_V2",
+  "variant": "ip_ip_only",
+  "model_seed": 456,
+  "parameters": 156811,
+  "best_epoch": 3,
+  "validation": {
+    "f1_macro": 0.9928593478085659,
+    "auc_roc": 0.9965819588259004,
+    "pr_auc": 0.9762879401687026,
+    "threshold": 0.5120506769379117,
+    "score_sign": 1,
+    "tn": 17029,
+    "fp": 125,
+    "fn": 5,
+    "tp": 6138,
+    "accuracy": 0.9944198823882904,
+    "precision": 0.9800415136516046,
+    "recall": 0.9991860654403386,
+    "specificity": 0.9927130698379387,
+    "balanced_accuracy": 0.9959495676391387,
+    "f1_attack": 0.9895211994196357,
+    "f1_benign": 0.9961974961974962,
+    "fp_rate": 0.007286930162061327,
+    "tp_rate": 0.9991860654403386
+  },
+  "test": {
+    "f1_macro": 0.9928744214645153,
+    "auc_roc": 0.9964072709301032,
+    "pr_auc": 0.9824027098989703,
+    "threshold": 0.5120506232937315,
+    "score_sign": 1,
+    "tn": 32866,
+    "fp": 261,
+    "fn": 32,
+    "tp": 14782,
+    "accuracy": 0.9938883210613045,
+    "precision": 0.9826497374193978,
+    "recall": 0.9978398811934657,
+    "specificity": 0.9921212304162768,
+    "balanced_accuracy": 0.9949805558048712,
+    "f1_attack": 0.9901865559165355,
+    "f1_benign": 0.9955622870124953,
+    "fp_rate": 0.007878769583723248,
+    "tp_rate": 0.9978398811934657
+  },
+  "gate_final": 0.18292540311813354,
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 4708,
+      "detected": 4704,
+      "recall": 0.9991503823279524
+    },
+    {
+      "attack": "Generic",
+      "count": 2625,
+      "detected": 2619,
+      "recall": 0.9977142857142857
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 4794,
+      "detected": 4789,
+      "recall": 0.9989570296203588
+    },
+    {
+      "attack": "DoS",
+      "count": 955,
+      "detected": 949,
+      "recall": 0.993717277486911
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 697,
+      "detected": 692,
+      "recall": 0.9928263988522238
+    },
+    {
+      "attack": "Backdoor",
+      "count": 402,
+      "detected": 397,
+      "recall": 0.9875621890547264
+    },
+    {
+      "attack": "Shellcode",
+      "count": 177,
+      "detected": 177,
+      "recall": 1.0
+    },
+    {
+      "attack": "Worms",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    },
+    {
+      "attack": "Analysis",
+      "count": 441,
+      "detected": 440,
+      "recall": 0.9977324263038548
+    }
+  ],
+  "attention_summary": {
+    "gate_final": 0.18292540311813354,
+    "relation_names": [
+      "communication"
+    ],
+    "semantic_attention": {
+      "communication": {
+        "mean": 1.0,
+        "std": 0.0,
+        "n_batches": 10
+      }
+    },
+    "edge_attention": {
+      "communication": {
+        "mean": 0.46245394051074984,
+        "std": 0.0002100374413889664,
+        "n_batches": 10
+      }
+    }
+  },
+  "elapsed_seconds_current_session": 5.402900218963623,
+  "elapsed_seconds_history": 4.591012716293335,
+  "config_fingerprint": "12e114989516a96bda0911f4",
+  "experiment": "relation_ablation",
+  "relation_variant": "ip_ip_only",
+  "partition_seed": 0,
+  "split_fingerprint": "fdfa40e95ad722f3315a"
+}

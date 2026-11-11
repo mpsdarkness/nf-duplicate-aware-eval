@@ -1,0 +1,34 @@
+dataset,model,seed,attack,support,recall
+CIC_V2,Full,42,SSH-Bruteforce,224,1.0
+CIC_V2,Full,42,DDOS attack-HOIC,12102,1.0
+CIC_V2,Full,42,DoS attacks-Hulk,5655,1.0
+CIC_V2,Full,42,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,Full,42,Infilteration,1536,0.00390625
+CIC_V2,Full,42,Bot,601,0.47587354409317806
+CIC_V2,Full,42,DoS attacks-GoldenEye,372,1.0
+CIC_V2,Full,42,Brute Force -Web,62,0.967741935483871
+CIC_V2,Full,42,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,Full,42,Brute Force -XSS,30,1.0
+CIC_V2,Full,42,SQL Injection,15,1.0
+CIC_V2,Full,123,SSH-Bruteforce,224,1.0
+CIC_V2,Full,123,DDOS attack-HOIC,12102,1.0
+CIC_V2,Full,123,DoS attacks-Hulk,5655,1.0
+CIC_V2,Full,123,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,Full,123,Infilteration,1536,0.00390625
+CIC_V2,Full,123,Bot,601,0.7204658901830283
+CIC_V2,Full,123,DoS attacks-GoldenEye,372,1.0
+CIC_V2,Full,123,Brute Force -Web,62,0.967741935483871
+CIC_V2,Full,123,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,Full,123,Brute Force -XSS,30,1.0
+CIC_V2,Full,123,SQL Injection,15,1.0
+CIC_V2,Full,456,SSH-Bruteforce,224,1.0
+CIC_V2,Full,456,DDOS attack-HOIC,12102,1.0
+CIC_V2,Full,456,DoS attacks-Hulk,5655,1.0
+CIC_V2,Full,456,DDoS attacks-LOIC-HTTP,2122,1.0
+CIC_V2,Full,456,Infilteration,1536,0.001953125
+CIC_V2,Full,456,Bot,601,0.653910149750416
+CIC_V2,Full,456,DoS attacks-GoldenEye,372,1.0
+CIC_V2,Full,456,Brute Force -Web,62,0.967741935483871
+CIC_V2,Full,456,DDOS attack-LOIC-UDP,59,1.0
+CIC_V2,Full,456,Brute Force -XSS,30,1.0
+CIC_V2,Full,456,SQL Injection,15,1.0

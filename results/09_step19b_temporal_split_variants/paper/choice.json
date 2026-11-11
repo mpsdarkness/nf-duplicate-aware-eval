@@ -1,0 +1,8 @@
+{
+ "choice": {
+  "UNSW_V3": "C_per_session",
+  "CIC_V3": "D_per_day_family"
+ },
+ "gap_hours": 2.0,
+ "quick": false
+}

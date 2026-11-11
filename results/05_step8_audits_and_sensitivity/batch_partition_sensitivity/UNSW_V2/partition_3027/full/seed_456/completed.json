@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "completed_at_unix": 1785122235.366027,
+  "dataset": "UNSW_V2",
+  "variant": "full",
+  "model_seed": 456,
+  "config_fingerprint": "99e39091f3d253a9efb7dc52"
+}

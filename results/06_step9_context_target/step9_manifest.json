@@ -1,0 +1,42 @@
+{
+  "experiment_tag": "conference_step9_context_target_v1",
+  "arms": [
+    "detach",
+    "drop"
+  ],
+  "datasets": [
+    "CIC_V2",
+    "UNSW_V2"
+  ],
+  "model_seeds": [
+    42,
+    123,
+    456
+  ],
+  "benchmark_split_seed": 2027,
+  "protocol": "exact_feature_group",
+  "variant": "full",
+  "ctx_recon_weight_baseline": 0.1,
+  "lambda_recon": 1.0,
+  "lambda_cls": 1.0,
+  "init_gate_logit": -1.5,
+  "init_gate_value": 0.18242552380635635,
+  "window_size": 5000,
+  "max_epochs": 80,
+  "patience": 12,
+  "completed_runs": 12,
+  "expected_runs": 12,
+  "published_gate_reference": {
+    "CIC_V2": [
+      0.185163,
+      0.185217,
+      0.184949
+    ],
+    "UNSW_V2": [
+      0.184123,
+      0.184319,
+      0.184362
+    ]
+  },
+  "change_relative_to_step8": "HybridDetector.reconstruction_error detaches the context block of the target when CONTEXT_TARGET_MODE is 'detach' or 'drop'; 'drop' also sets the context weight to zero. Nothing else differs from Step 5/8."
+}

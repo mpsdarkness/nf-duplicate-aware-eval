@@ -1,0 +1,10 @@
+% Step 10 - context-target gradient measured at init and at trained checkpoints.
+% Mean over 20 train batches and 3 seeds.
+\begin{tabular}{|l|l|c|c|c|}
+\hline
+Dataset & Model state & $\partial\mathcal{L}_{\mathrm{rec}}/\partial\theta$ & Target-path share of $\mathcal{L}_{\mathrm{rec}}$ & of total \\ \hline
+CIC-v2 & init & $5.334e-03$ & $95.7\%$ & $97.3\%$ \\ \hline
+CIC-v2 & trained & $3.104e-04$ & $78.1\%$ & $45.8\%$ \\ \hline
+UNSW-v2 & init & $5.589e-03$ & $93.3\%$ & $87.4\%$ \\ \hline
+UNSW-v2 & trained & $1.831e-04$ & $36.7\%$ & $18.0\%$ \\ \hline
+\end{tabular}

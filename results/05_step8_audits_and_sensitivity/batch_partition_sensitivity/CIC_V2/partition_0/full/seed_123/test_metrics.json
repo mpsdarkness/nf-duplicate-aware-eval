@@ -1,0 +1,104 @@
+{
+  "dataset": "CIC_V2",
+  "experiment": "batch_partition_sensitivity",
+  "partition_seed": 0,
+  "model_seed": 123,
+  "variant": "full",
+  "source": "reused_step5_confirmation",
+  "parameters": 157196,
+  "best_epoch": 12,
+  "gate_final": 0.18521706759929657,
+  "validation": {
+    "f1_macro": 0.9759638269434148,
+    "threshold": 0.7609254121780396,
+    "score_sign": 1
+  },
+  "test": {
+    "f1_macro": 0.9744866223668998,
+    "auc_roc": 0.989870591090113,
+    "pr_auc": 0.9832777787047333,
+    "threshold": 0.7609254121780396,
+    "score_sign": 1,
+    "tn": 71865,
+    "fp": 20,
+    "fn": 1700,
+    "tp": 21078,
+    "accuracy": 0.981830282158816,
+    "precision": 0.9990520428476632,
+    "recall": 0.925366581789446,
+    "specificity": 0.9997217778396049,
+    "balanced_accuracy": 0.9625441798145254,
+    "f1_attack": 0.9607986142765976,
+    "f1_benign": 0.9881746304572018,
+    "fp_rate": 0.0002782221603950755,
+    "tp_rate": 0.925366581789446
+  },
+  "per_attack": [
+    {
+      "attack": "SSH-Bruteforce",
+      "count": 224,
+      "detected": 224,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDOS attack-HOIC",
+      "count": 12102,
+      "detected": 12102,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS attacks-Hulk",
+      "count": 5655,
+      "detected": 5655,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDoS attacks-LOIC-HTTP",
+      "count": 2122,
+      "detected": 2122,
+      "recall": 1.0
+    },
+    {
+      "attack": "Infilteration",
+      "count": 1536,
+      "detected": 6,
+      "recall": 0.00390625
+    },
+    {
+      "attack": "Bot",
+      "count": 601,
+      "detected": 433,
+      "recall": 0.7204658901830283
+    },
+    {
+      "attack": "DoS attacks-GoldenEye",
+      "count": 372,
+      "detected": 372,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -Web",
+      "count": 62,
+      "detected": 60,
+      "recall": 0.967741935483871
+    },
+    {
+      "attack": "DDOS attack-LOIC-UDP",
+      "count": 59,
+      "detected": 59,
+      "recall": 1.0
+    },
+    {
+      "attack": "Brute Force -XSS",
+      "count": 30,
+      "detected": 30,
+      "recall": 1.0
+    },
+    {
+      "attack": "SQL Injection",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    }
+  ]
+}

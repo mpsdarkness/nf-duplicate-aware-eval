@@ -1,0 +1,22 @@
+{
+  "output_root": "/content/drive/MyDrive/THAT_IDS_RERUN/conference_step5_literature_subset_v1/confirmation",
+  "expected_tasks": 24,
+  "completed_tasks": 24,
+  "complete": true,
+  "datasets_discovered": [
+    "CIC_V2",
+    "UNSW_V2"
+  ],
+  "models_expected": [
+    "mlp",
+    "no_graph",
+    "full",
+    "full_shuffled_edges"
+  ],
+  "seeds_expected": [
+    42,
+    123,
+    456
+  ],
+  "generated_at_unix": 1784705304.7922106
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": "UNSW_V2",
+  "protocol": "exact_feature_group",
+  "model": "lightgbm",
+  "seed": 42,
+  "best_iteration": 352,
+  "elapsed_seconds": 6.646552801132202,
+  "validation": {
+    "f1_macro": 0.9959801105456658,
+    "threshold": 0.5803670943613618,
+    "score_sign": 1
+  },
+  "test": {
+    "threshold": 0.5803670943613618,
+    "f1_macro": 0.9964678428207141,
+    "auc_roc": 0.9996553687577217,
+    "pr_auc": 0.9990952257286774,
+    "accuracy": 0.9969754489893827,
+    "precision": 0.990503577877349,
+    "recall": 0.9997974888618874,
+    "specificity": 0.9957134663567483,
+    "balanced_accuracy": 0.9977554776093178,
+    "f1_attack": 0.9951288339436288,
+    "f1_benign": 0.9978068516977993,
+    "fp_rate": 0.004286533643251728,
+    "tp_rate": 0.9997974888618874,
+    "tn": 32985,
+    "fp": 142,
+    "fn": 3,
+    "tp": 14811
+  },
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 4708,
+      "detected": 4706,
+      "recall": 0.9995751911639762
+    },
+    {
+      "attack": "Generic",
+      "count": 2625,
+      "detected": 2625,
+      "recall": 1.0
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 4794,
+      "detected": 4793,
+      "recall": 0.9997914059240718
+    },
+    {
+      "attack": "DoS",
+      "count": 955,
+      "detected": 955,
+      "recall": 1.0
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 697,
+      "detected": 697,
+      "recall": 1.0
+    },
+    {
+      "attack": "Backdoor",
+      "count": 402,
+      "detected": 402,
+      "recall": 1.0
+    },
+    {
+      "attack": "Shellcode",
+      "count": 177,
+      "detected": 177,
+      "recall": 1.0
+    },
+    {
+      "attack": "Worms",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    },
+    {
+      "attack": "Analysis",
+      "count": 441,
+      "detected": 441,
+      "recall": 1.0
+    }
+  ],
+  "subset_fingerprint": "1d05648b18c170aec332",
+  "split_fingerprint": "fdfa40e95ad722f3315a",
+  "feature_names": [
+    "PROTOCOL",
+    "L7_PROTO",
+    "IN_BYTES",
+    "IN_PKTS",
+    "OUT_BYTES",
+    "OUT_PKTS",
+    "TCP_FLAGS",
+    "CLIENT_TCP_FLAGS",
+    "SERVER_TCP_FLAGS",
+    "FLOW_DURATION_MILLISECONDS",
+    "DURATION_IN",
+    "DURATION_OUT",
+    "MIN_TTL",
+    "MAX_TTL",
+    "LONGEST_FLOW_PKT",
+    "SHORTEST_FLOW_PKT",
+    "MIN_IP_PKT_LEN",
+    "MAX_IP_PKT_LEN",
+    "SRC_TO_DST_SECOND_BYTES",
+    "DST_TO_SRC_SECOND_BYTES",
+    "RETRANSMITTED_IN_BYTES",
+    "RETRANSMITTED_IN_PKTS",
+    "RETRANSMITTED_OUT_BYTES",
+    "RETRANSMITTED_OUT_PKTS",
+    "SRC_TO_DST_AVG_THROUGHPUT",
+    "DST_TO_SRC_AVG_THROUGHPUT",
+    "NUM_PKTS_UP_TO_128_BYTES",
+    "NUM_PKTS_128_TO_256_BYTES",
+    "NUM_PKTS_256_TO_512_BYTES",
+    "NUM_PKTS_512_TO_1024_BYTES",
+    "NUM_PKTS_1024_TO_1514_BYTES",
+    "TCP_WIN_MAX_IN",
+    "TCP_WIN_MAX_OUT",
+    "ICMP_TYPE",
+    "ICMP_IPV4_TYPE",
+    "DNS_QUERY_ID",
+    "DNS_QUERY_TYPE",
+    "DNS_TTL_ANSWER",
+    "FTP_COMMAND_RET_CODE"
+  ],
+  "config": {
+    "objective": "binary",
+    "n_estimators": 2000,
+    "learning_rate": 0.03,
+    "num_leaves": 31,
+    "max_depth": -1,
+    "min_child_samples": 50,
+    "subsample": 0.8,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.0,
+    "reg_lambda": 1.0,
+    "max_bin": 255,
+    "n_jobs": -1,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true,
+    "random_state": 42,
+    "bagging_seed": 42,
+    "feature_fraction_seed": 42,
+    "data_random_seed": 42,
+    "scale_pos_weight": 2.465593146392734
+  },
+  "config_fingerprint": "793e7c45bf1e3723e40a"
+}

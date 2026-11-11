@@ -1,0 +1,19 @@
+{
+  "description": "Hash-group-disjoint splits of the full-data setting (seeds 42, 123, 456). Values copied from the split_metadata.json files written by notebooks/01_step4_full_data_group_disjoint.ipynb (run_mode paper). Each entry lists the selected salt and the (rows, benign, attack) counts of every split; nfdup.hash_group_split(..., salt=<selected_salt>) reproduces the partition.",
+  "split_algorithm_version": "hash_group_splitmix64_candidate_search_v2",
+  "candidate_salts_tested": 24,
+  "splits": [
+    {"dataset": "UNSW_V2", "seed": 42, "n_feature_groups": 236999, "selected_salt": 11652151511078254891, "split_fingerprint": "53eceef0674159a00d42",
+     "train": [1670959, 1604425, 66534], "validation": [248331, 235791, 12540], "test": [470985, 455006, 15979]},
+    {"dataset": "UNSW_V2", "seed": 123, "n_feature_groups": 236999, "selected_salt": 4518799303034446728, "split_fingerprint": "f35282269dcfd1a30855",
+     "train": [1669960, 1600374, 69586], "validation": [219285, 210798, 8487], "test": [501030, 484050, 16980]},
+    {"dataset": "UNSW_V2", "seed": 456, "n_feature_groups": 236999, "selected_salt": 5346391484498864780, "split_fingerprint": "ef8889e3a16cd9d66c6a",
+     "train": [1667966, 1600280, 67686], "validation": [269673, 260319, 9354], "test": [452636, 434623, 18013]},
+    {"dataset": "CIC_V2", "seed": 42, "n_feature_groups": 8981062, "selected_salt": 8095878257575067585, "split_fingerprint": "7858dabbbb64c8de6b34",
+     "train": [13232623, 11630102, 1602521], "validation": [2012758, 1796541, 216217], "test": [3648327, 3208924, 439403]},
+    {"dataset": "CIC_V2", "seed": 123, "n_feature_groups": 8981062, "selected_salt": 9558457822766297306, "split_fingerprint": "0eb227dcf9d127e6fcaa",
+     "train": [13254901, 11705849, 1549052], "validation": [1893721, 1659711, 234010], "test": [3745086, 3270007, 475079]},
+    {"dataset": "CIC_V2", "seed": 456, "n_feature_groups": 8981062, "selected_salt": 3253095538486194220, "split_fingerprint": "1096dbddd5e5575c15d6",
+     "train": [13336590, 11700738, 1635852], "validation": [1836131, 1621337, 214794], "test": [3720987, 3313492, 407495]}
+  ]
+}

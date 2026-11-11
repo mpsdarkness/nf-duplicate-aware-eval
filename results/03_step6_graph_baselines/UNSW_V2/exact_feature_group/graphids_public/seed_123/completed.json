@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "dataset": "UNSW_V2",
+  "baseline": "graphids_public",
+  "seed": 123,
+  "completed_at_unix": 1784707992.5284023,
+  "config_fingerprint": "5ce221a378cdf54e06c1"
+}

@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "dataset": "CIC_V2",
+  "baseline": "graphids_public",
+  "seed": 456,
+  "completed_at_unix": 1784707893.4104128,
+  "config_fingerprint": "caab1a01bc0466870d31"
+}

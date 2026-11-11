@@ -1,0 +1,97 @@
+{
+  "dataset": "UNSW_V2",
+  "protocol": "exact_feature_group",
+  "split_fingerprint": "fdfa40e95ad722f3315a",
+  "variant": "full_shuffled_edges",
+  "edge_control": "shuffled",
+  "seed": 456,
+  "parameters": 157196,
+  "best_epoch": 80,
+  "validation": {
+    "f1_macro": 0.9951035932840193,
+    "threshold": 0.3094404935836792,
+    "score_sign": 1
+  },
+  "test": {
+    "f1_macro": 0.9931241657614924,
+    "auc_roc": 0.9990108822212167,
+    "pr_auc": 0.9969532955891331,
+    "threshold": 0.3094404935836792,
+    "score_sign": 1,
+    "tn": 32845,
+    "fp": 282,
+    "fn": 1,
+    "tp": 14813,
+    "accuracy": 0.9940969107861747,
+    "precision": 0.9813183173236171,
+    "recall": 0.9999324962872957,
+    "specificity": 0.9914873064267817,
+    "balanced_accuracy": 0.9957099013570387,
+    "f1_attack": 0.9905379651609884,
+    "f1_benign": 0.9957103663619966,
+    "fp_rate": 0.008512693573218221,
+    "tp_rate": 0.9999324962872957
+  },
+  "gate_final": 0.18500986695289612,
+  "positive_class_weight": 2.465593146392734,
+  "per_attack": [
+    {
+      "attack": "Exploits",
+      "count": 4708,
+      "detected": 4708,
+      "recall": 1.0
+    },
+    {
+      "attack": "Generic",
+      "count": 2625,
+      "detected": 2625,
+      "recall": 1.0
+    },
+    {
+      "attack": "Fuzzers",
+      "count": 4794,
+      "detected": 4794,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS",
+      "count": 955,
+      "detected": 955,
+      "recall": 1.0
+    },
+    {
+      "attack": "Reconnaissance",
+      "count": 697,
+      "detected": 697,
+      "recall": 1.0
+    },
+    {
+      "attack": "Backdoor",
+      "count": 402,
+      "detected": 401,
+      "recall": 0.9975124378109452
+    },
+    {
+      "attack": "Shellcode",
+      "count": 177,
+      "detected": 177,
+      "recall": 1.0
+    },
+    {
+      "attack": "Worms",
+      "count": 15,
+      "detected": 15,
+      "recall": 1.0
+    },
+    {
+      "attack": "Analysis",
+      "count": 441,
+      "detected": 441,
+      "recall": 1.0
+    }
+  ],
+  "elapsed_seconds_current_session": 43.50514364242554,
+  "elapsed_seconds_history": 39.49091339111328,
+  "epochs_recorded": 80,
+  "config_fingerprint": "d350baad875ea1733272"
+}

@@ -1,0 +1,5 @@
+dataset,protocol,n_seeds,repeated_rows_rate,validation_feature_overlap_rate_mean,validation_feature_overlap_rate_max,test_feature_overlap_rate_mean,test_feature_overlap_rate_max,unique_groups_shared_train_test_max,unique_groups_spanning_all_three_max
+CIC_V2,exact_feature_group,1,0.528659263795771,0.0,0.0,0.0,0.0,0,0
+CIC_V2,random,1,0.528659263795771,0.5509015815452806,0.5509015815452806,0.5533609975223093,0.5533609975223093,9257,2834
+UNSW_V2,exact_feature_group,1,0.8307275787214322,0.0,0.0,0.0,0.0,0,0
+UNSW_V2,random,1,0.8307275787214322,0.8686778337941129,0.8686778337941129,0.8687761655082713,0.8687761655082713,6981,2743

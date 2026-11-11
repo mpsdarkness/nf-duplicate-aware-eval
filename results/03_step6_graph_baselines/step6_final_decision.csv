@@ -1,0 +1,3 @@
+dataset,public_tasks_complete,public_models_available,decision,paper_message
+CIC_V2,True,"egraphsage_public,graphids_public",PUBLIC_BASELINE_COMPARISON_COMPLETE,"Full vs egraphsage_public: ΔF1=+0.002476, ΔPR=+0.018871, ΔFPR=-0.003603. Full vs graphids_public: ΔF1=+0.133064, ΔPR=+0.246369, ΔFPR=-0.072162."
+UNSW_V2,True,"egraphsage_public,graphids_public",PUBLIC_BASELINE_COMPARISON_COMPLETE,"Full vs egraphsage_public: ΔF1=-0.001189, ΔPR=+0.000815, ΔFPR=+0.001238. Full vs graphids_public: ΔF1=+0.208159, ΔPR=+0.325811, ΔFPR=-0.146245."

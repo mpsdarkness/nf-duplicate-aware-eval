@@ -1,0 +1,12 @@
+# nfdup (the split protocol) needs only numpy and pandas.
+numpy
+pandas
+# Notebooks. Versions recorded in the notebook outputs: PyTorch 2.11.0+cu128, LightGBM 4.6.0.
+# Other packages ran at the Google Colab defaults of July-November 2026; their versions were not recorded at run time.
+# The session that collected results/ on 2026-11-11 had Python 3.13.18, numpy 2.4.6, pandas 2.2.3, scikit-learn 1.6.1 (results/environment.json).
+torch
+lightgbm==4.6.0
+scikit-learn
+joblib
+# Tests
+pytest

@@ -1,0 +1,21 @@
+{
+  "dataset": "CIC_V2",
+  "subset_version": "exact_group_literature_subset_v1",
+  "subset_fingerprint": "4f148338d09e65b89a95",
+  "selection_seed": 2027,
+  "target_rows": 500000,
+  "target_benign_rows": 350000,
+  "target_attack_rows": 150000,
+  "target_attack_fraction": 0.3,
+  "achieved_rows": 496384,
+  "achieved_benign_rows": 349993,
+  "achieved_attack_rows": 146391,
+  "achieved_attack_fraction": 0.29491482400722024,
+  "selected_exact_feature_groups": 233966,
+  "mixed_attack_groups_available": 1991,
+  "source_rows": 18893708,
+  "source_groups": 8981062,
+  "minimum_attack_rows_per_family": 200,
+  "allocation_file": "/content/drive/MyDrive/THAT_IDS_RERUN/conference_step5_literature_subset_v1/subset_definition/CIC_V2/subset_attack_family_allocation.csv",
+  "important_note": "Rows are selected only through complete exact-feature groups. Counts are approximate because groups are indivisible."
+}

@@ -1,0 +1,143 @@
+{
+  "dataset": "CIC_V2",
+  "variant": "ip_protocol_only",
+  "model_seed": 456,
+  "parameters": 156811,
+  "best_epoch": 79,
+  "validation": {
+    "f1_macro": 0.9747447235902527,
+    "auc_roc": 0.9902220203525234,
+    "pr_auc": 0.9846578844753008,
+    "threshold": 0.8408538875187485,
+    "score_sign": 1,
+    "tn": 28880,
+    "fp": 22,
+    "fn": 798,
+    "tp": 10819,
+    "accuracy": 0.9797625805177818,
+    "precision": 0.9979706669126465,
+    "recall": 0.9313075664973746,
+    "specificity": 0.9992388070029756,
+    "balanced_accuracy": 0.9652731867501751,
+    "f1_attack": 0.9634873986997952,
+    "f1_benign": 0.9860020484807102,
+    "fp_rate": 0.0007611929970244274,
+    "tp_rate": 0.9313075664973746
+  },
+  "test": {
+    "f1_macro": 0.9079684117239338,
+    "auc_roc": 0.9912022538608898,
+    "pr_auc": 0.9852819535960307,
+    "threshold": 0.8408536727733872,
+    "score_sign": 1,
+    "tn": 71879,
+    "fp": 6,
+    "fn": 5778,
+    "tp": 17000,
+    "accuracy": 0.9388990418642975,
+    "precision": 0.9996471833470539,
+    "recall": 0.7463341821055405,
+    "specificity": 0.9999165333518815,
+    "balanced_accuracy": 0.873125357728711,
+    "f1_attack": 0.8546149205710839,
+    "f1_benign": 0.9613219028767838,
+    "fp_rate": 8.346664811852264e-05,
+    "tp_rate": 0.7463341821055405
+  },
+  "gate_final": 0.18237638473510742,
+  "per_attack": [
+    {
+      "attack": "SSH-Bruteforce",
+      "count": 224,
+      "detected": 224,
+      "recall": 1.0
+    },
+    {
+      "attack": "DDOS attack-HOIC",
+      "count": 12102,
+      "detected": 12102,
+      "recall": 1.0
+    },
+    {
+      "attack": "DoS attacks-Hulk",
+      "count": 5655,
+      "detected": 4068,
+      "recall": 0.7193633952254642
+    },
+    {
+      "attack": "DDoS attacks-LOIC-HTTP",
+      "count": 2122,
+      "detected": 195,
+      "recall": 0.09189443920829406
+    },
+    {
+      "attack": "Infilteration",
+      "count": 1536,
+      "detected": 0,
+      "recall": 0.0
+    },
+    {
+      "attack": "Bot",
+      "count": 601,
+      "detected": 0,
+      "recall": 0.0
+    },
+    {
+      "attack": "DoS attacks-GoldenEye",
+      "count": 372,
+      "detected": 323,
+      "recall": 0.8682795698924731
+    },
+    {
+      "attack": "Brute Force -Web",
+      "count": 62,
+      "detected": 18,
+      "recall": 0.2903225806451613
+    },
+    {
+      "attack": "DDOS attack-LOIC-UDP",
+      "count": 59,
+      "detected": 58,
+      "recall": 0.9830508474576272
+    },
+    {
+      "attack": "Brute Force -XSS",
+      "count": 30,
+      "detected": 8,
+      "recall": 0.26666666666666666
+    },
+    {
+      "attack": "SQL Injection",
+      "count": 15,
+      "detected": 4,
+      "recall": 0.26666666666666666
+    }
+  ],
+  "attention_summary": {
+    "gate_final": 0.18237638473510742,
+    "relation_names": [
+      "protocol"
+    ],
+    "semantic_attention": {
+      "protocol": {
+        "mean": 0.9999999937258268,
+        "std": 1.879344985737239e-08,
+        "n_batches": 19
+      }
+    },
+    "edge_attention": {
+      "protocol": {
+        "mean": 0.26762591694530685,
+        "std": 0.00035825291061251875,
+        "n_batches": 19
+      }
+    }
+  },
+  "elapsed_seconds_current_session": 74.42563509941101,
+  "elapsed_seconds_history": 70.1325535774231,
+  "config_fingerprint": "e40a721d525f9e172221b123",
+  "experiment": "relation_ablation",
+  "relation_variant": "ip_protocol_only",
+  "partition_seed": 0,
+  "split_fingerprint": "58cfcf6084a427575c09"
+}

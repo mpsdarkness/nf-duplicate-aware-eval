@@ -1,0 +1,141 @@
+dataset,experiment,configuration,attack,n_seeds,support_mean,recall_mean,recall_std
+CIC_V2,batch_partition_sensitivity,partition_0,Bot,3,601.0,0.6167498613422074,0.1264595556585986
+CIC_V2,batch_partition_sensitivity,partition_0,Brute Force -Web,3,62.0,0.967741935483871,0.0
+CIC_V2,batch_partition_sensitivity,partition_0,Brute Force -XSS,3,30.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_0,DDOS attack-HOIC,3,12102.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_0,DDOS attack-LOIC-UDP,3,59.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_0,DDoS attacks-LOIC-HTTP,3,2122.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_0,DoS attacks-GoldenEye,3,372.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_0,DoS attacks-Hulk,3,5655.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_0,Infilteration,3,1536.0,0.0032552083333333335,0.0011276372445109878
+CIC_V2,batch_partition_sensitivity,partition_0,SQL Injection,3,15.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_0,SSH-Bruteforce,3,224.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_3027,Bot,3,601.0,0.5052689961175818,0.16870545531437725
+CIC_V2,batch_partition_sensitivity,partition_3027,Brute Force -Web,3,62.0,0.967741935483871,0.0
+CIC_V2,batch_partition_sensitivity,partition_3027,Brute Force -XSS,3,30.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_3027,DDOS attack-HOIC,3,12102.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_3027,DDOS attack-LOIC-UDP,3,59.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_3027,DDoS attacks-LOIC-HTTP,3,2122.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_3027,DoS attacks-GoldenEye,3,372.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_3027,DoS attacks-Hulk,3,5655.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_3027,Infilteration,3,1536.0,0.00390625,0.0023473641116302014
+CIC_V2,batch_partition_sensitivity,partition_3027,SQL Injection,3,15.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_3027,SSH-Bruteforce,3,224.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_4027,Bot,3,601.0,0.7415418746533554,0.0692933907973411
+CIC_V2,batch_partition_sensitivity,partition_4027,Brute Force -Web,3,62.0,0.9838709677419355,0.0
+CIC_V2,batch_partition_sensitivity,partition_4027,Brute Force -XSS,3,30.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_4027,DDOS attack-HOIC,3,12102.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_4027,DDOS attack-LOIC-UDP,3,59.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_4027,DDoS attacks-LOIC-HTTP,3,2122.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_4027,DoS attacks-GoldenEye,3,372.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_4027,DoS attacks-Hulk,3,5655.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_4027,Infilteration,3,1536.0,0.003038194444444444,0.0013552513017357638
+CIC_V2,batch_partition_sensitivity,partition_4027,SQL Injection,3,15.0,1.0,0.0
+CIC_V2,batch_partition_sensitivity,partition_4027,SSH-Bruteforce,3,224.0,1.0,0.0
+CIC_V2,relation_ablation,both_no_protocol_numeric,Bot,3,601.0,0.5402107598447032,0.12272648139101115
+CIC_V2,relation_ablation,both_no_protocol_numeric,Brute Force -Web,3,62.0,0.967741935483871,0.0
+CIC_V2,relation_ablation,both_no_protocol_numeric,Brute Force -XSS,3,30.0,1.0,0.0
+CIC_V2,relation_ablation,both_no_protocol_numeric,DDOS attack-HOIC,3,12102.0,1.0,0.0
+CIC_V2,relation_ablation,both_no_protocol_numeric,DDOS attack-LOIC-UDP,3,59.0,1.0,0.0
+CIC_V2,relation_ablation,both_no_protocol_numeric,DDoS attacks-LOIC-HTTP,3,2122.0,1.0,0.0
+CIC_V2,relation_ablation,both_no_protocol_numeric,DoS attacks-GoldenEye,3,372.0,1.0,0.0
+CIC_V2,relation_ablation,both_no_protocol_numeric,DoS attacks-Hulk,3,5655.0,1.0,0.0
+CIC_V2,relation_ablation,both_no_protocol_numeric,Infilteration,3,1536.0,0.004123263888888889,0.0003758790815036628
+CIC_V2,relation_ablation,both_no_protocol_numeric,SQL Injection,3,15.0,1.0,0.0
+CIC_V2,relation_ablation,both_no_protocol_numeric,SSH-Bruteforce,3,224.0,1.0,0.0
+CIC_V2,relation_ablation,both_relations,Bot,3,601.0,0.6167498613422074,0.1264595556585986
+CIC_V2,relation_ablation,both_relations,Brute Force -Web,3,62.0,0.967741935483871,0.0
+CIC_V2,relation_ablation,both_relations,Brute Force -XSS,3,30.0,1.0,0.0
+CIC_V2,relation_ablation,both_relations,DDOS attack-HOIC,3,12102.0,1.0,0.0
+CIC_V2,relation_ablation,both_relations,DDOS attack-LOIC-UDP,3,59.0,1.0,0.0
+CIC_V2,relation_ablation,both_relations,DDoS attacks-LOIC-HTTP,3,2122.0,1.0,0.0
+CIC_V2,relation_ablation,both_relations,DoS attacks-GoldenEye,3,372.0,1.0,0.0
+CIC_V2,relation_ablation,both_relations,DoS attacks-Hulk,3,5655.0,1.0,0.0
+CIC_V2,relation_ablation,both_relations,Infilteration,3,1536.0,0.0032552083333333335,0.0011276372445109878
+CIC_V2,relation_ablation,both_relations,SQL Injection,3,15.0,1.0,0.0
+CIC_V2,relation_ablation,both_relations,SSH-Bruteforce,3,224.0,1.0,0.0
+CIC_V2,relation_ablation,ip_ip_only,Bot,3,601.0,0.9911259012756517,0.004187373508192314
+CIC_V2,relation_ablation,ip_ip_only,Brute Force -Web,3,62.0,0.989247311827957,0.009312101115961698
+CIC_V2,relation_ablation,ip_ip_only,Brute Force -XSS,3,30.0,1.0,0.0
+CIC_V2,relation_ablation,ip_ip_only,DDOS attack-HOIC,3,12102.0,1.0,0.0
+CIC_V2,relation_ablation,ip_ip_only,DDOS attack-LOIC-UDP,3,59.0,1.0,0.0
+CIC_V2,relation_ablation,ip_ip_only,DDoS attacks-LOIC-HTTP,3,2122.0,1.0,0.0
+CIC_V2,relation_ablation,ip_ip_only,DoS attacks-GoldenEye,3,372.0,1.0,0.0
+CIC_V2,relation_ablation,ip_ip_only,DoS attacks-Hulk,3,5655.0,1.0,0.0
+CIC_V2,relation_ablation,ip_ip_only,Infilteration,3,1536.0,0.06553819444444445,0.03459925600336935
+CIC_V2,relation_ablation,ip_ip_only,SQL Injection,3,15.0,1.0,0.0
+CIC_V2,relation_ablation,ip_ip_only,SSH-Bruteforce,3,224.0,1.0,0.0
+CIC_V2,relation_ablation,ip_protocol_only,Bot,3,601.0,0.24237382140876318,0.23885035351190692
+CIC_V2,relation_ablation,ip_protocol_only,Brute Force -Web,3,62.0,0.7258064516129031,0.3772263085008548
+CIC_V2,relation_ablation,ip_protocol_only,Brute Force -XSS,3,30.0,0.26666666666666666,0.0
+CIC_V2,relation_ablation,ip_protocol_only,DDOS attack-HOIC,3,12102.0,1.0,0.0
+CIC_V2,relation_ablation,ip_protocol_only,DDOS attack-LOIC-UDP,3,59.0,0.9887005649717514,0.009785597782874987
+CIC_V2,relation_ablation,ip_protocol_only,DDoS attacks-LOIC-HTTP,3,2122.0,0.6848884699968583,0.5135998394738938
+CIC_V2,relation_ablation,ip_protocol_only,DoS attacks-GoldenEye,3,372.0,0.9543010752688171,0.07454529367667767
+CIC_V2,relation_ablation,ip_protocol_only,DoS attacks-Hulk,3,5655.0,0.8584733274388446,0.12051477739797109
+CIC_V2,relation_ablation,ip_protocol_only,Infilteration,3,1536.0,0.0010850694444444445,0.0018793954075183132
+CIC_V2,relation_ablation,ip_protocol_only,SQL Injection,3,15.0,0.26666666666666666,0.0
+CIC_V2,relation_ablation,ip_protocol_only,SSH-Bruteforce,3,224.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_0,Analysis,3,441.0,0.999244142101285,0.0013091842838767252
+UNSW_V2,batch_partition_sensitivity,partition_0,Backdoor,3,402.0,0.9950248756218906,0.00497512437810943
+UNSW_V2,batch_partition_sensitivity,partition_0,DoS,3,955.0,0.9979057591623036,0.002094240837696326
+UNSW_V2,batch_partition_sensitivity,partition_0,Exploits,3,4708.0,0.9994335882186349,0.0003244531078275521
+UNSW_V2,batch_partition_sensitivity,partition_0,Fuzzers,3,4794.0,0.9995828118481436,0.0002085940759282701
+UNSW_V2,batch_partition_sensitivity,partition_0,Generic,3,2625.0,0.9991111111111112,0.0007930156188442197
+UNSW_V2,batch_partition_sensitivity,partition_0,Reconnaissance,3,697.0,0.9980870396939263,0.0016566722214910667
+UNSW_V2,batch_partition_sensitivity,partition_0,Shellcode,3,177.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_0,Worms,3,15.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_3027,Analysis,3,441.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_3027,Backdoor,3,402.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_3027,DoS,3,955.0,0.999301919720768,0.0006045552556959246
+UNSW_V2,batch_partition_sensitivity,partition_3027,Exploits,3,4708.0,0.9997875955819882,0.0
+UNSW_V2,batch_partition_sensitivity,partition_3027,Fuzzers,3,4794.0,0.9998609372827145,0.0001204318458885159
+UNSW_V2,batch_partition_sensitivity,partition_3027,Generic,3,2625.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_3027,Reconnaissance,3,697.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_3027,Shellcode,3,177.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_3027,Worms,3,15.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_4027,Analysis,3,441.0,0.999244142101285,0.0013091842838767252
+UNSW_V2,batch_partition_sensitivity,partition_4027,Backdoor,3,402.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_4027,DoS,3,955.0,0.9989528795811519,0.0010471204188481908
+UNSW_V2,batch_partition_sensitivity,partition_4027,Exploits,3,4708.0,0.9997875955819882,0.0
+UNSW_V2,batch_partition_sensitivity,partition_4027,Fuzzers,3,4794.0,0.9998609372827145,0.0002408636917770959
+UNSW_V2,batch_partition_sensitivity,partition_4027,Generic,3,2625.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_4027,Reconnaissance,3,697.0,0.9995217599234816,0.0008283361107455333
+UNSW_V2,batch_partition_sensitivity,partition_4027,Shellcode,3,177.0,1.0,0.0
+UNSW_V2,batch_partition_sensitivity,partition_4027,Worms,3,15.0,1.0,0.0
+UNSW_V2,relation_ablation,both_no_protocol_numeric,Analysis,3,441.0,0.9977324263038548,0.0
+UNSW_V2,relation_ablation,both_no_protocol_numeric,Backdoor,3,402.0,0.9859038142620232,0.0014361946994767064
+UNSW_V2,relation_ablation,both_no_protocol_numeric,DoS,3,955.0,0.9944153577661431,0.0006045552556959887
+UNSW_V2,relation_ablation,both_no_protocol_numeric,Exploits,3,4708.0,0.9984423676012462,0.0006827846757995707
+UNSW_V2,relation_ablation,both_no_protocol_numeric,Fuzzers,3,4794.0,0.9989570296203588,0.0
+UNSW_V2,relation_ablation,both_no_protocol_numeric,Generic,3,2625.0,0.9979682539682541,0.0002199429596913442
+UNSW_V2,relation_ablation,both_no_protocol_numeric,Reconnaissance,3,697.0,0.9937828790052606,0.0008283361107455333
+UNSW_V2,relation_ablation,both_no_protocol_numeric,Shellcode,3,177.0,1.0,0.0
+UNSW_V2,relation_ablation,both_no_protocol_numeric,Worms,3,15.0,1.0,0.0
+UNSW_V2,relation_ablation,both_relations,Analysis,3,441.0,0.999244142101285,0.0013091842838767252
+UNSW_V2,relation_ablation,both_relations,Backdoor,3,402.0,0.9950248756218906,0.00497512437810943
+UNSW_V2,relation_ablation,both_relations,DoS,3,955.0,0.9979057591623036,0.002094240837696326
+UNSW_V2,relation_ablation,both_relations,Exploits,3,4708.0,0.9994335882186349,0.0003244531078275521
+UNSW_V2,relation_ablation,both_relations,Fuzzers,3,4794.0,0.9995828118481436,0.0002085940759282701
+UNSW_V2,relation_ablation,both_relations,Generic,3,2625.0,0.9991111111111112,0.0007930156188442197
+UNSW_V2,relation_ablation,both_relations,Reconnaissance,3,697.0,0.9980870396939263,0.0016566722214910667
+UNSW_V2,relation_ablation,both_relations,Shellcode,3,177.0,1.0,0.0
+UNSW_V2,relation_ablation,both_relations,Worms,3,15.0,1.0,0.0
+UNSW_V2,relation_ablation,ip_ip_only,Analysis,3,441.0,0.9977324263038548,0.0
+UNSW_V2,relation_ablation,ip_ip_only,Backdoor,3,402.0,0.9933665008291874,0.005178273630512753
+UNSW_V2,relation_ablation,ip_ip_only,DoS,3,955.0,0.9954624781849913,0.001599502860368542
+UNSW_V2,relation_ablation,ip_ip_only,Exploits,3,4708.0,0.9995751911639762,0.0004248088360238045
+UNSW_V2,relation_ablation,ip_ip_only,Fuzzers,3,4794.0,0.9994437491308581,0.0004342231955498656
+UNSW_V2,relation_ablation,ip_ip_only,Generic,3,2625.0,0.9988571428571428,0.0011428571428571677
+UNSW_V2,relation_ablation,ip_ip_only,Reconnaissance,3,697.0,0.9961740793878526,0.0029866083206113764
+UNSW_V2,relation_ablation,ip_ip_only,Shellcode,3,177.0,1.0,0.0
+UNSW_V2,relation_ablation,ip_ip_only,Worms,3,15.0,1.0,0.0
+UNSW_V2,relation_ablation,ip_protocol_only,Analysis,3,441.0,1.0,0.0
+UNSW_V2,relation_ablation,ip_protocol_only,Backdoor,3,402.0,1.0,0.0
+UNSW_V2,relation_ablation,ip_protocol_only,DoS,3,955.0,1.0,0.0
+UNSW_V2,relation_ablation,ip_protocol_only,Exploits,3,4708.0,0.9997167941093176,0.0001226317479162696
+UNSW_V2,relation_ablation,ip_protocol_only,Fuzzers,3,4794.0,0.9999304686413573,0.0001204318458885159
+UNSW_V2,relation_ablation,ip_protocol_only,Generic,3,2625.0,1.0,0.0
+UNSW_V2,relation_ablation,ip_protocol_only,Reconnaissance,3,697.0,1.0,0.0
+UNSW_V2,relation_ablation,ip_protocol_only,Shellcode,3,177.0,1.0,0.0
+UNSW_V2,relation_ablation,ip_protocol_only,Worms,3,15.0,1.0,0.0
