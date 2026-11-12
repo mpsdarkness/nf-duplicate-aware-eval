@@ -1,0 +1,127 @@
+{
+ "run_id": "UNSW_V2__frozen__random_row__split456__lightgbm__model42",
+ "dataset": "UNSW_V2",
+ "cohort": "frozen",
+ "protocol": "random_row",
+ "split_seed": 456,
+ "model": "lightgbm",
+ "model_seed": 42,
+ "split_fingerprint": "7d86fc0f831aeca758c5",
+ "split_salt": null,
+ "clip": null,
+ "test_out_of_train_range_frac": 2.0843820380462253e-06,
+ "fit_seconds": 4.5,
+ "predict_seconds": 0.3,
+ "smoke": false,
+ "best_iteration": 571,
+ "reached_ceiling": false,
+ "scale_pos_weight": 2.4462523766636646,
+ "threshold": 0.4897511303424835,
+ "val_f1_macro_at_threshold": 0.9964566004628298,
+ "n": 49206.0,
+ "n_attack": 14283.0,
+ "n_benign": 34923.0,
+ "attack_pct": 29.02694793317888,
+ "f1_macro": 0.9971454600826027,
+ "f1_attack": 0.9959542410714286,
+ "fpr_pct": 0.3178421097843828,
+ "tpr": 0.9996499334873626,
+ "precision": 0.9922857738550281,
+ "tp": 14278.0,
+ "fp": 111.0,
+ "fn": 5.0,
+ "tn": 34812.0,
+ "pr_auc": 0.9992231669329019,
+ "gb_f1_macro": 0.9912851994412488,
+ "gb_fpr_pct": 2.001906577693041,
+ "gb_tpr": 0.9993740610916375,
+ "gb_precision": 0.9870178041543026,
+ "gb_pr_auc": 0.9977736595499813,
+ "fpr0.1_threshold": 0.9939298033714294,
+ "fpr0.1_val_fpr_pct": 0.097359830479354,
+ "fpr0.1_val_tpr": 0.9219341275402944,
+ "fpr0.1_val_benign_rows": 17461,
+ "fpr0.1_test_fpr_pct": 0.07731294562322824,
+ "fpr0.1_test_fp": 27.0,
+ "fpr0.1_test_tpr": 0.9206049149338374,
+ "fpr0.1_interpretable": true,
+ "fpr0.01_threshold": 0.9997146129608154,
+ "fpr0.01_val_fpr_pct": 0.005727048851726705,
+ "fpr0.01_val_tpr": 0.5062368605466012,
+ "fpr0.01_val_benign_rows": 17461,
+ "fpr0.01_test_fpr_pct": 0.01145376972195974,
+ "fpr0.01_test_fp": 4.0,
+ "fpr0.01_test_tpr": 0.5062661905762095,
+ "fpr0.01_interpretable": false,
+ "family_recall": [
+  {
+   "family": "Benign",
+   "count": 0,
+   "recall": NaN
+  },
+  {
+   "family": "Exploits",
+   "count": 4824,
+   "recall": 0.9995854063018242
+  },
+  {
+   "family": "Generic",
+   "count": 2537,
+   "recall": 1.0
+  },
+  {
+   "family": "Fuzzers",
+   "count": 3464,
+   "recall": 0.9997113163972287
+  },
+  {
+   "family": "Backdoor",
+   "count": 358,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS",
+   "count": 915,
+   "recall": 0.9978142076502732
+  },
+  {
+   "family": "Reconnaissance",
+   "count": 1551,
+   "recall": 1.0
+  },
+  {
+   "family": "Shellcode",
+   "count": 223,
+   "recall": 1.0
+  },
+  {
+   "family": "Worms",
+   "count": 30,
+   "recall": 1.0
+  },
+  {
+   "family": "Analysis",
+   "count": 381,
+   "recall": 1.0
+  }
+ ],
+ "model_config": {
+  "objective": "binary",
+  "n_estimators": 2000,
+  "learning_rate": 0.03,
+  "num_leaves": 31,
+  "max_depth": -1,
+  "min_child_samples": 50,
+  "subsample": 0.8,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.8,
+  "reg_alpha": 0.0,
+  "reg_lambda": 1.0,
+  "max_bin": 255,
+  "deterministic": true,
+  "force_col_wise": true,
+  "n_jobs": -1,
+  "verbose": -1
+ },
+ "history": null
+}

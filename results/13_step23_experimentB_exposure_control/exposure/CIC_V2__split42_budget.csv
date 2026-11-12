@@ -1,0 +1,15 @@
+stratum,donors_available,r0_rows,budget_b_f
+Benign,3288,244257,3288
+Bot,15,2812,15
+Brute Force -Web,5,173,5
+Brute Force -XSS,1,123,1
+DDOS attack-HOIC,504,45220,504
+DDoS attacks-LOIC-HTTP,4,19557,4
+DoS attacks-GoldenEye,11,1360,11
+DoS attacks-Hulk,440,19552,440
+DoS attacks-SlowHTTPTest,1,0,0
+DoS attacks-Slowloris,1,966,1
+FTP-BruteForce,1,1864,1
+Infilteration,54,5461,54
+SQL Injection,1,53,1
+SSH-Bruteforce,3,6084,3

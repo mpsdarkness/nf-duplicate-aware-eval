@@ -1,7 +1,7 @@
 {
   "title": "Duplicate-Aware Evaluation of NetFlow Intrusion Detection: A Hash-Group-Disjoint Protocol for the NF-v2 Datasets (code, notebooks and result files)",
   "upload_type": "software",
-  "description": "Standalone implementation of the hash-group-disjoint split protocol (nfdup), the Google Colab notebooks that produced the experiments, and the result files of the paper. Datasets are not redistributed.",
+  "description": "Standalone implementation of the hash-group-disjoint split protocol (nfdup), the Google Colab notebooks that produced the experiments, and the result files of the paper. Datasets are not redistributed. Version 1.1.0 adds experiments A (random-row versus group-disjoint, crossed seeds), B (exposure control on a fixed test set) and paired group bootstraps (steps 22-24).",
   "creators": [
     {
       "name": "Nguyen, Ngoc Quy",
@@ -23,5 +23,6 @@
     "duplicate-aware evaluation",
     "group-disjoint split",
     "data leakage"
-  ]
+  ],
+  "version": "1.1.0"
 }

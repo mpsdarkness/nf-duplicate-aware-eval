@@ -1,0 +1,123 @@
+{
+ "dataset": "UNSW_V2",
+ "split_seed": 456,
+ "base_split": {
+  "dataset": "UNSW_V2",
+  "cohort": "frozen",
+  "protocol": "hash_group_disjoint",
+  "split_seed": 456,
+  "cohort_rows": 245994,
+  "cohort_groups": 41640,
+  "method": "Algorithm 1, candidate search over 24 salts",
+  "seed": 456,
+  "n_groups": 41640,
+  "candidate_salts_tested": 24,
+  "selected_salt": "6721501163293158066",
+  "selected_objective": 0.2191856634272208,
+  "selected_global_fraction_mae": 0.02466564225143704,
+  "selected_family_fraction_weighted_mae": 0.028734164498802728,
+  "selected_max_family_fraction_error": 0.26849315068493146,
+  "selected_missing_required_family_cells": 0,
+  "selected_split_rows": [
+   173192,
+   15498,
+   57304
+  ],
+  "train_rows": 173192,
+  "train_groups": 29068,
+  "train_attack_pct": 29.79236916254792,
+  "train_families_absent": "",
+  "validation_rows": 15498,
+  "validation_groups": 4135,
+  "validation_attack_pct": 41.908633372048,
+  "validation_families_absent": "",
+  "test_rows": 57304,
+  "test_groups": 8437,
+  "test_attack_pct": 23.192098282842384,
+  "test_families_absent": "",
+  "train_to_test_row_overlap_pct": 0.0,
+  "train_to_test_group_overlap_pct": 0.0,
+  "train_to_validation_row_overlap_pct": 0.0,
+  "train_to_validation_group_overlap_pct": 0.0,
+  "validation_to_test_row_overlap_pct": 0.0,
+  "validation_to_test_group_overlap_pct": 0.0,
+  "test_largest_group_rows": 20356,
+  "fingerprint": "f46bc3af3c17e0d5c2f4"
+ },
+ "H_rows": 57304,
+ "H_groups": 8437,
+ "donors": 2580,
+ "donor_groups_label_mixed": 0,
+ "T_rows": 54724,
+ "T_groups": 8437,
+ "T_attack_pct": 22.242526131130766,
+ "V_rows": 15498,
+ "R0_rows": 173192,
+ "R0_attack_pct": 29.79236916254792,
+ "pairs_total": 2579,
+ "exposed_groups_B100": 2579,
+ "T_rows_in_exposed_groups": 48866,
+ "T_eligible_pct": 89.29537314523792,
+ "strata_budget": [
+  {
+   "stratum": "Analysis",
+   "donors_available": 14,
+   "r0_rows": 1375,
+   "budget_b_f": 14
+  },
+  {
+   "stratum": "Backdoor",
+   "donors_available": 21,
+   "r0_rows": 1303,
+   "budget_b_f": 21
+  },
+  {
+   "stratum": "Benign",
+   "donors_available": 1462,
+   "r0_rows": 121594,
+   "budget_b_f": 1462
+  },
+  {
+   "stratum": "DoS",
+   "donors_available": 52,
+   "r0_rows": 3189,
+   "budget_b_f": 52
+  },
+  {
+   "stratum": "Exploits",
+   "donors_available": 231,
+   "r0_rows": 17036,
+   "budget_b_f": 231
+  },
+  {
+   "stratum": "Fuzzers",
+   "donors_available": 332,
+   "r0_rows": 12289,
+   "budget_b_f": 332
+  },
+  {
+   "stratum": "Generic",
+   "donors_available": 381,
+   "r0_rows": 8824,
+   "budget_b_f": 381
+  },
+  {
+   "stratum": "Reconnaissance",
+   "donors_available": 46,
+   "r0_rows": 6768,
+   "budget_b_f": 46
+  },
+  {
+   "stratum": "Shellcode",
+   "donors_available": 34,
+   "r0_rows": 751,
+   "budget_b_f": 34
+  },
+  {
+   "stratum": "Worms",
+   "donors_available": 7,
+   "r0_rows": 63,
+   "budget_b_f": 6
+  }
+ ]
+}

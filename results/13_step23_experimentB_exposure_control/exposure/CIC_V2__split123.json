@@ -1,0 +1,141 @@
+{
+ "dataset": "CIC_V2",
+ "split_seed": 123,
+ "base_split": {
+  "dataset": "CIC_V2",
+  "cohort": "frozen",
+  "protocol": "hash_group_disjoint",
+  "split_seed": 123,
+  "cohort_rows": 496384,
+  "cohort_groups": 233966,
+  "method": "Algorithm 1, candidate search over 24 salts",
+  "seed": 123,
+  "n_groups": 233966,
+  "candidate_salts_tested": 24,
+  "selected_salt": "4271447349828353003",
+  "selected_objective": 40.30783609892273,
+  "selected_global_fraction_mae": 0.012621142771187912,
+  "selected_family_fraction_weighted_mae": 0.04473038506678846,
+  "selected_max_family_fraction_error": 0.8,
+  "selected_missing_required_family_cells": 4,
+  "selected_split_rows": [
+   352452,
+   40241,
+   103691
+  ],
+  "train_rows": 352452,
+  "train_groups": 163678,
+  "train_attack_pct": 30.599344024150803,
+  "train_families_absent": "DoS attacks-SlowHTTPTest",
+  "validation_rows": 40241,
+  "validation_groups": 23375,
+  "validation_attack_pct": 21.22710668223951,
+  "validation_families_absent": "FTP-BruteForce;DoS attacks-SlowHTTPTest",
+  "test_rows": 103691,
+  "test_groups": 46913,
+  "test_attack_pct": 28.93308001658775,
+  "test_families_absent": "DoS attacks-Slowloris",
+  "train_to_test_row_overlap_pct": 0.0,
+  "train_to_test_group_overlap_pct": 0.0,
+  "train_to_validation_row_overlap_pct": 0.0,
+  "train_to_validation_group_overlap_pct": 0.0,
+  "validation_to_test_row_overlap_pct": 0.0,
+  "validation_to_test_group_overlap_pct": 0.0,
+  "test_largest_group_rows": 11672,
+  "fingerprint": "ea20b4b64aa05fbb1836"
+ },
+ "H_rows": 103691,
+ "H_groups": 46913,
+ "donors": 4316,
+ "donor_groups_label_mixed": 0,
+ "T_rows": 99375,
+ "T_groups": 46913,
+ "T_attack_pct": 29.160251572327045,
+ "V_rows": 40241,
+ "R0_rows": 352452,
+ "R0_attack_pct": 30.599344024150803,
+ "pairs_total": 4315,
+ "exposed_groups_B100": 4315,
+ "T_rows_in_exposed_groups": 55641,
+ "T_eligible_pct": 55.99094339622641,
+ "strata_budget": [
+  {
+   "stratum": "Benign",
+   "donors_available": 3293,
+   "r0_rows": 244604,
+   "budget_b_f": 3293
+  },
+  {
+   "stratum": "Bot",
+   "donors_available": 19,
+   "r0_rows": 2821,
+   "budget_b_f": 19
+  },
+  {
+   "stratum": "Brute Force -Web",
+   "donors_available": 5,
+   "r0_rows": 232,
+   "budget_b_f": 5
+  },
+  {
+   "stratum": "Brute Force -XSS",
+   "donors_available": 6,
+   "r0_rows": 121,
+   "budget_b_f": 6
+  },
+  {
+   "stratum": "DDOS attack-HOIC",
+   "donors_available": 479,
+   "r0_rows": 50385,
+   "budget_b_f": 479
+  },
+  {
+   "stratum": "DDoS attacks-LOIC-HTTP",
+   "donors_available": 4,
+   "r0_rows": 20043,
+   "budget_b_f": 4
+  },
+  {
+   "stratum": "DoS attacks-GoldenEye",
+   "donors_available": 11,
+   "r0_rows": 1402,
+   "budget_b_f": 11
+  },
+  {
+   "stratum": "DoS attacks-Hulk",
+   "donors_available": 436,
+   "r0_rows": 20112,
+   "budget_b_f": 436
+  },
+  {
+   "stratum": "DoS attacks-SlowHTTPTest",
+   "donors_available": 1,
+   "r0_rows": 0,
+   "budget_b_f": 0
+  },
+  {
+   "stratum": "FTP-BruteForce",
+   "donors_available": 1,
+   "r0_rows": 1864,
+   "budget_b_f": 1
+  },
+  {
+   "stratum": "Infilteration",
+   "donors_available": 56,
+   "r0_rows": 5390,
+   "budget_b_f": 56
+  },
+  {
+   "stratum": "SQL Injection",
+   "donors_available": 1,
+   "r0_rows": 50,
+   "budget_b_f": 1
+  },
+  {
+   "stratum": "SSH-Bruteforce",
+   "donors_available": 4,
+   "r0_rows": 4227,
+   "budget_b_f": 4
+  }
+ ]
+}

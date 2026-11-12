@@ -1,0 +1,124 @@
+{
+ "run_id": "UNSW_V2__split42__B50__lightgbm__model456",
+ "dataset": "UNSW_V2",
+ "split_seed": 42,
+ "condition": "B50",
+ "alpha": 0.5,
+ "model": "lightgbm",
+ "model_seed": 456,
+ "clip": null,
+ "fit_seconds": 3.1,
+ "smoke": false,
+ "train_rows": 180074,
+ "train_groups": 30123,
+ "rows_replaced": 1298,
+ "T_row_overlap_pct": 44.79796372892142,
+ "T_group_overlap_pct": 15.302994576750766,
+ "V_row_overlap_pct": 0.0,
+ "best_iteration": 232,
+ "reached_ceiling": false,
+ "scale_pos_weight": 2.4713729421290047,
+ "threshold": 0.7452277541160583,
+ "val_f1_macro_at_threshold": 0.9958853360779082,
+ "n": 40859.0,
+ "n_attack": 12216.0,
+ "n_benign": 28643.0,
+ "attack_pct": 29.897941701950607,
+ "f1_macro": 0.9964769477357975,
+ "f1_attack": 0.9950702790792422,
+ "fpr_pct": 0.4084767657019167,
+ "tpr": 0.9996725605762934,
+ "precision": 0.9905101792521697,
+ "tp": 12212.0,
+ "fp": 117.0,
+ "fn": 4.0,
+ "tn": 28526.0,
+ "pr_auc": 0.998902777428247,
+ "gb_f1_macro": 0.9863598255543139,
+ "gb_fpr_pct": 3.4942363112391934,
+ "gb_tpr": 0.9992989835261129,
+ "gb_precision": 0.9832729780996724,
+ "gb_pr_auc": 0.9958108635291318,
+ "fpr0.1_threshold": 0.9965227842330933,
+ "fpr0.1_val_fpr_pct": 0.0982982122012656,
+ "fpr0.1_val_tpr": 0.7777777777777778,
+ "fpr0.1_val_benign_rows": 16277,
+ "fpr0.1_test_fpr_pct": 0.05236881611563035,
+ "fpr0.1_test_fp": 15.0,
+ "fpr0.1_test_tpr": 0.7806155861165684,
+ "fpr0.1_interpretable": true,
+ "fpr0.01_threshold": 0.9986729621887207,
+ "fpr0.01_val_fpr_pct": 0.0061436382625791,
+ "fpr0.01_val_tpr": 0.3655183567847323,
+ "fpr0.01_val_benign_rows": 16277,
+ "fpr0.01_test_fpr_pct": 0.00349125440770869,
+ "fpr0.01_test_fp": 1.0,
+ "fpr0.01_test_tpr": 0.3094302554027505,
+ "fpr0.01_interpretable": false,
+ "family_recall": [
+  {
+   "family": "Benign",
+   "count": 0,
+   "recall": NaN
+  },
+  {
+   "family": "Exploits",
+   "count": 4489,
+   "recall": 0.9997772332368011
+  },
+  {
+   "family": "Generic",
+   "count": 2180,
+   "recall": 1.0
+  },
+  {
+   "family": "Fuzzers",
+   "count": 3154,
+   "recall": 0.9993658845909955
+  },
+  {
+   "family": "Backdoor",
+   "count": 331,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS",
+   "count": 854,
+   "recall": 0.9988290398126464
+  },
+  {
+   "family": "Reconnaissance",
+   "count": 629,
+   "recall": 1.0
+  },
+  {
+   "family": "Shellcode",
+   "count": 205,
+   "recall": 1.0
+  },
+  {
+   "family": "Worms",
+   "count": 17,
+   "recall": 1.0
+  },
+  {
+   "family": "Analysis",
+   "count": 357,
+   "recall": 1.0
+  }
+ ],
+ "eligible_n": 34978.0,
+ "eligible_n_attack": 7620.0,
+ "eligible_n_benign": 27358.0,
+ "eligible_attack_pct": 21.78512207673395,
+ "eligible_f1_macro": 0.9984506909579468,
+ "eligible_f1_attack": 0.9975780585193428,
+ "eligible_fpr_pct": 0.1352438043716646,
+ "eligible_tpr": 1.0,
+ "eligible_precision": 0.9951678202951547,
+ "eligible_tp": 7620.0,
+ "eligible_fp": 37.0,
+ "eligible_fn": 0.0,
+ "eligible_tn": 27321.0,
+ "eligible_pr_auc": 0.9998993709968718
+}

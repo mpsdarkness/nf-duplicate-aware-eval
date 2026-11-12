@@ -1,0 +1,676 @@
+run_id,dataset,split_seed,condition,model,model_seed,family,count,recall
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,SSH-Bruteforce,1645,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,Benign,0,
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,DDoS attacks-LOIC-HTTP,2071,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,DDOS attack-HOIC,15985,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,DoS attacks-Slowloris,0,
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,DoS attacks-Hulk,5170,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,FTP-BruteForce,1,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,Infilteration,1619,0.0759728227300803
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,Bot,788,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,DoS attacks-GoldenEye,396,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,Brute Force -Web,53,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,SQL Injection,14,1.0
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,DDOS attack-LOIC-UDP,67,0.9850746268656716
+CIC_V2__split123__B0__lightgbm__model123,CIC_V2,123,B0,lightgbm,123,Brute Force -XSS,32,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,SSH-Bruteforce,1645,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,Benign,0,
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,DDoS attacks-LOIC-HTTP,2071,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,DDOS attack-HOIC,15985,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,DoS attacks-Slowloris,0,
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,DoS attacks-Hulk,5170,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,FTP-BruteForce,1,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,Infilteration,1619,0.0759728227300803
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,Bot,788,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,DoS attacks-GoldenEye,396,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,Brute Force -Web,53,0.9433962264150944
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,SQL Injection,14,1.0
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,DDOS attack-LOIC-UDP,67,0.9850746268656716
+CIC_V2__split123__B0__lightgbm__model42,CIC_V2,123,B0,lightgbm,42,Brute Force -XSS,32,0.96875
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,SSH-Bruteforce,1645,1.0
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,Benign,0,
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,DDoS attacks-LOIC-HTTP,2071,1.0
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,DDOS attack-HOIC,15985,1.0
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,DoS attacks-Slowloris,0,
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,DoS attacks-Hulk,5170,1.0
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,FTP-BruteForce,1,1.0
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,Infilteration,1619,0.0765904879555281
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,Bot,788,1.0
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,DoS attacks-GoldenEye,396,1.0
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,Brute Force -Web,53,0.9433962264150944
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,SQL Injection,14,1.0
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,DDOS attack-LOIC-UDP,67,0.9850746268656716
+CIC_V2__split123__B0__lightgbm__model456,CIC_V2,123,B0,lightgbm,456,Brute Force -XSS,32,0.96875
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,SSH-Bruteforce,1645,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,Benign,0,
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,DDoS attacks-LOIC-HTTP,2071,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,DDOS attack-HOIC,15985,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,DoS attacks-Slowloris,0,
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,DoS attacks-Hulk,5170,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,FTP-BruteForce,1,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,Infilteration,1619,0.0765904879555281
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,Bot,788,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,DoS attacks-GoldenEye,396,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,Brute Force -Web,53,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,SQL Injection,14,1.0
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,DDOS attack-LOIC-UDP,67,0.9850746268656716
+CIC_V2__split123__B100__lightgbm__model123,CIC_V2,123,B100,lightgbm,123,Brute Force -XSS,32,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,SSH-Bruteforce,1645,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,Benign,0,
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,DDoS attacks-LOIC-HTTP,2071,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,DDOS attack-HOIC,15985,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,DoS attacks-Slowloris,0,
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,DoS attacks-Hulk,5170,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,FTP-BruteForce,1,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,Infilteration,1619,0.14947498455836936
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,Bot,788,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,DoS attacks-GoldenEye,396,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,Brute Force -Web,53,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,SQL Injection,14,1.0
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,DDOS attack-LOIC-UDP,67,0.9850746268656716
+CIC_V2__split123__B100__lightgbm__model42,CIC_V2,123,B100,lightgbm,42,Brute Force -XSS,32,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,SSH-Bruteforce,1645,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,Benign,0,
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,DDoS attacks-LOIC-HTTP,2071,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,DDOS attack-HOIC,15985,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,DoS attacks-Slowloris,0,
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,DoS attacks-Hulk,5170,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,FTP-BruteForce,1,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,Infilteration,1619,0.07906114885731934
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,Bot,788,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,DoS attacks-GoldenEye,396,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,Brute Force -Web,53,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,SQL Injection,14,1.0
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,DDOS attack-LOIC-UDP,67,0.9850746268656716
+CIC_V2__split123__B100__lightgbm__model456,CIC_V2,123,B100,lightgbm,456,Brute Force -XSS,32,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,SSH-Bruteforce,1645,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,Benign,0,
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,DDoS attacks-LOIC-HTTP,2071,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,DDOS attack-HOIC,15985,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,DoS attacks-Slowloris,0,
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,DoS attacks-Hulk,5170,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,FTP-BruteForce,1,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,Infilteration,1619,0.07720815318097592
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,Bot,788,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,DoS attacks-GoldenEye,396,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,Brute Force -Web,53,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,SQL Injection,14,1.0
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,DDOS attack-LOIC-UDP,67,0.9850746268656716
+CIC_V2__split123__B50__lightgbm__model123,CIC_V2,123,B50,lightgbm,123,Brute Force -XSS,32,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,SSH-Bruteforce,1645,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,Benign,0,
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,DDoS attacks-LOIC-HTTP,2071,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,DDOS attack-HOIC,15985,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,DoS attacks-Slowloris,0,
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,DoS attacks-Hulk,5170,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,FTP-BruteForce,1,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,Infilteration,1619,0.0765904879555281
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,Bot,788,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,DoS attacks-GoldenEye,396,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,Brute Force -Web,53,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,SQL Injection,14,1.0
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,DDOS attack-LOIC-UDP,67,0.9850746268656716
+CIC_V2__split123__B50__lightgbm__model42,CIC_V2,123,B50,lightgbm,42,Brute Force -XSS,32,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,SSH-Bruteforce,1645,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,Benign,0,
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,DDoS attacks-LOIC-HTTP,2071,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,DDOS attack-HOIC,15985,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,DoS attacks-Slowloris,0,
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,DoS attacks-Hulk,5170,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,FTP-BruteForce,1,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,Infilteration,1619,0.07906114885731934
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,Bot,788,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,DoS attacks-GoldenEye,396,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,Brute Force -Web,53,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,SQL Injection,14,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,DDOS attack-LOIC-UDP,67,1.0
+CIC_V2__split123__B50__lightgbm__model456,CIC_V2,123,B50,lightgbm,456,Brute Force -XSS,32,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,SSH-Bruteforce,214,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,Benign,0,
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,DDoS attacks-LOIC-HTTP,112,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,DDOS attack-HOIC,17750,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,DoS attacks-Slowloris,3,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,DoS attacks-Hulk,5510,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,FTP-BruteForce,1,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,Infilteration,1523,0.06894287590282337
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,Bot,388,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,DoS attacks-GoldenEye,412,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,Brute Force -Web,118,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,SQL Injection,16,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,DDOS attack-LOIC-UDP,65,1.0
+CIC_V2__split42__B0__lightgbm__model123,CIC_V2,42,B0,lightgbm,123,Brute Force -XSS,38,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,SSH-Bruteforce,214,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,Benign,0,
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,DDoS attacks-LOIC-HTTP,112,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,DDOS attack-HOIC,17750,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,DoS attacks-Slowloris,3,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,DoS attacks-Hulk,5510,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,FTP-BruteForce,1,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,Infilteration,1523,0.066973079448457
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,Bot,388,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,DoS attacks-GoldenEye,412,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,Brute Force -Web,118,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,SQL Injection,16,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,DDOS attack-LOIC-UDP,65,1.0
+CIC_V2__split42__B0__lightgbm__model42,CIC_V2,42,B0,lightgbm,42,Brute Force -XSS,38,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,SSH-Bruteforce,214,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,Benign,0,
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,DDoS attacks-LOIC-HTTP,112,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,DDOS attack-HOIC,17750,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,DoS attacks-Slowloris,3,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,DoS attacks-Hulk,5510,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,FTP-BruteForce,1,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,Infilteration,1523,0.066973079448457
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,Bot,388,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,DoS attacks-GoldenEye,412,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,Brute Force -Web,118,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,SQL Injection,16,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,DDOS attack-LOIC-UDP,65,1.0
+CIC_V2__split42__B0__lightgbm__model456,CIC_V2,42,B0,lightgbm,456,Brute Force -XSS,38,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,SSH-Bruteforce,214,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,Benign,0,
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,DDoS attacks-LOIC-HTTP,112,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,DDOS attack-HOIC,17750,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,DoS attacks-Slowloris,3,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,DoS attacks-Hulk,5510,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,FTP-BruteForce,1,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,Infilteration,1523,0.07222586999343401
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,Bot,388,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,DoS attacks-GoldenEye,412,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,Brute Force -Web,118,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,SQL Injection,16,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,DDOS attack-LOIC-UDP,65,1.0
+CIC_V2__split42__B100__lightgbm__model123,CIC_V2,42,B100,lightgbm,123,Brute Force -XSS,38,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,SSH-Bruteforce,214,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,Benign,0,
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,DDoS attacks-LOIC-HTTP,112,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,DDOS attack-HOIC,17750,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,DoS attacks-Slowloris,3,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,DoS attacks-Hulk,5510,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,FTP-BruteForce,1,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,Infilteration,1523,0.07419566644780039
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,Bot,388,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,DoS attacks-GoldenEye,412,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,Brute Force -Web,118,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,SQL Injection,16,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,DDOS attack-LOIC-UDP,65,1.0
+CIC_V2__split42__B100__lightgbm__model42,CIC_V2,42,B100,lightgbm,42,Brute Force -XSS,38,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,SSH-Bruteforce,214,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,Benign,0,
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,DDoS attacks-LOIC-HTTP,112,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,DDOS attack-HOIC,17750,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,DoS attacks-Slowloris,3,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,DoS attacks-Hulk,5510,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,FTP-BruteForce,1,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,Infilteration,1523,0.07025607353906763
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,Bot,388,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,DoS attacks-GoldenEye,412,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,Brute Force -Web,118,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,SQL Injection,16,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,DDOS attack-LOIC-UDP,65,1.0
+CIC_V2__split42__B100__lightgbm__model456,CIC_V2,42,B100,lightgbm,456,Brute Force -XSS,38,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,SSH-Bruteforce,214,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,Benign,0,
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,DDoS attacks-LOIC-HTTP,112,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,DDOS attack-HOIC,17750,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,DoS attacks-Slowloris,3,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,DoS attacks-Hulk,5510,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,FTP-BruteForce,1,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,Infilteration,1523,0.07288246881155613
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,Bot,388,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,DoS attacks-GoldenEye,412,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,Brute Force -Web,118,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,SQL Injection,16,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,DDOS attack-LOIC-UDP,65,1.0
+CIC_V2__split42__B50__lightgbm__model123,CIC_V2,42,B50,lightgbm,123,Brute Force -XSS,38,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,SSH-Bruteforce,214,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,Benign,0,
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,DDoS attacks-LOIC-HTTP,112,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,DDOS attack-HOIC,17750,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,DoS attacks-Slowloris,3,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,DoS attacks-Hulk,5510,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,FTP-BruteForce,1,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,Infilteration,1523,0.06762967826657912
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,Bot,388,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,DoS attacks-GoldenEye,412,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,Brute Force -Web,118,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,SQL Injection,16,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,DDOS attack-LOIC-UDP,65,1.0
+CIC_V2__split42__B50__lightgbm__model42,CIC_V2,42,B50,lightgbm,42,Brute Force -XSS,38,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,SSH-Bruteforce,214,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,Benign,0,
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,DDoS attacks-LOIC-HTTP,112,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,DDOS attack-HOIC,17750,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,DoS attacks-Slowloris,3,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,DoS attacks-Hulk,5510,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,FTP-BruteForce,1,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,Infilteration,1523,0.07091267235718976
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,Bot,388,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,DoS attacks-GoldenEye,412,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,Brute Force -Web,118,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,DoS attacks-SlowHTTPTest,1137,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,SQL Injection,16,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,DDOS attack-LOIC-UDP,65,1.0
+CIC_V2__split42__B50__lightgbm__model456,CIC_V2,42,B50,lightgbm,456,Brute Force -XSS,38,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,SSH-Bruteforce,1263,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,Benign,0,
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,DDoS attacks-LOIC-HTTP,184,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,DDOS attack-HOIC,13575,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,DoS attacks-Slowloris,3,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,DoS attacks-Hulk,5250,0.9998095238095238
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,FTP-BruteForce,1863,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,Infilteration,1583,0.12128869235628553
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,Bot,733,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,DoS attacks-GoldenEye,405,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,Brute Force -Web,124,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,DoS attacks-SlowHTTPTest,0,
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,SQL Injection,16,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,DDOS attack-LOIC-UDP,66,1.0
+CIC_V2__split456__B0__lightgbm__model123,CIC_V2,456,B0,lightgbm,123,Brute Force -XSS,34,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,SSH-Bruteforce,1263,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,Benign,0,
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,DDoS attacks-LOIC-HTTP,184,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,DDOS attack-HOIC,13575,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,DoS attacks-Slowloris,3,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,DoS attacks-Hulk,5250,0.9998095238095238
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,FTP-BruteForce,1863,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,Infilteration,1583,0.053063802905874924
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,Bot,733,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,DoS attacks-GoldenEye,405,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,Brute Force -Web,124,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,DoS attacks-SlowHTTPTest,0,
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,SQL Injection,16,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,DDOS attack-LOIC-UDP,66,1.0
+CIC_V2__split456__B0__lightgbm__model42,CIC_V2,456,B0,lightgbm,42,Brute Force -XSS,34,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,SSH-Bruteforce,1263,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,Benign,0,
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,DDoS attacks-LOIC-HTTP,184,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,DDOS attack-HOIC,13575,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,DoS attacks-Slowloris,3,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,DoS attacks-Hulk,5250,0.9998095238095238
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,FTP-BruteForce,1863,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,Infilteration,1583,0.12065698041692988
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,Bot,733,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,DoS attacks-GoldenEye,405,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,Brute Force -Web,124,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,DoS attacks-SlowHTTPTest,0,
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,SQL Injection,16,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,DDOS attack-LOIC-UDP,66,1.0
+CIC_V2__split456__B0__lightgbm__model456,CIC_V2,456,B0,lightgbm,456,Brute Force -XSS,34,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,SSH-Bruteforce,1263,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,Benign,0,
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,DDoS attacks-LOIC-HTTP,184,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,DDOS attack-HOIC,13575,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,DoS attacks-Slowloris,3,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,DoS attacks-Hulk,5250,0.9998095238095238
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,FTP-BruteForce,1863,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,Infilteration,1583,0.1231838281743525
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,Bot,733,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,DoS attacks-GoldenEye,405,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,Brute Force -Web,124,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,DoS attacks-SlowHTTPTest,0,
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,SQL Injection,16,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,DDOS attack-LOIC-UDP,66,1.0
+CIC_V2__split456__B100__lightgbm__model123,CIC_V2,456,B100,lightgbm,123,Brute Force -XSS,34,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,SSH-Bruteforce,1263,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,Benign,0,
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,DDoS attacks-LOIC-HTTP,184,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,DDOS attack-HOIC,13575,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,DoS attacks-Slowloris,3,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,DoS attacks-Hulk,5250,0.9998095238095238
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,FTP-BruteForce,1863,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,Infilteration,1583,0.1162349968414403
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,Bot,733,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,DoS attacks-GoldenEye,405,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,Brute Force -Web,124,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,DoS attacks-SlowHTTPTest,0,
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,SQL Injection,16,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,DDOS attack-LOIC-UDP,66,1.0
+CIC_V2__split456__B100__lightgbm__model42,CIC_V2,456,B100,lightgbm,42,Brute Force -XSS,34,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,SSH-Bruteforce,1263,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,Benign,0,
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,DDoS attacks-LOIC-HTTP,184,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,DDOS attack-HOIC,13575,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,DoS attacks-Slowloris,3,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,DoS attacks-Hulk,5250,0.9998095238095238
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,FTP-BruteForce,1863,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,Infilteration,1583,0.12002526847757422
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,Bot,733,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,DoS attacks-GoldenEye,405,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,Brute Force -Web,124,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,DoS attacks-SlowHTTPTest,0,
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,SQL Injection,16,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,DDOS attack-LOIC-UDP,66,1.0
+CIC_V2__split456__B100__lightgbm__model456,CIC_V2,456,B100,lightgbm,456,Brute Force -XSS,34,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,SSH-Bruteforce,1263,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,Benign,0,
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,DDoS attacks-LOIC-HTTP,184,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,DDOS attack-HOIC,13575,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,DoS attacks-Slowloris,3,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,DoS attacks-Hulk,5250,0.9998095238095238
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,FTP-BruteForce,1863,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,Infilteration,1583,0.06001263423878711
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,Bot,733,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,DoS attacks-GoldenEye,405,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,Brute Force -Web,124,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,DoS attacks-SlowHTTPTest,0,
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,SQL Injection,16,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,DDOS attack-LOIC-UDP,66,1.0
+CIC_V2__split456__B50__lightgbm__model123,CIC_V2,456,B50,lightgbm,123,Brute Force -XSS,34,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,SSH-Bruteforce,1263,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,Benign,0,
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,DDoS attacks-LOIC-HTTP,184,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,DDOS attack-HOIC,13575,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,DoS attacks-Slowloris,3,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,DoS attacks-Hulk,5250,0.9998095238095238
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,FTP-BruteForce,1863,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,Infilteration,1583,0.05938092229943146
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,Bot,733,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,DoS attacks-GoldenEye,405,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,Brute Force -Web,124,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,DoS attacks-SlowHTTPTest,0,
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,SQL Injection,16,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,DDOS attack-LOIC-UDP,66,1.0
+CIC_V2__split456__B50__lightgbm__model42,CIC_V2,456,B50,lightgbm,42,Brute Force -XSS,34,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,SSH-Bruteforce,1263,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,Benign,0,
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,DDoS attacks-LOIC-HTTP,184,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,DDOS attack-HOIC,13575,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,DoS attacks-Slowloris,3,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,DoS attacks-Hulk,5250,0.9998095238095238
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,FTP-BruteForce,1863,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,Infilteration,1583,0.11560328490208464
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,Bot,733,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,DoS attacks-GoldenEye,405,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,Brute Force -Web,124,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,DoS attacks-SlowHTTPTest,0,
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,SQL Injection,16,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,DDOS attack-LOIC-UDP,66,1.0
+CIC_V2__split456__B50__lightgbm__model456,CIC_V2,456,B50,lightgbm,456,Brute Force -XSS,34,1.0
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,Benign,0,
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,Exploits,4531,0.9995585963363496
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,Generic,2187,0.9977137631458619
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,Fuzzers,2927,0.997950119576358
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,Backdoor,338,1.0
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,DoS,904,0.9988938053097345
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,Reconnaissance,651,0.9984639016897081
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,Shellcode,206,0.9951456310679612
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,Worms,52,1.0
+UNSW_V2__split123__B0__lightgbm__model123,UNSW_V2,123,B0,lightgbm,123,Analysis,358,0.9972067039106145
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,Benign,0,
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,Exploits,4531,0.9995585963363496
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,Generic,2187,0.9977137631458619
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,Fuzzers,2927,0.9976084728390844
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,Backdoor,338,1.0
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,DoS,904,0.9988938053097345
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,Reconnaissance,651,0.9984639016897081
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,Shellcode,206,0.9951456310679612
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,Worms,52,1.0
+UNSW_V2__split123__B0__lightgbm__model42,UNSW_V2,123,B0,lightgbm,42,Analysis,358,0.9972067039106145
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,Benign,0,
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,Exploits,4531,0.9995585963363496
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,Generic,2187,0.9977137631458619
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,Fuzzers,2927,0.997950119576358
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,Backdoor,338,1.0
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,DoS,904,0.9988938053097345
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,Reconnaissance,651,0.9984639016897081
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,Shellcode,206,0.9951456310679612
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,Worms,52,1.0
+UNSW_V2__split123__B0__lightgbm__model456,UNSW_V2,123,B0,lightgbm,456,Analysis,358,0.9972067039106145
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,Benign,0,
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,Exploits,4531,0.9997792981681748
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,Generic,2187,0.9995427526291724
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,Fuzzers,2927,0.9982917663136317
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,Backdoor,338,1.0
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,DoS,904,1.0
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,Reconnaissance,651,0.9984639016897081
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,Shellcode,206,1.0
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,Worms,52,1.0
+UNSW_V2__split123__B100__lightgbm__model123,UNSW_V2,123,B100,lightgbm,123,Analysis,358,0.9972067039106145
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,Benign,0,
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,Exploits,4531,0.9993378945045244
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,Generic,2187,0.9995427526291724
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,Fuzzers,2927,0.9982917663136317
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,Backdoor,338,1.0
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,DoS,904,1.0
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,Reconnaissance,651,0.9984639016897081
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,Shellcode,206,1.0
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,Worms,52,1.0
+UNSW_V2__split123__B100__lightgbm__model42,UNSW_V2,123,B100,lightgbm,42,Analysis,358,0.9972067039106145
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,Benign,0,
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,Exploits,4531,0.9991171926726992
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,Generic,2187,0.9995427526291724
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,Fuzzers,2927,0.9986334130509054
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,Backdoor,338,1.0
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,DoS,904,1.0
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,Reconnaissance,651,0.9984639016897081
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,Shellcode,206,1.0
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,Worms,52,1.0
+UNSW_V2__split123__B100__lightgbm__model456,UNSW_V2,123,B100,lightgbm,456,Analysis,358,0.9972067039106145
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,Benign,0,
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,Exploits,4531,0.9993378945045244
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,Generic,2187,0.9995427526291724
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,Fuzzers,2927,0.9982917663136317
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,Backdoor,338,1.0
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,DoS,904,1.0
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,Reconnaissance,651,0.9984639016897081
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,Shellcode,206,1.0
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,Worms,52,1.0
+UNSW_V2__split123__B50__lightgbm__model123,UNSW_V2,123,B50,lightgbm,123,Analysis,358,0.9972067039106145
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,Benign,0,
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,Exploits,4531,0.9997792981681748
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,Generic,2187,0.9995427526291724
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,Fuzzers,2927,0.9982917663136317
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,Backdoor,338,1.0
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,DoS,904,1.0
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,Reconnaissance,651,0.9984639016897081
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,Shellcode,206,1.0
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,Worms,52,1.0
+UNSW_V2__split123__B50__lightgbm__model42,UNSW_V2,123,B50,lightgbm,42,Analysis,358,0.9972067039106145
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,Benign,0,
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,Exploits,4531,0.9991171926726992
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,Generic,2187,0.9995427526291724
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,Fuzzers,2927,0.9982917663136317
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,Backdoor,338,1.0
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,DoS,904,1.0
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,Reconnaissance,651,0.9984639016897081
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,Shellcode,206,1.0
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,Worms,52,1.0
+UNSW_V2__split123__B50__lightgbm__model456,UNSW_V2,123,B50,lightgbm,456,Analysis,358,0.994413407821229
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,Benign,0,
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,Exploits,4489,0.9997772332368011
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,Generic,2180,1.0
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,Fuzzers,3154,0.9993658845909955
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,Backdoor,331,1.0
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,DoS,854,0.9988290398126464
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,Reconnaissance,629,1.0
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,Shellcode,205,1.0
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,Worms,17,1.0
+UNSW_V2__split42__B0__lightgbm__model123,UNSW_V2,42,B0,lightgbm,123,Analysis,357,1.0
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,Benign,0,
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,Exploits,4489,0.9997772332368011
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,Generic,2180,1.0
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,Fuzzers,3154,0.9996829422954978
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,Backdoor,331,1.0
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,DoS,854,0.9988290398126464
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,Reconnaissance,629,1.0
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,Shellcode,205,1.0
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,Worms,17,1.0
+UNSW_V2__split42__B0__lightgbm__model42,UNSW_V2,42,B0,lightgbm,42,Analysis,357,1.0
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,Benign,0,
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,Exploits,4489,0.9997772332368011
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,Generic,2180,1.0
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,Fuzzers,3154,0.9993658845909955
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,Backdoor,331,1.0
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,DoS,854,0.9988290398126464
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,Reconnaissance,629,1.0
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,Shellcode,205,1.0
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,Worms,17,1.0
+UNSW_V2__split42__B0__lightgbm__model456,UNSW_V2,42,B0,lightgbm,456,Analysis,357,1.0
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,Benign,0,
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,Exploits,4489,0.9997772332368011
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,Generic,2180,1.0
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,Fuzzers,3154,0.9987317691819911
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,Backdoor,331,1.0
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,DoS,854,0.9988290398126464
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,Reconnaissance,629,1.0
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,Shellcode,205,1.0
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,Worms,17,1.0
+UNSW_V2__split42__B100__lightgbm__model123,UNSW_V2,42,B100,lightgbm,123,Analysis,357,1.0
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,Benign,0,
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,Exploits,4489,0.9997772332368011
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,Generic,2180,1.0
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,Fuzzers,3154,0.9996829422954978
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,Backdoor,331,1.0
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,DoS,854,0.9988290398126464
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,Reconnaissance,629,1.0
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,Shellcode,205,1.0
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,Worms,17,1.0
+UNSW_V2__split42__B100__lightgbm__model42,UNSW_V2,42,B100,lightgbm,42,Analysis,357,1.0
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,Benign,0,
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,Exploits,4489,0.9997772332368011
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,Generic,2180,1.0
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,Fuzzers,3154,0.998414711477489
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,Backdoor,331,1.0
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,DoS,854,0.9988290398126464
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,Reconnaissance,629,1.0
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,Shellcode,205,1.0
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,Worms,17,1.0
+UNSW_V2__split42__B100__lightgbm__model456,UNSW_V2,42,B100,lightgbm,456,Analysis,357,1.0
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,Benign,0,
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,Exploits,4489,0.9997772332368011
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,Generic,2180,1.0
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,Fuzzers,3154,0.9980976537729866
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,Backdoor,331,1.0
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,DoS,854,0.9988290398126464
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,Reconnaissance,629,1.0
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,Shellcode,205,1.0
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,Worms,17,1.0
+UNSW_V2__split42__B50__lightgbm__model123,UNSW_V2,42,B50,lightgbm,123,Analysis,357,1.0
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,Benign,0,
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,Exploits,4489,0.9997772332368011
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,Generic,2180,1.0
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,Fuzzers,3154,0.9987317691819911
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,Backdoor,331,1.0
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,DoS,854,0.9988290398126464
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,Reconnaissance,629,1.0
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,Shellcode,205,1.0
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,Worms,17,1.0
+UNSW_V2__split42__B50__lightgbm__model42,UNSW_V2,42,B50,lightgbm,42,Analysis,357,1.0
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,Benign,0,
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,Exploits,4489,0.9997772332368011
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,Generic,2180,1.0
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,Fuzzers,3154,0.9993658845909955
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,Backdoor,331,1.0
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,DoS,854,0.9988290398126464
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,Reconnaissance,629,1.0
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,Shellcode,205,1.0
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,Worms,17,1.0
+UNSW_V2__split42__B50__lightgbm__model456,UNSW_V2,42,B50,lightgbm,456,Analysis,357,1.0
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,Benign,0,
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,Exploits,4620,0.9997835497835498
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,Generic,2130,0.9995305164319249
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,Fuzzers,2940,0.998639455782313
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,Backdoor,326,1.0
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,DoS,932,1.0
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,Reconnaissance,597,1.0
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,Shellcode,203,1.0
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,Worms,59,1.0
+UNSW_V2__split456__B0__lightgbm__model123,UNSW_V2,456,B0,lightgbm,123,Analysis,365,1.0
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,Benign,0,
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,Exploits,4620,0.9997835497835498
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,Generic,2130,0.9995305164319249
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,Fuzzers,2940,0.9989795918367347
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,Backdoor,326,1.0
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,DoS,932,1.0
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,Reconnaissance,597,1.0
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,Shellcode,203,1.0
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,Worms,59,1.0
+UNSW_V2__split456__B0__lightgbm__model42,UNSW_V2,456,B0,lightgbm,42,Analysis,365,1.0
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,Benign,0,
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,Exploits,4620,0.9997835497835498
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,Generic,2130,0.9995305164319249
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,Fuzzers,2940,0.9989795918367347
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,Backdoor,326,1.0
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,DoS,932,1.0
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,Reconnaissance,597,1.0
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,Shellcode,203,1.0
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,Worms,59,1.0
+UNSW_V2__split456__B0__lightgbm__model456,UNSW_V2,456,B0,lightgbm,456,Analysis,365,1.0
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,Benign,0,
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,Exploits,4620,0.9997835497835498
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,Generic,2130,0.9995305164319249
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,Fuzzers,2940,0.9982993197278912
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,Backdoor,326,1.0
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,DoS,932,1.0
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,Reconnaissance,597,1.0
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,Shellcode,203,1.0
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,Worms,59,1.0
+UNSW_V2__split456__B100__lightgbm__model123,UNSW_V2,456,B100,lightgbm,123,Analysis,365,1.0
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,Benign,0,
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,Exploits,4620,0.9997835497835498
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,Generic,2130,0.9995305164319249
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,Fuzzers,2940,0.9982993197278912
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,Backdoor,326,1.0
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,DoS,932,1.0
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,Reconnaissance,597,1.0
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,Shellcode,203,1.0
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,Worms,59,1.0
+UNSW_V2__split456__B100__lightgbm__model42,UNSW_V2,456,B100,lightgbm,42,Analysis,365,1.0
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,Benign,0,
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,Exploits,4620,0.9997835497835498
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,Generic,2130,0.9995305164319249
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,Fuzzers,2940,0.9989795918367347
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,Backdoor,326,1.0
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,DoS,932,1.0
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,Reconnaissance,597,1.0
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,Shellcode,203,1.0
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,Worms,59,1.0
+UNSW_V2__split456__B100__lightgbm__model456,UNSW_V2,456,B100,lightgbm,456,Analysis,365,1.0
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,Benign,0,
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,Exploits,4620,0.9997835497835498
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,Generic,2130,0.9995305164319249
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,Fuzzers,2940,0.9976190476190476
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,Backdoor,326,1.0
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,DoS,932,1.0
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,Reconnaissance,597,1.0
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,Shellcode,203,1.0
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,Worms,59,1.0
+UNSW_V2__split456__B50__lightgbm__model123,UNSW_V2,456,B50,lightgbm,123,Analysis,365,0.9972602739726028
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,Benign,0,
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,Exploits,4620,0.9997835497835498
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,Generic,2130,0.9995305164319249
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,Fuzzers,2940,0.9982993197278912
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,Backdoor,326,1.0
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,DoS,932,1.0
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,Reconnaissance,597,1.0
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,Shellcode,203,1.0
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,Worms,59,1.0
+UNSW_V2__split456__B50__lightgbm__model42,UNSW_V2,456,B50,lightgbm,42,Analysis,365,1.0
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,Benign,0,
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,Exploits,4620,0.9997835497835498
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,Generic,2130,0.9995305164319249
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,Fuzzers,2940,0.9989795918367347
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,Backdoor,326,1.0
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,DoS,932,1.0
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,Reconnaissance,597,1.0
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,Shellcode,203,1.0
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,Worms,59,1.0
+UNSW_V2__split456__B50__lightgbm__model456,UNSW_V2,456,B50,lightgbm,456,Analysis,365,1.0

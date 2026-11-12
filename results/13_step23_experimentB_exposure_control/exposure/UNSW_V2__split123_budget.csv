@@ -1,0 +1,11 @@
+stratum,donors_available,r0_rows,budget_b_f
+Analysis,16,1332,16
+Backdoor,22,1250,22
+Benign,1392,120259,1392
+DoS,48,3171,48
+Exploits,239,16897,239
+Fuzzers,289,12891,289
+Generic,417,8796,417
+Reconnaissance,35,6729,35
+Shellcode,31,788,31
+Worms,5,62,5

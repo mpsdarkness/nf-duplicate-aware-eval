@@ -1,0 +1,152 @@
+{
+ "run_id": "CIC_V2__frozen__random_row__split456__lightgbm__model123",
+ "dataset": "CIC_V2",
+ "cohort": "frozen",
+ "protocol": "random_row",
+ "split_seed": 456,
+ "model": "lightgbm",
+ "model_seed": 123,
+ "split_fingerprint": "329b47cf39894dad207e",
+ "split_salt": null,
+ "clip": null,
+ "test_out_of_train_range_frac": 1.2912709566819915e-06,
+ "fit_seconds": 23.3,
+ "predict_seconds": 2.3,
+ "smoke": false,
+ "best_iteration": 1589,
+ "reached_ceiling": false,
+ "scale_pos_weight": 2.3909415622438224,
+ "threshold": 0.4749310314655304,
+ "val_f1_macro_at_threshold": 0.9833367887168962,
+ "n": 99286.0,
+ "n_attack": 29287.0,
+ "n_benign": 69999.0,
+ "attack_pct": 29.497612956509478,
+ "f1_macro": 0.9832552933094926,
+ "f1_attack": 0.9761717727153705,
+ "fpr_pct": 0.05428648980699725,
+ "tpr": 0.9546897941066002,
+ "precision": 0.9986427601971569,
+ "tp": 27960.0,
+ "fp": 38.0,
+ "fn": 1327.0,
+ "tn": 69961.0,
+ "pr_auc": 0.9848766944260088,
+ "gb_f1_macro": 0.9540426634390229,
+ "gb_fpr_pct": 0.08769905377336719,
+ "gb_tpr": 0.8612460401267159,
+ "gb_precision": 0.9953624603368318,
+ "gb_pr_auc": 0.9209633511873606,
+ "fpr0.1_threshold": 0.39139580726623535,
+ "fpr0.1_val_fpr_pct": 0.07714506128746536,
+ "fpr0.1_val_tpr": 0.9551790106586499,
+ "fpr0.1_val_benign_rows": 34999,
+ "fpr0.1_test_fpr_pct": 0.09142987756967956,
+ "fpr0.1_test_fp": 64.0,
+ "fpr0.1_test_tpr": 0.9550995322156588,
+ "fpr0.1_interpretable": true,
+ "fpr0.01_threshold": 0.9135320782661438,
+ "fpr0.01_val_fpr_pct": 0.00857167347638504,
+ "fpr0.01_val_tpr": 0.9528559715769336,
+ "fpr0.01_val_benign_rows": 34999,
+ "fpr0.01_test_fpr_pct": 0.0,
+ "fpr0.01_test_fp": 0.0,
+ "fpr0.01_test_tpr": 0.9529142623006794,
+ "fpr0.01_interpretable": false,
+ "family_recall": [
+  {
+   "family": "SSH-Bruteforce",
+   "count": 1278,
+   "recall": 1.0
+  },
+  {
+   "family": "Benign",
+   "count": 0,
+   "recall": NaN
+  },
+  {
+   "family": "DDoS attacks-LOIC-HTTP",
+   "count": 4431,
+   "recall": 1.0
+  },
+  {
+   "family": "DDOS attack-HOIC",
+   "count": 14179,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS attacks-Slowloris",
+   "count": 195,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS attacks-Hulk",
+   "count": 5687,
+   "recall": 1.0
+  },
+  {
+   "family": "FTP-BruteForce",
+   "count": 374,
+   "recall": 1.0
+  },
+  {
+   "family": "Infilteration",
+   "count": 1557,
+   "recall": 0.14771997430956968
+  },
+  {
+   "family": "Bot",
+   "count": 777,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS attacks-GoldenEye",
+   "count": 400,
+   "recall": 1.0
+  },
+  {
+   "family": "Brute Force -Web",
+   "count": 65,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS attacks-SlowHTTPTest",
+   "count": 228,
+   "recall": 1.0
+  },
+  {
+   "family": "SQL Injection",
+   "count": 16,
+   "recall": 1.0
+  },
+  {
+   "family": "DDOS attack-LOIC-UDP",
+   "count": 65,
+   "recall": 1.0
+  },
+  {
+   "family": "Brute Force -XSS",
+   "count": 35,
+   "recall": 1.0
+  }
+ ],
+ "model_config": {
+  "objective": "binary",
+  "n_estimators": 2000,
+  "learning_rate": 0.03,
+  "num_leaves": 31,
+  "max_depth": -1,
+  "min_child_samples": 50,
+  "subsample": 0.8,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.8,
+  "reg_alpha": 0.0,
+  "reg_lambda": 1.0,
+  "max_bin": 255,
+  "deterministic": true,
+  "force_col_wise": true,
+  "n_jobs": -1,
+  "verbose": -1
+ },
+ "history": null
+}

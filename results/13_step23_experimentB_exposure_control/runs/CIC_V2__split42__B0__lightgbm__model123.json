@@ -1,0 +1,149 @@
+{
+ "run_id": "CIC_V2__split42__B0__lightgbm__model123",
+ "dataset": "CIC_V2",
+ "split_seed": 42,
+ "condition": "B0",
+ "alpha": 0.0,
+ "model": "lightgbm",
+ "model_seed": 123,
+ "clip": null,
+ "fit_seconds": 21.7,
+ "smoke": false,
+ "train_rows": 347706,
+ "train_groups": 163646,
+ "rows_replaced": 0,
+ "T_row_overlap_pct": 0.0,
+ "T_group_overlap_pct": 0.0,
+ "V_row_overlap_pct": 0.0,
+ "best_iteration": 1195,
+ "reached_ceiling": false,
+ "scale_pos_weight": 2.3611344720586955,
+ "threshold": 0.7455388307571411,
+ "val_f1_macro_at_threshold": 0.984511956167667,
+ "n": 99618.0,
+ "n_attack": 27287.0,
+ "n_benign": 72331.0,
+ "attack_pct": 27.391636049709895,
+ "f1_macro": 0.98156883367962,
+ "f1_attack": 0.9729760225669958,
+ "fpr_pct": 0.026268128464973523,
+ "tpr": 0.9480338622787408,
+ "precision": 0.9992660692212608,
+ "tp": 25869.0,
+ "fp": 19.0,
+ "fn": 1418.0,
+ "tn": 72312.0,
+ "pr_auc": 0.979465985113246,
+ "gb_f1_macro": 0.9417887516777139,
+ "gb_fpr_pct": 0.020377493058916427,
+ "gb_tpr": 0.8205295421938177,
+ "gb_precision": 0.9987299571360534,
+ "gb_pr_auc": 0.8924534620653772,
+ "fpr0.1_threshold": 0.4691258668899536,
+ "fpr0.1_val_fpr_pct": 0.09297074741840157,
+ "fpr0.1_val_tpr": 0.9592171889968524,
+ "fpr0.1_val_benign_rows": 30117,
+ "fpr0.1_test_fpr_pct": 0.12166291078514055,
+ "fpr0.1_test_fp": 88.0,
+ "fpr0.1_test_tpr": 0.9488401070106645,
+ "fpr0.1_interpretable": true,
+ "fpr0.01_threshold": 0.7455388307571411,
+ "fpr0.01_val_fpr_pct": 0.0033203838363714843,
+ "fpr0.01_val_tpr": 0.9588066237854113,
+ "fpr0.01_val_benign_rows": 30117,
+ "fpr0.01_test_fpr_pct": 0.026268128464973523,
+ "fpr0.01_test_fp": 19.0,
+ "fpr0.01_test_tpr": 0.9480338622787408,
+ "fpr0.01_interpretable": false,
+ "family_recall": [
+  {
+   "family": "SSH-Bruteforce",
+   "count": 214,
+   "recall": 1.0
+  },
+  {
+   "family": "Benign",
+   "count": 0,
+   "recall": NaN
+  },
+  {
+   "family": "DDoS attacks-LOIC-HTTP",
+   "count": 112,
+   "recall": 1.0
+  },
+  {
+   "family": "DDOS attack-HOIC",
+   "count": 17750,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS attacks-Slowloris",
+   "count": 3,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS attacks-Hulk",
+   "count": 5510,
+   "recall": 1.0
+  },
+  {
+   "family": "FTP-BruteForce",
+   "count": 1,
+   "recall": 1.0
+  },
+  {
+   "family": "Infilteration",
+   "count": 1523,
+   "recall": 0.06894287590282337
+  },
+  {
+   "family": "Bot",
+   "count": 388,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS attacks-GoldenEye",
+   "count": 412,
+   "recall": 1.0
+  },
+  {
+   "family": "Brute Force -Web",
+   "count": 118,
+   "recall": 1.0
+  },
+  {
+   "family": "DoS attacks-SlowHTTPTest",
+   "count": 1137,
+   "recall": 1.0
+  },
+  {
+   "family": "SQL Injection",
+   "count": 16,
+   "recall": 1.0
+  },
+  {
+   "family": "DDOS attack-LOIC-UDP",
+   "count": 65,
+   "recall": 1.0
+  },
+  {
+   "family": "Brute Force -XSS",
+   "count": 38,
+   "recall": 1.0
+  }
+ ],
+ "eligible_n": 55884.0,
+ "eligible_n_attack": 19524.0,
+ "eligible_n_benign": 36360.0,
+ "eligible_attack_pct": 34.936654498604256,
+ "eligible_f1_macro": 0.9980697572119379,
+ "eligible_f1_attack": 0.9974858902001026,
+ "eligible_fpr_pct": 0.041254125412541254,
+ "eligible_tpr": 0.9957488219627125,
+ "eligible_precision": 0.9992290296052632,
+ "eligible_tp": 19441.0,
+ "eligible_fp": 15.0,
+ "eligible_fn": 83.0,
+ "eligible_tn": 36345.0,
+ "eligible_pr_auc": 0.999153970062979
+}

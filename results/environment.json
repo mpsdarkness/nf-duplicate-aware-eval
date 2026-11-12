@@ -8,5 +8,16 @@
   "sklearn": "1.6.1",
   "torch": "2.14.1+cpu",
   "lightgbm": "4.6.0",
-  "joblib": "1.6.0"
+  "joblib": "1.6.0",
+  "notebooks_12_to_14": {
+    "note": "Versions printed by the setup cell of notebooks 12, 13 and 14 at run time (12 November 2026). torch differs from the 2.11.0+cu128 recorded for notebooks 01 to 07; numpy and pandas equal the result-collection session above. Python version was not printed.",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "lightgbm": "4.6.0",
+    "torch": {
+      "12_step22_experimentA_rr_vs_gd": "2.14.1+cu130",
+      "13_step23_experimentB_exposure_control": "2.14.1+cpu",
+      "14_step24_paired_model_bootstrap": "2.14.1+cpu"
+    }
+  }
 }
