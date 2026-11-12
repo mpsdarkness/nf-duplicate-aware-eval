@@ -2,6 +2,8 @@
 
 ## v1.1.0 (2026-11-12)
 
+Zenodo DOI 10.5281/zenodo.24155487 (concept DOI 10.5281/zenodo.24125935).
+
 Adds experiments A (random-row versus group-disjoint, crossed seeds), B (exposure control on a fixed test set) and the paired group bootstraps (steps 22 to 24).
 
 Added:
