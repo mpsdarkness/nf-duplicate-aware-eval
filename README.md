@@ -82,7 +82,7 @@ Notebooks 01 to 09 and 12 to 14 are stored with the outputs of their last run. A
 - **Random-row split.** Notebook 01 builds the random-row baseline with one random generator per seed, shared across attack families (`nfdup.random_row_split`). Notebook 10 rebuilt the split with a generator re-seeded for every family, so its partition differs from that of notebook 01; its overlap is 93.47% (UNSW-v2) and 54.80% (CIC-v2), against 93.48% and 54.81% in the audit.
 - **Row order.** Notebook 11 rebuilds the stored partitions from their recorded salts and checks the row, benign and attack counts of every split against `splits/paper_full_data_splits.json`. Rows inside each split are in file order, not in the shuffled order of notebook 01.
 - **Additional experiments.** Notebook 01 also trains a `graph_classifier` variant, notebook 05 contains a relation ablation of the graph encoder, and notebook 02 has a screening phase before its confirmation phase. These are not reported in the paper.
-- **Markdown cells.** The descriptive markdown cells of notebooks 01 to 11 were removed for this repository; the table above states what each notebook does. Notebooks 12 to 14 keep their markdown cells. Code cells and outputs are unchanged from the runs.
+- **Markdown cells.** The descriptive markdown cells were removed for this repository; the table above states what each notebook does. Code cells and outputs are unchanged from the runs.
 
 ## Experiments A, B and the paired bootstrap (v1.1.0)
 
