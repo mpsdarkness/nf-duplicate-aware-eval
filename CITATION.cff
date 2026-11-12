@@ -11,6 +11,6 @@ authors:
 license: MIT
 doi: 10.5281/zenodo.24125935
 version: 1.1.0
-date-released:   # fill in when v1.1.0 is released on Zenodo
+date-released: 2026-11-12
 repository-code: "https://github.com/mpsdarkness/nf-duplicate-aware-eval"
 url: "https://doi.org/10.5281/zenodo.24125935"

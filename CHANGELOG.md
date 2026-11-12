@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.1.0 (unreleased)
+## v1.1.0 (2026-11-12)
 
 Adds experiments A (random-row versus group-disjoint, crossed seeds), B (exposure control on a fixed test set) and the paired group bootstraps (steps 22 to 24).
 
