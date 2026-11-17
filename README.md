@@ -41,7 +41,7 @@ print(split.salt, overlap_audit(hashes, split.train_idx, split.test_idx))
 
 ## Datasets
 
-The datasets are not redistributed here. Download them from the University of Queensland "ML-Based NIDS Datasets" page and cite the dataset papers:
+The datasets are not redistributed here. Download them from the official University of Queensland page, [Machine Learning-Based NIDS Datasets](https://staff.itee.uq.edu.au/marius/NIDS_datasets/), which hosts the NF-v2 and NF-v3 releases, and cite the dataset papers:
 
 | File | Used in |
 |---|---|
@@ -63,9 +63,11 @@ The datasets are not redistributed here. Download them from the University of Qu
 | `09_step19b_temporal_split_variants` | Chronological split variants on v3 (per day, per session, per day and family) | Table 5 |
 | `10_step20_seen_unseen_partition` | LightGBM under the random-row split, scored on seen and unseen test vectors; lookup reference | Tables 6 and 7 |
 | `11_step21_lightgbm_group_disjoint` | LightGBM under the stored group-disjoint splits of the full-data setting | LightGBM row of Table 10, LightGBM column of Table 11 |
-| `12_step22_experimentA_rr_vs_gd` | Experiment A: the same cohort of rows (frozen subset; full dataset) split by the random-row and by the hash-group-disjoint protocol, 3 split seeds x 3 model seeds; LightGBM and MLP on the frozen cohort, LightGBM on the full cohort; per-run split audit, thresholds, row-weighted and group-balanced metrics, per-family recall | Section IV-D, V-F, Table expA |
-| `13_step23_experimentB_exposure_control` | Experiment B: exposure control on a fixed test set; LightGBM trained at exposure levels B0, B50 and B100 of the same reserve, with a paired group bootstrap of the differences | Section IV-E, V-G, Table expB |
-| `14_step24_paired_model_bootstrap` | Paired group bootstrap of the difference between two models scored on the same test rows: LightGBM versus MLP pairs of experiment A, and the legacy frozen-benchmark predictions (hybrid, No-G, MLP, LightGBM, E-GraphSAGE) at split seed 2027 | Section IV-F, V-J, Table paired |
+| `12_step22_experimentA_rr_vs_gd` | Experiment A: the same cohort of rows (frozen subset; full dataset) split by the random-row and by the hash-group-disjoint protocol, 3 split seeds x 3 model seeds; LightGBM and MLP on the frozen cohort, LightGBM on the full cohort; per-run split audit, thresholds, row-weighted and group-balanced metrics, per-family recall | Tables 10 and 11, Fig. 3 |
+| `13_step23_experimentB_exposure_control` | Experiment B: exposure control on a fixed test set; LightGBM trained at exposure levels B0, B50 and B100 of the same reserve, with a paired group bootstrap of the differences | Table 12, Fig. 4 |
+| `14_step24_paired_model_bootstrap` | Paired group bootstrap of the difference between two models scored on the same test rows: LightGBM versus MLP pairs of experiment A, and the legacy frozen-benchmark predictions (hybrid, No-G, MLP, LightGBM, E-GraphSAGE) at split seed 2027 | Table 16 |
+
+Rows 12 to 14 use the table and figure numbers of the submitted manuscript.
 
 ### Running order
 
@@ -93,8 +95,8 @@ Notebooks 12 to 14 were added in version 1.1.0. They share one code cell (data l
 - **Splits.** The new group-disjoint splits of the frozen cohort run Algorithm 1 with 24 candidate salts per split seed; the selected salt, the split audit and the 24 candidates are in `results/12_step22_experimentA_rr_vs_gd/splits/`. The full-cohort group-disjoint splits are rebuilt from the salts of `splits/paper_full_data_splits.json` (one candidate, no search). The random-row splits use `random_row_split` of notebook 01 (one generator per seed, stratified by family).
 - **Preprocessing.** MinMax scaler fitted on the training split of each run; no clipping (`CLIP = None`), unlike the neural pipeline of notebooks 01 to 07.
 - **Thresholds.** Selected on validation only: the threshold that maximizes F1-macro, and the thresholds at FPR <= 0.1% and FPR <= 0.01% (the 0.01% point is flagged when the validation split has too few benign rows to resolve it).
-- **Fixed seeds.** Reserve of experiment B: `800000 + split seed`; exposure draw of experiment B: `900000 + split seed`; every bootstrap: 2,000 resamples with seed `20261111`.
-- **Experiment B.** For each split seed, one donor row per multi-row, label-consistent test group is moved from the training side to a reserve; B0 trains without any group of the test set, B50 and B100 put back floor(0.5 b_f) and b_f donor rows per stratum, where b_f is at most 10% of the stratum's rows. The exposure pairs and budgets of every split are in `results/13_step23_experimentB_exposure_control/exposure/`.
+- **Fixed seeds.** Donor draw of experiment B: `800000 + split seed`; exposure draw of experiment B: `900000 + split seed`; every bootstrap: 2,000 resamples with seed `20261111`.
+- **Experiment B.** Let H be the test side of the group-disjoint partition of a split seed and R its training side (`R0` in the notebook). One row, drawn at random (seed `800000 + split seed`), is taken from every multi-row, label-consistent group of H; these rows are the donors, and the fixed test set is T = H minus the donors. Every donor comes from H; no donor is taken from the training side, and every donor group keeps at least one row in T. B0 trains on R, which shares no group with T. B50 and B100 replace floor(0.5 b_f) and b_f rows of R in each stratum f (benign, or one attack family) by donors of the same stratum, so the training set keeps its size and strata. The budget is b_f = min(donors available in stratum f, floor(0.10 n_f)), where n_f is the number of rows of stratum f in R. The factors 0.5 and 1 scale this budget b_f; they are not the share of test rows that is exposed. The realized share of T rows whose vector occurs in training is column `T_row_overlap_pct` of `reports/stepB_all_runs.csv` (means over the split seeds: 24.4% and 53.7% on CIC-v2, 43.0% and 88.0% on UNSW-v2 for B50 and B100). The exposure pairs and budgets of every split are in `results/13_step23_experimentB_exposure_control/exposure/`.
 - **Models.** LightGBM with the configuration of notebook 11 (deterministic, early stopping after 100 rounds on validation log-loss); the MLP of experiment A is the MLP control of notebooks 01 to 07 reimplemented in the notebook (same sizes, focal loss, optimizer and budget).
 
 **What notebooks 12 and 13 need that the repository does not contain.** Both load the row indices of the frozen subset from `conference_step5_literature_subset_v1/subset_definition/{UNSW_V2,CIC_V2}/subset_indices_int32.npy` on Google Drive. This file is not in the repository, consistent with the list of excluded artifacts under "Result files" below; running notebook 02 on the dataset rebuilds it from the data and the recorded seed. Notebook 14 additionally reads the per-row scores written by notebook 12 (`journal_step22_rr_vs_gd_v1/predictions/`) and the legacy prediction files of notebooks 02, 03 and 04 (`test_predictions.npz`, `split_indices.npz`); none of these is in the repository.
@@ -105,7 +107,46 @@ Notebooks 12 to 14 were added in version 1.1.0. They share one code cell (data l
 
 ## Result files
 
-`results/` holds the small result files (CSV, JSON, Markdown, LaTeX and text) written by the notebooks, one folder per notebook. `results/MANIFEST.csv` lists every file with its size and SHA-256 digest, and `results/environment.json` records the library versions of the session that collected them on 11 November 2026. Checkpoints, hash caches, per-row predictions, the row-index arrays of splits and exposure sets (`*.npz`), and `subset_indices_int32.npy` of the frozen subset are not included.
+`results/` holds the small result files (CSV, JSON, Markdown, LaTeX and text) written by the notebooks, one folder per notebook. `results/MANIFEST.csv` lists every file with its size and SHA-256 digest. `results/environment.json` records library versions per group of notebooks, each with the evidence it rests on: versions printed in the saved outputs of notebooks 01 to 07 and 12 to 14, no confirmed versions for notebooks 08 to 11, and, as a separate entry, the session that collected the result files on 11 November 2026.
+
+### Table 2 group counts
+
+The number of hash groups in the train, validation and test parts of the frozen benchmark (split seed 2027), reported in Table 2:
+
+| Dataset | Train | Validation | Test |
+|---|---|---|---|
+| NF-UNSW-NB15-v2 | 29,112 | 4,149 | 8,379 |
+| NF-CSE-CIC-IDS2018-v2 | 163,926 | 23,173 | 46,867 |
+
+`results/02_step5_frozen_benchmark/table1_group_counts_standalone.py` is the Colab cell that computed them and `table1_group_counts_result.json` holds its result (run on 13 November 2026). The cell hashes every row of the dataset CSV as in the paper (39 float32 columns in release order, non-finite values set to 0.0, `pandas.util.hash_pandas_object(index=False)`), takes the keys of the frozen-subset rows (`subset_indices_int32.npy`), and counts the distinct keys among the rows of `train_idx`, `val_idx` and `test_idx` of the stored split (`confirmation/{dataset}/exact_feature_group/shared/seed_2027/split_indices.npz`). It asserts that the three parts share no group, that the subset has 41,640 (UNSW-v2) and 233,966 (CIC-v2) groups, and compares the test count and the train plus validation sum with the values recorded by notebook 02. It trains nothing. The file names keep the table number of an earlier draft ("table1"); the table is Table 2 in the submitted manuscript.
+
+### Group-weighted attack share
+
+`results/15_step25_group_weighted_attack_share/` holds a standalone Colab cell (`group_weighted_attack_share.py`) and its output (`.csv`, `.json`): for the train, validation and test parts of the same frozen-benchmark split, the attack share when every row has weight one and when every group has total weight one (row weight 1 / group size), with the number of benign and attack groups and the size of the largest group. The cell uses the same hashing as above, checks that no group mixes binary labels, and trains nothing. Its `groups` column equals the Table 2 counts.
+
+### Figure sources
+
+`results/figures/` holds the sources of Fig. 3 (Experiment A) and Fig. 4 (Experiment B):
+
+- `make_figures.py`: the matplotlib script. It reads `deltaA.csv` and `expB.csv` from its working directory. The level-2 means of Fig. 3 and the mean exposure percentages of Fig. 4 are written in the script as constants; they come from `stepA_level2_summary.csv` and from `T_row_overlap_pct` of `stepB_all_runs.csv`. The script imports a layout-check helper, `audit_panel_alignment`, which is not part of this repository, and saves its output as `fig_expA_v2.*` and `fig_expB_v2.*`.
+- `fig_expA.png`, `fig_expB.png`: the rendered figures (600 dpi).
+- `fig_expA.alignment.json`, `fig_expB.alignment.json`, `fig_expA.collision.json`, `fig_expB.collision.json`: reports of the panel-alignment and text-overlap checks run on the figures (all four with verdict PASS).
+- `deltaA.csv`: column extract of `results/12_step22_experimentA_rr_vs_gd/reports/stepA_delta_rr_minus_gd_per_pair.csv`, the same 54 seed pairs with `f1` = `f1_macro` and `tpr01` = `fpr0.1_test_tpr`, rounded to seven decimals, and short dataset and model labels (`CIC`, `UNSW`, `LGBM`, `MLP`).
+- `expB.csv`: column extract of `results/13_step23_experimentB_exposure_control/reports/stepB_all_runs.csv`, the same 54 runs with `cond` = `condition`, `f1` = `f1_macro` rounded to seven decimals and `exposed_rows` = `T_row_overlap_pct` rounded to two decimals.
+
+The two CSV files are extracts, not byte-identical copies of the report files; they contain no number that is not in those reports.
+
+## What the package does not contain
+
+| Not included | Where the notebooks expect it | How to rebuild it |
+|---|---|---|
+| The dataset CSV files | `/content/drive/MyDrive/` | Download from the University of Queensland page linked under "Datasets". |
+| `subset_indices_int32.npy` (row indices of the frozen subset) | `conference_step5_literature_subset_v1/subset_definition/{UNSW_V2,CIC_V2}/` | Run notebook 02 on the dataset; it rebuilds the subset from the data and the recorded seed. |
+| `splits/*.npz`, `split_indices.npz`, `exposure/*.npz` (row-index arrays of splits and exposure sets) | the output folder of each notebook | Full-data splits: `hash_group_split(..., salt=<recorded salt>)` with the salts of `splits/paper_full_data_splits.json`. Frozen-cohort splits of experiment A and exposure sets of experiment B: notebooks 12 and 13, from the seeds and the salts recorded in `results/12_step22_experimentA_rr_vs_gd/splits/`. Frozen-benchmark split (seed 2027): notebook 02. |
+| `predictions/`, `test_predictions.npz` (per-row scores) | the output folder of each notebook | Rerun the notebook that trains the model; scores are written during the run. |
+| Model checkpoints (`*.pt`), scalers (`*.joblib`) and hash caches | the output folder of each notebook | Rerun the notebook; notebook 01 writes the feature-hash cache that notebooks 02 to 07 read. |
+
+Row indices refer to row positions in the dataset CSV files as released, so they are meaningful only together with those files. The standalone cells under "Table 2 group counts" and "Group-weighted attack share" also need `subset_indices_int32.npy` and the frozen-benchmark `split_indices.npz`.
 
 ## Tests
 
@@ -118,7 +159,7 @@ The tests need no dataset. They extract the split functions from `notebooks/01_s
 
 ## Citation
 
-See `CITATION.cff`. Archived at Zenodo: concept DOI [10.5281/zenodo.24125935](https://doi.org/10.5281/zenodo.24125935) (all versions); v1.0.0 is [10.5281/zenodo.24125936](https://doi.org/10.5281/zenodo.24125936), v1.1.0 is [10.5281/zenodo.24155487](https://doi.org/10.5281/zenodo.24155487).
+See `CITATION.cff`. Archived at Zenodo: concept DOI [10.5281/zenodo.24125935](https://doi.org/10.5281/zenodo.24125935) (all versions); v1.0.0 is [10.5281/zenodo.24125936](https://doi.org/10.5281/zenodo.24125936), v1.1.0 is [10.5281/zenodo.24155487](https://doi.org/10.5281/zenodo.24155487). The DOI of v1.1.1 is assigned by Zenodo when the release is published.
 
 ## License
 

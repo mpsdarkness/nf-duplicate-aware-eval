@@ -1,16 +1,18 @@
 {
-  "collected_on": "2026-11-11",
-  "note": "Library versions of the Colab session that collected these files; versions at experiment time were recorded only where a notebook printed them.",
-  "python": "3.13.18",
-  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
-  "numpy": "2.4.6",
-  "pandas": "2.2.3",
-  "sklearn": "1.6.1",
-  "torch": "2.14.1+cpu",
-  "lightgbm": "4.6.0",
-  "joblib": "1.6.0",
+  "note": "Library versions by group of notebooks, each with the evidence it rests on. A version is listed only where a notebook printed it in an output that is saved in notebooks/. Nothing is inferred from one group to another.",
+  "notebooks_01_to_07": {
+    "evidence": "Line 'Device: cuda | PyTorch: 2.11.0+cu128' in the saved outputs of notebooks 01 to 07; notebook 04 also prints 'LightGBM: 4.6.0'.",
+    "torch": "2.11.0+cu128",
+    "lightgbm": {
+      "04_step7_lightgbm_out_of_fold_context": "4.6.0"
+    },
+    "other_libraries": "not printed (Python, numpy, pandas, scikit-learn)"
+  },
+  "notebooks_08_to_11": {
+    "note": "library versions not confirmed from saved outputs"
+  },
   "notebooks_12_to_14": {
-    "note": "Versions printed by the setup cell of notebooks 12, 13 and 14 at run time (12 November 2026). torch differs from the 2.11.0+cu128 recorded for notebooks 01 to 07; numpy and pandas equal the result-collection session above. Python version was not printed.",
+    "evidence": "Printed by the setup cell of notebooks 12, 13 and 14 at run time and saved in their outputs. Python version was not printed.",
     "numpy": "2.4.6",
     "pandas": "2.2.3",
     "lightgbm": "4.6.0",
@@ -19,5 +21,17 @@
       "13_step23_experimentB_exposure_control": "2.14.1+cpu",
       "14_step24_paired_model_bootstrap": "2.14.1+cpu"
     }
+  },
+  "result_collection_session": {
+    "collected_on": "2026-11-11",
+    "note": "Colab session that copied the result files of notebooks 01 to 11 into results/. It ran no experiment; its versions are not evidence of the versions at experiment time.",
+    "python": "3.13.18",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cpu",
+    "lightgbm": "4.6.0",
+    "joblib": "1.6.0"
   }
 }

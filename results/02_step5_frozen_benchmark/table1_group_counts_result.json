@@ -1,0 +1,4 @@
+{"source": "table1_group_counts_standalone.py run on Colab, 13 Nov 2026",
+ "UNSW_V2": {"train_groups": 29112, "validation_groups": 4149, "test_groups": 8379, "subset_groups": 41640, "full_dataset_groups": 236999},
+ "CIC_V2":  {"train_groups": 163926, "validation_groups": 23173, "test_groups": 46867, "subset_groups": 233966, "full_dataset_groups": 8981062},
+ "checks": "test counts and train+validation sums match the values recorded by the step-5 pipeline; the three splits share no group"}
