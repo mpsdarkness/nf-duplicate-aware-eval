@@ -2,6 +2,8 @@
 
 ## v1.1.1 (2026-11-17)
 
+Zenodo DOI 10.5281/zenodo.24301235 (concept DOI 10.5281/zenodo.24125935).
+
 Documentation and metadata fixes (Experiment B donor description, notebook-to-table map, per-notebook environment evidence); adds Table 2 group counts, figure sources and the group-weighted attack-share table; no result changes.
 
 Added:

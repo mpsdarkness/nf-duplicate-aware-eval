@@ -159,7 +159,7 @@ The tests need no dataset. They extract the split functions from `notebooks/01_s
 
 ## Citation
 
-See `CITATION.cff`. Archived at Zenodo: concept DOI [10.5281/zenodo.24125935](https://doi.org/10.5281/zenodo.24125935) (all versions); v1.0.0 is [10.5281/zenodo.24125936](https://doi.org/10.5281/zenodo.24125936), v1.1.0 is [10.5281/zenodo.24155487](https://doi.org/10.5281/zenodo.24155487). The DOI of v1.1.1 is assigned by Zenodo when the release is published.
+See `CITATION.cff`. Archived at Zenodo: concept DOI [10.5281/zenodo.24125935](https://doi.org/10.5281/zenodo.24125935) (all versions); v1.0.0 is [10.5281/zenodo.24125936](https://doi.org/10.5281/zenodo.24125936), v1.1.0 is [10.5281/zenodo.24155487](https://doi.org/10.5281/zenodo.24155487), v1.1.1 is [10.5281/zenodo.24301235](https://doi.org/10.5281/zenodo.24301235).
 
 ## License
 
