@@ -48,26 +48,26 @@ The datasets are not redistributed here. Download them from the official Univers
 | `NF-UNSW-NB15-v2.csv`, `NF-CSE-CIC-IDS2018-v2.csv` | all experiments |
 | `NF-UNSW-NB15-v3.csv`, `NF-CSE-CIC-IDS2018-v3.csv` | notebooks 08 and 09 |
 
+SHA-256 digests of the dataset CSV files: not recorded.
+
 ## Notebooks and the results they produce
 
 | Notebook | Content | Paper |
 |---|---|---|
-| `01_step4_full_data_group_disjoint` | Duplicate and label-conflict audit of both NF-v2 datasets; random-row overlap; Algorithm 1 with seeds 42, 123 and 456; MLP, No-G, AE, hybrid and Shuffled variants in the full-data setting | Sections V-A and V-B, Tables 3, 10 and 11 |
-| `02_step5_frozen_benchmark` | Construction of the frozen attack-enriched subset and its split; MLP, No-G, hybrid and Shuffled variants on it | Table 1, Table 8 |
-| `03_step6_graph_baselines` | Controlled E-GraphSAGE and GraphIDS-style baselines on the frozen benchmark | Tables 8 and 9 |
-| `04_step7_lightgbm_out_of_fold_context` | LightGBM on the frozen benchmark; out-of-fold context scoring of the hybrid detector (Full-OOF, called Full-LOO in the notebook) | Tables 8 and 9 |
-| `05_step8_audits_and_sensitivity` | Value-equality check of sampled groups, operating-point aggregation, gate values, score-weight sweep, group bootstrap, batch-partition sensitivity | Section III-A, Table 9, Sections V-G, V-I, V-J and V-K |
-| `06_step9_context_target` | Retraining with the context reconstruction target detached or dropped | Section V-K |
-| `07_step10_gradient_at_checkpoint` | Gradient decomposition on the gate at initialization and at trained checkpoints | Section V-K |
-| `08_step19_v2_v3_audit_and_split_simulation` | Repetition audit of the v2 and v3 releases; host-pair-disjoint and global chronological split simulation | Tables 4 and 5 |
-| `09_step19b_temporal_split_variants` | Chronological split variants on v3 (per day, per session, per day and family) | Table 5 |
-| `10_step20_seen_unseen_partition` | LightGBM under the random-row split, scored on seen and unseen test vectors; lookup reference | Tables 6 and 7 |
-| `11_step21_lightgbm_group_disjoint` | LightGBM under the stored group-disjoint splits of the full-data setting | LightGBM row of Table 10, LightGBM column of Table 11 |
-| `12_step22_experimentA_rr_vs_gd` | Experiment A: the same cohort of rows (frozen subset; full dataset) split by the random-row and by the hash-group-disjoint protocol, 3 split seeds x 3 model seeds; LightGBM and MLP on the frozen cohort, LightGBM on the full cohort; per-run split audit, thresholds, row-weighted and group-balanced metrics, per-family recall | Tables 10 and 11, Fig. 3 |
-| `13_step23_experimentB_exposure_control` | Experiment B: exposure control on a fixed test set; LightGBM trained at exposure levels B0, B50 and B100 of the same reserve, with a paired group bootstrap of the differences | Table 12, Fig. 4 |
-| `14_step24_paired_model_bootstrap` | Paired group bootstrap of the difference between two models scored on the same test rows: LightGBM versus MLP pairs of experiment A, and the legacy frozen-benchmark predictions (hybrid, No-G, MLP, LightGBM, E-GraphSAGE) at split seed 2027 | Table 16 |
-
-Rows 12 to 14 use the table and figure numbers of the submitted manuscript.
+| `01_step4_full_data_group_disjoint` | Duplicate and label-conflict audit of both NF-v2 datasets; random-row overlap; Algorithm 1 with seeds 42, 123 and 456; MLP, No-G, AE, hybrid and Shuffled variants in the full-data setting | Sections V-A and V-B, Tables 4, 6 and 14 |
+| `02_step5_frozen_benchmark` | Construction of the frozen attack-enriched subset and its split; MLP, No-G, hybrid and Shuffled variants on it | Tables 2, 12 and 13 |
+| `03_step6_graph_baselines` | Controlled E-GraphSAGE and GraphIDS-style baselines on the frozen benchmark | Tables 12 and 13 |
+| `04_step7_lightgbm_out_of_fold_context` | LightGBM on the frozen benchmark; out-of-fold context scoring of the hybrid detector (Full-OOF, called Full-LOO in the notebook) | Tables 12 and 13 |
+| `05_step8_audits_and_sensitivity` | Value-equality check of sampled groups, operating-point aggregation, gate values, score-weight sweep, group bootstrap, batch-partition sensitivity | Section III-A, Tables 12 and 13, Section V-I |
+| `06_step9_context_target` | Retraining with the context reconstruction target detached or dropped | Tables 12 and 13, Section V-I |
+| `07_step10_gradient_at_checkpoint` | Gradient decomposition on the gate at initialization and at trained checkpoints | Tables 12 and 13, Section V-I |
+| `08_step19_v2_v3_audit_and_split_simulation` | Repetition audit of the v2 and v3 releases; host-pair-disjoint and global chronological split simulation | Tables 5 and 6 |
+| `09_step19b_temporal_split_variants` | Chronological split variants on v3 (per day, per session, per day and family) | Table 6 |
+| `10_step20_seen_unseen_partition` | LightGBM under the random-row split, scored on seen and unseen test vectors; lookup reference | Tables 7 and 8 |
+| `11_step21_lightgbm_group_disjoint` | LightGBM under the stored group-disjoint splits of the full-data setting | LightGBM row of Table 14, LightGBM column of Table 15 |
+| `12_step22_experimentA_rr_vs_gd` | Experiment A: the same cohort of rows (frozen subset; full dataset) split by the random-row and by the hash-group-disjoint protocol, 3 split seeds x 3 model seeds; LightGBM and MLP on the frozen cohort, LightGBM on the full cohort; per-run split audit, thresholds, row-weighted and group-balanced metrics, per-family recall | Tables 9 and 10, Fig. 3 |
+| `13_step23_experimentB_exposure_control` | Experiment B: exposure control on a fixed test set; LightGBM trained at exposure levels B0, B50 and B100 of the same reserve, with a paired group bootstrap of the differences | Table 11, Fig. 4 |
+| `14_step24_paired_model_bootstrap` | Paired group bootstrap of the difference between two models scored on the same test rows: LightGBM versus MLP pairs of experiment A, and the legacy frozen-benchmark predictions (hybrid, No-G, MLP, LightGBM, E-GraphSAGE) at split seed 2027 | Table 17 |
 
 ### Running order
 
@@ -81,7 +81,7 @@ Notebooks 01 to 09 and 12 to 14 are stored with the outputs of their last run. A
 
 - **Naming.** The notebooks call the hybrid reconstruction-classification detector of the paper *THAT-IDS*, and its variants `full` (hybrid), `no_graph` (No-G), `ae_only` (AE), `mlp` and `full_shuffled_edges` (Shuffled). Experiment tags and output paths keep their original names.
 - **Clipping.** In notebooks 01 to 07 the MinMax-scaled features are clipped to [-10, 10] before they reach a model. Notebooks 10 and 11 do not clip; clipping values that already lie outside the training range does not change the split points a tree model learned on training data.
-- **Random-row split.** Notebook 01 builds the random-row baseline with one random generator per seed, shared across attack families (`nfdup.random_row_split`). Notebook 10 rebuilt the split with a generator re-seeded for every family, so its partition differs from that of notebook 01; its overlap is 93.47% (UNSW-v2) and 54.80% (CIC-v2), against 93.48% and 54.81% in the audit.
+- **Random-row split.** Two ways of building the random-row partition appear in the notebooks, with the same design (stratified by attack family, 70/10/20 per family). Notebook 01, and notebook 12 with the same construction, uses one random generator per seed, shared across attack families (`nfdup.random_row_split`). Notebook 10 re-seeds a generator for every family, so its partition differs from that of notebook 01; its overlap is 93.47% (UNSW-v2) and 54.80% (CIC-v2), against 93.48% and 54.81% in the audit.
 - **Row order.** Notebook 11 rebuilds the stored partitions from their recorded salts and checks the row, benign and attack counts of every split against `splits/paper_full_data_splits.json`. Rows inside each split are in file order, not in the shuffled order of notebook 01.
 - **Additional experiments.** Notebook 01 also trains a `graph_classifier` variant, notebook 05 contains a relation ablation of the graph encoder, and notebook 02 has a screening phase before its confirmation phase. These are not reported in the paper.
 - **Markdown cells.** The descriptive markdown cells were removed for this repository; the table above states what each notebook does. Code cells and outputs are unchanged from the runs.
@@ -128,7 +128,7 @@ The number of hash groups in the train, validation and test parts of the frozen 
 
 `results/figures/` holds the sources of Fig. 3 (Experiment A) and Fig. 4 (Experiment B):
 
-- `make_figures.py`: the matplotlib script. It reads `deltaA.csv` and `expB.csv` from its working directory. The level-2 means of Fig. 3 and the mean exposure percentages of Fig. 4 are written in the script as constants; they come from `stepA_level2_summary.csv` and from `T_row_overlap_pct` of `stepB_all_runs.csv`. The script imports a layout-check helper, `audit_panel_alignment`, which is not part of this repository, and saves its output as `fig_expA_v2.*` and `fig_expB_v2.*`.
+- `make_figures.py`: the matplotlib script. It reads `deltaA.csv` and `expB.csv` from its working directory. The level-2 means of Fig. 3 and the mean exposure percentages of Fig. 4 are written in the script as constants; they come from `stepA_level2_summary.csv` and from `T_row_overlap_pct` of `stepB_all_runs.csv`. The script imports a layout-check helper, `audit_panel_alignment`, optionally; the helper is not part of this repository, so without it the script prints `audit_panel_alignment not available: panel-alignment check skipped` and the figures are written without the check. It saves its output as `fig_expA_v2.*` and `fig_expB_v2.*`.
 - `fig_expA.png`, `fig_expB.png`: the rendered figures (600 dpi).
 - `fig_expA.alignment.json`, `fig_expB.alignment.json`, `fig_expA.collision.json`, `fig_expB.collision.json`: reports of the panel-alignment and text-overlap checks run on the figures (all four with verdict PASS).
 - `deltaA.csv`: column extract of `results/12_step22_experimentA_rr_vs_gd/reports/stepA_delta_rr_minus_gd_per_pair.csv`, the same 54 seed pairs with `f1` = `f1_macro` and `tpr01` = `fpr0.1_test_tpr`, rounded to seven decimals, and short dataset and model labels (`CIC`, `UNSW`, `LGBM`, `MLP`).

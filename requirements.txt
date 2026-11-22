@@ -8,5 +8,8 @@ torch
 lightgbm==4.6.0
 scikit-learn
 joblib
+# Figures (results/figures/make_figures.py)
+matplotlib
+
 # Tests
 pytest

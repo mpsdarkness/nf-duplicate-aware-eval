@@ -3,11 +3,16 @@ Fig A: dumbbell chart, group-disjoint -> random-row, means with per-split-seed r
 Fig B: F1 on the fixed test set under B0/B50/B100 with realized exposure, plus the paired difference."""
 import sys, numpy as np, pandas as pd, matplotlib as mpl
 mpl.use('Agg'); import matplotlib.pyplot as plt
-sys.path.insert(0, '.'); from audit_panel_alignment import require_matplotlib_panel_alignment
+sys.path.insert(0, '.')
+try:  # optional layout gate used during manuscript preparation; the figures do not depend on it
+    from audit_panel_alignment import require_matplotlib_panel_alignment
+except ImportError:
+    def require_matplotlib_panel_alignment(fig, **kwargs):
+        print('audit_panel_alignment not available: panel-alignment check skipped')
 mpl.rcParams.update({'font.family': 'sans-serif', 'font.sans-serif': ['Arial', 'Helvetica', 'DejaVu Sans'],
-    'svg.fonttype': 'none', 'pdf.fonttype': 42, 'font.size': 7, 'axes.spines.right': False, 'axes.spines.top': False,
-    'axes.linewidth': 0.6, 'xtick.labelsize': 6.5, 'ytick.labelsize': 6.5, 'axes.labelsize': 7, 'axes.titlesize': 7.5,
-    'legend.fontsize': 6.5, 'legend.frameon': False})
+    'svg.fonttype': 'none', 'pdf.fonttype': 42, 'font.size': 7.5, 'axes.spines.right': False, 'axes.spines.top': False,
+    'axes.linewidth': 0.6, 'xtick.labelsize': 7, 'ytick.labelsize': 7, 'axes.labelsize': 7.5, 'axes.titlesize': 8,
+    'legend.fontsize': 7, 'legend.frameon': False})
 GD, RR, SIGNAL, LIGHT = '#7F7F7F', '#1F4E79', '#B2182B', '#D9D9D9'
 W = 7.16
 def save(fig, name):
@@ -25,7 +30,7 @@ L = {  # (cohort, detector): (F1 GD, F1 RR, recall GD, recall RR)
  'UNSW-v2 full\nLightGBM': (0.9782, 0.9839, 0.928, 0.950), 'CIC-v2 full\nLightGBM': (0.9845, 0.9899, 0.9634, 0.9672)}
 d = pd.read_csv('deltaA.csv'); d['key'] = d.dataset + '-v2 ' + d.cohort + '\n' + d.model.replace({'LGBM': 'LightGBM'})
 rows = list(L)
-fig, axes = plt.subplots(1, 2, figsize=(W, 2.6), gridspec_kw={'wspace': 0.95})
+fig, axes = plt.subplots(1, 2, figsize=(W, 2.9), gridspec_kw={'wspace': 1.0})
 for ax, (ig, ir, dcol), title, lab, fmt in zip(axes, [(0, 1, 'f1'), (2, 3, 'tpr01')],
         ['F1-macro at the F1-selected threshold', 'Recall at the threshold calibrated on validation (FPR $\\leq$ 0.1%)'],
         ['a', 'b'], ['{:+.4f}', '{:+.3f}']):
@@ -34,16 +39,16 @@ for ax, (ig, ir, dcol), title, lab, fmt in zip(axes, [(0, 1, 'f1'), (2, 3, 'tpr0
         ax.plot([g, r], [y, y], color=LIGHT, lw=2.2, solid_capstyle='round', zorder=1)
         ax.scatter([g], [y], s=22, color=GD, zorder=3); ax.scatter([r], [y], s=22, color=RR, zorder=3)
         dd = d[d.key == key][dcol]
-        ax.text(1.02, y, fmt.format(dd.mean()) + f'  ({int((dd > 0).sum())}/9)', transform=ax.get_yaxis_transform(), fontsize=6, ha='left', va='center', color=SIGNAL)
-    ax.set_yticks(range(len(rows))); ax.set_yticklabels(rows[::-1], fontsize=6.5)
+        ax.text(1.02, y, fmt.format(dd.mean()) + f'  ({int((dd > 0).sum())}/9)', transform=ax.get_yaxis_transform(), fontsize=6.5, ha='left', va='center', color=SIGNAL)
+    ax.set_yticks(range(len(rows))); ax.set_yticklabels(rows[::-1], fontsize=7)
     ax.set_xlabel(['F1-macro', 'Recall on test'][ig // 2]); ax.set_title(title, loc='left', pad=16); ax.set_ylim(-0.6, len(rows) - 0.2)
-    ax.text(1.02, 1.0, 'RR $-$ GD (pairs > 0)', transform=ax.transAxes, fontsize=6, ha='left', va='bottom', color=SIGNAL); plabel(ax, lab)
+    ax.text(1.02, 1.0, 'RR $-$ GD (pairs > 0)', transform=ax.transAxes, fontsize=6.5, ha='left', va='bottom', color=SIGNAL); plabel(ax, lab)
 axes[0].set_xlim(0.974, 1.001); axes[1].set_xlim(0.50, 1.01)
 h = [plt.Line2D([], [], marker='o', ls='', color=GD, ms=5, label='Group-disjoint split'),
      plt.Line2D([], [], marker='o', ls='', color=RR, ms=5, label='Random-row split (same rows)')]
 fig.legend(handles=h, loc='lower center', ncol=2, bbox_to_anchor=(0.5, -0.05))
 fig.text(0.5, -0.14, 'Each row: mean over three split seeds and three model seeds. Red column: mean of random-row minus group-disjoint over the nine seed pairs, and the number of pairs in which it is positive.',
-         ha='center', fontsize=6.5, color='#444444')
+         ha='center', fontsize=7, color='#444444')
 fig.subplots_adjust(left=0.12, right=0.90, top=0.82, bottom=0.22)
 save(fig, 'fig_expA_v2')
 

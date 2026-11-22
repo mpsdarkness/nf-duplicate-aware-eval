@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.2 (2026-11-22)
+
+Zenodo DOI: to be recorded after release.
+
+Tooling and documentation fixes: optional layout gate in make_figures.py, corrected notebook-to-table map, random-row implementation note; no result changes.
+
 ## v1.1.1 (2026-11-17)
 
 Zenodo DOI 10.5281/zenodo.24301235 (concept DOI 10.5281/zenodo.24125935).
